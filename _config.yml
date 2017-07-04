@@ -47,14 +47,14 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : 
+google_site_verification : googled9f07de75b15a428.html
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter 
+  username               : &sharathguntuku 
 facebook:
   username               : 
   app_id                 :
