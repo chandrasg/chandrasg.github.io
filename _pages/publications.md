@@ -14,7 +14,7 @@ author_profile: true
 #### 2017
   + **Guntuku, S. C.**, Lin, W., Carpenter, J., Ng, W. K., & Ungar, L. H., Preoţiuc-Pietro, D., **_Studying Personality through the Content of Posted and Liked Images on Twitter_**, 2017, ACM Web Science [PDF](https://www.researchgate.net/publication/317236791_Studying_Personality_through_the_Content_of_Posted_and_Liked_Images_on_Twitter) 
 
-  + Preotiuc-Pietro, D., **Guntuku, S. C.**, & Ungar, L., 2017, **_Controlling Human Perception of Basic User Traits_**, EMNLP 
+  + Preotiuc-Pietro, D., **Guntuku, S. C.**, & Ungar, L., **_Controlling Human Perception of Basic User Traits_**, 2017, EMNLP 
 
   + Jakhetiya, V., Lin, W., Jaiswal, S. P., **Guntuku, S. C.**, & Au, O. C.,**_Maximum a posterior and perceptually motivated reconstruction algorithm: a generic framework_**., 2017, IEEE Transactions on Multimedia [PDF](https://www.researchgate.net/publication/308133953_Maximum_a_Posterior_and_Perceptually_Motivated_Reconstruction_Algorithm_A_Generic_Framework)
   
