@@ -16,7 +16,7 @@ author_profile: true
 
   + Preotiuc-Pietro, D., **Guntuku, S. C.**, & Ungar, L., **_Controlling Human Perception of Basic User Traits_**, 2017, EMNLP 
 
-  + Jakhetiya, V., Lin, W., Jaiswal, S. P., **Guntuku, S. C.**, & Au, O. C.,**_Maximum a posterior and perceptually motivated reconstruction algorithm: a generic framework_**., 2017, IEEE Transactions on Multimedia [PDF](https://www.researchgate.net/publication/308133953_Maximum_a_Posterior_and_Perceptually_Motivated_Reconstruction_Algorithm_A_Generic_Framework)
+  + Jakhetiya, V., Lin, W., Jaiswal, S. P., **Guntuku, S. C.**, & Au, O. C., **_Maximum a posterior and perceptually motivated reconstruction algorithm: a generic framework_**., 2017, IEEE Transactions on Multimedia [PDF](https://www.researchgate.net/publication/308133953_Maximum_a_Posterior_and_Perceptually_Motivated_Reconstruction_Algorithm_A_Generic_Framework)
   
     
 #### 2016    
