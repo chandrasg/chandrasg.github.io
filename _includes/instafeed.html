@@ -1,0 +1,88 @@
+<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-1.11.0.js"></script>
+
+<!-- Plugin JavaScript -->
+    <script src="{{ "js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- InstaFeed -->
+<script type="text/javascript">
+	var loadButton = document.getElementById('more_link');
+    if(typeof window.orientation !== 'undefined'){
+      var feed = new Instafeed({
+          clientId: '8b5bdc692c69469cb03755d2d7e1bbf8',
+          get: 'user',
+          userId: 41911408,
+          resolution: 'standard_resolution',
+          accessToken: '41911408.1677ed0.3e7056af205a400cb7fc58af3baa3689',
+          sortBy:'most-recent',
+          limit: 6,
+          after: function(){
+          	// $('#more_link').appendTo('#instafeed');
+
+          	if (!this.hasNext()) {
+  	      		loadButton.setAttribute('disabled', 'disabled');
+  	    	}
+          }
+      });
+    }else{
+      var feed = new Instafeed({
+          clientId: '8b5bdc692c69469cb03755d2d7e1bbf8',
+          get: 'user',
+          userId: 41911408,
+          resolution: 'standard_resolution',
+          accessToken: '41911408.1677ed0.3e7056af205a400cb7fc58af3baa3689',
+          sortBy:'most-recent',
+          limit: 15,
+          after: function(){
+            // $('#more_link').appendTo('#instafeed');
+
+            if (!this.hasNext()) {
+              loadButton.setAttribute('disabled', 'disabled');
+          }
+          }
+      });
+    }
+
+    // bind the load more button
+	loadButton.addEventListener('click', function() {
+	  feed.next();
+	});
+
+    feed.run();
+</script>
+<!-- <script type="text/javascript">
+	$('#banner').appendTo('#instafeed');
+</script> -->
+ 
+<!--Structured Data for Google -->
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "url": "http://chandrasg.github.io/",
+      "image": "https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/img/DSC_0032.JPG.jpg",
+      "additionalName": "Sharath Chandra",
+      "description":"PhD Student at NTU Singapore",
+      "name": "Sharath Chandra Guntuku"
+      ,
+      "sameAs" : [
+        "https://www.instagram.com/sharathchandra92/",
+        "https://www.linkedin.com/in/sharathchandra92",
+        "https://plus.google.com/u/0/+SharathChandraGuntuku",
+        "https://github.com/sharathchandra92",
+        "https://www.researchgate.net/profile/Sharath_Chandra_Guntuku/"
+      ]
+    }
+</script>
+
+<script type="text/javascript">
+  var changeButton = document.getElementById('change_to_star_war');
+  changeButton.addEventListener('click', function() {
+    document.getElementById('about_change').innerHTML = 
+    '<iframe src="rsc/about_star_war/index.html"></iframe>'
+    document.getElementById("about").className = "";
+  });
+</script>
