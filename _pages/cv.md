@@ -33,11 +33,12 @@ Skills
 * Programming Languages: Python, MATLAB, PHP, HTML, C
 * Tools: Caffe, Pandas, Weka, AutoCAD, Minitab, WireShark
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+[//]: # (
+#Publications
+#======
+#  <ul>{% for post in site.publications %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
   
 #Talks
 #======
@@ -54,3 +55,4 @@ Publications
 #Service# and leadership
 #======
 #* Currently signed in to 43 different slack teams
+)
