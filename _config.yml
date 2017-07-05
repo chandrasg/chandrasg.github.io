@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sharath Chandra Guntuku / Multimedia Computing x Psychology and Health Research"
+title                    : "Multimedia Computing x Psychology and Health"
 title_separator          : "-"
 name                     : &name "Sharath Chandra"
 description              : &description "Postdoctoral Fellow at University of Pennsylvania"
@@ -80,7 +80,7 @@ author:
   name             : "Sharath Chandra Guntuku"
   avatar           : "profile.png"
   bio              : "Postdoctoral Fellow"
-  location         : "Philadelphia, PA"
+  location         : #"Philadelphia, PA"
   employer         : "University of Pennsylvania"
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "sharathg@sas.upenn.edu"
@@ -220,7 +220,16 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _photography
+  - scope:
+      path: ""
+      type: photography
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+# _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -248,7 +257,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Philadelphia # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
