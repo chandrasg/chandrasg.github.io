@@ -7,8 +7,5 @@ redirect_from:
   - /photography
 ---
 
-{% include base_path %}
-
-
 
 {% include photography.html %}
