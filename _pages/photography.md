@@ -8,5 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% include instafeed.html %}
+#{% include instafeed.html %}
 {% include photography.html %}
