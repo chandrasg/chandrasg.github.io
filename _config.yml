@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Multimedia Computing x Psychology and Health"
+title                    : "Bio"
 title_separator          : "-"
 name                     : &name "Sharath Chandra"
 description              : &description "Postdoctoral Fellow at University of Pennsylvania"
