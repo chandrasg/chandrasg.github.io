@@ -13,7 +13,7 @@ author_profile: true
 
 #### 2017
 
-  + **Guntuku, S. C.**, Yaden, D. B., Kern, M. L., Ungar, L. H., Eichstaedt, J. C., **_Detecting Depression and Mental Illness on Social Media: An Integrative Review_**, 2017, Elsevier Current Opinion in Behavioral Sciences
+  + **Guntuku, S. C.**, Yaden, D. B., Kern, M. L., Ungar, L. H., Eichstaedt, J. C., **_Detecting Depression and Mental Illness on Social Media: An Integrative Review_**, 2017, Elsevier Current Opinion in Behavioral Sciences [PDF](https://www.researchgate.net/publication/318811169_Detecting_depression_and_mental_illness_on_social_media_an_integrative_review) 
 
   + **Guntuku, S. C.**, Lin, W., Carpenter, J., Ng, W. K., & Ungar, L. H., Preoţiuc-Pietro, D., **_Studying Personality through the Content of Posted and Liked Images on Twitter_**, 2017, ACM Web Science [PDF](https://www.researchgate.net/publication/317236791_Studying_Personality_through_the_Content_of_Posted_and_Liked_Images_on_Twitter) 
 
