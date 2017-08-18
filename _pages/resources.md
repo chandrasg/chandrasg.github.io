@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-+ *Studying Personality through the Content of Posted and Liked Images on Twitter*, [Dataset](https://github.com/chandrasg/chandrasg.github.io/blob/master/files/acm_websci_data.csv.zip) [Readme](https://github.com/chandrasg/chandrasg.github.io/blob/master/files/acm_websci_readme.txt)
++ *Studying Personality through the Content of Posted and Liked Images on Twitter*, [Dataset](https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/files/acm_websci_data.csv.zip) [Readme](https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/files/acm_websci_readme.txt)
 
 + *Convolutional Deep Belief Networks for Scalable Unsupervised Learning of Hierarchical Representations*,   
    Lee, Honglak, et al. [ICML 2009 paper](http://dl.acm.org/citation.cfm?id=1553453)    
