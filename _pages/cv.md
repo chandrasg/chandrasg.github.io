@@ -20,10 +20,14 @@ Education
 
 Work experience
 ======
-* Research Scholar, **University of Pennsylvania**.
+* Postdoctoral Researcher, **University of Pennsylvania**.
+    + at [World Well-Being Project](http://wwbp.org) and [Centre for Digital Health](http://socialmedialab.upenn.edu/team)
+    + Working on social media research in building user level prediction models by looking at correlations between multiple modalities (text and images) with psychological traits (personality) and health outcomes.
+    - April 2017 -- Present
+* Visiting Scholar, **University of Pennsylvania**.
     + at World Well-Being Project, Penn Positive Psychology Center
-    + Working on social media research in building user level prediction models by looking at correlations between multiple modalities (text and images) with psychological traits (personality).
-    - August 2016 -- present
+    + Worked building user level personality prediction models based on Images people post and like on Twitter.
+    - August 2016 -- April 2017
 * Research Intern, **Panasonic R&D**, Singapore.   
     + Deep Learning Framework for Facial Action Unit Recognition   
     - January 2016 -- June 2016   
