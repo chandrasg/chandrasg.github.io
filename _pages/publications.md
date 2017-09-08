@@ -21,6 +21,8 @@ author_profile: true
 
   + Jakhetiya, V., Lin, W., Jaiswal, S. P., **Guntuku, S. C.**, & Au, O. C., **_Maximum a posterior and perceptually motivated reconstruction algorithm: a generic framework_**., 2017, IEEE Transactions on Multimedia [PDF](https://www.researchgate.net/publication/308133953_Maximum_a_Posterior_and_Perceptually_Motivated_Reconstruction_Algorithm_A_Generic_Framework)
   
+  + Jakhetiya, V., Lin, W., Jaiswal, S. P., Gu, K., & **Guntuku, S. C.**, **_Just Noticeable Difference for Natural Images using RMS Contrast and Feed-back Mechanism_**., 2017, Neurocomputing [Link](http://www.sciencedirect.com/science/article/pii/S0925231217314522)
+  
     
 #### 2016    
   
