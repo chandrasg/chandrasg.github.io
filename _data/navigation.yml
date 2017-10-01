@@ -21,8 +21,8 @@ main:
   - title: "Resources"
     url: /resources/
     
-  - title: "Photography"
-    url: /photography/
+ # - title: "Photography"
+ #   url: /photography/
     
 #  - title: "Guide"
 #    url: /markdown/
