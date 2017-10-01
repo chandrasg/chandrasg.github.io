@@ -180,9 +180,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  photography:
-    output: true
-    permalink: /:collection/:path/
+  #photography:
+   # output: true
+   # permalink: /:collection/:path/
 
 
 # Defaults
@@ -224,14 +224,14 @@ defaults:
       share: true
       comments: true
   # _photography
-  - scope:
-      path: ""
-      type: photography
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  #- scope:
+  #    path: ""
+  #    type: photography
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    share: true
+  #    comments: true
 # _portfolio
   - scope:
       path: ""
