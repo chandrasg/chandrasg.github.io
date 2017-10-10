@@ -26,7 +26,7 @@ Work experience
     - April 2017 -- Present
 * Visiting Scholar, **University of Pennsylvania**.
     + at World Well-Being Project, Penn Positive Psychology Center
-    + Worked building user level personality prediction models based on Images people post and like on Twitter.
+    + Built user-level personality prediction models based on Images people post and like on Twitter.
     - August 2016 -- April 2017
 * Research Intern, **Panasonic R&D**, Singapore.   
     + Deep Learning Framework for Facial Action Unit Recognition   
@@ -39,7 +39,7 @@ Skills
 
 Awards
 ======
-* **ACM Multimedia Travel Grant**: Received grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
 * **Intel Invent50 Finalist**: Our idea on building personalized tourist hotspot recommender system based on Intel RealSense technology is accepted to the finals.
+* **ACM Multimedia Travel Grant**: Received grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
 * **Nanyang Engineering Doctoral Scholarship**: Given to 6 out of 100+ incoming graduate students at NTU Singapore
 
