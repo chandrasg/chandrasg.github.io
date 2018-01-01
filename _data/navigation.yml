@@ -21,7 +21,10 @@ main:
   - title: "Resources"
     url: /resources/
     
- # - title: "Photography"
+  - title: "Media"
+    url: /Media/
+
+# - title: "Photography"
  #   url: /photography/
     
 #  - title: "Guide"
