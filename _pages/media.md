@@ -5,7 +5,7 @@ permalink: /media/
 author_profile: true
 ---
 
-This is a selected list of press coverage about my research:
+This is a selected list of press coverage on my research:
 
 + Danish Politiken: [Technology and social media can be used to detect people with depression](https://politiken.dk/viden/Tech/art6247436/Teknologi-og-sociale-medier-kan-bruges-til-at-opdage-folk-med-depression)
 
