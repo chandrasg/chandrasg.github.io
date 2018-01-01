@@ -235,7 +235,7 @@ defaults:
   #    author_profile: true
   #    share: true
   #    comments: true
- _media
+ #_media
   - scope:
       path: ""
       type: media
