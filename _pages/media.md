@@ -1,6 +1,14 @@
+
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
 This is a selected list of press coverage about my research:
 
-+ Danish Politiken: [Technology and social media can be used to detect people with depression] (https://politiken.dk/viden/Tech/art6247436/Teknologi-og-sociale-medier-kan-bruges-til-at-opdage-folk-med-depression)
++ Danish Politiken: [Technology and social media can be used to detect people with depression](https://politiken.dk/viden/Tech/art6247436/Teknologi-og-sociale-medier-kan-bruges-til-at-opdage-folk-med-depression)
 
 + US News: [Can Social Media Help Improve ADHD Treatments?](https://health.usnews.com/health-care/patient-advice/articles/2017-12-06/can-social-media-help-improve-adhd-treatments)
 
