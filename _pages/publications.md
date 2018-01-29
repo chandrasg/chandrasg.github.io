@@ -11,6 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
+#### 2018
+
+  + Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE Using Facebook: A Novel Experimental Platform for Future Directions_**., 2017, ACM Transactions on Multimedia (in press) 
+
+
+  + Jakhetiya, V., Lin, W., Jaiswal, S. P., Gu, K., & **Guntuku, S. C.**, **_Just Noticeable Difference for Natural Images using RMS Contrast and Feed-back Mechanism_**., 2017, Neurocomputing [Link](http://www.sciencedirect.com/science/article/pii/S0925231217314522)
+
+
 #### 2017
 
   + **Guntuku, S. C.**, Ramsay, R. J, Merchant, R. M, Ungar, L.H, **_Language of Attention Deficit Hyperactivity Disorder (ADHD) in Adults on Social Media_**, 2017, Journal of Attention Disorders
@@ -21,10 +29,7 @@ author_profile: true
 
   + Preotiuc-Pietro, D., **Guntuku, S. C.**, & Ungar, L., **_Controlling Human Perception of Basic User Traits_**, 2017, EMNLP [PDF](https://www.researchgate.net/publication/318637471_Controlling_Human_Perception_of_Basic_User_Traits)
 
-  + Jakhetiya, V., Lin, W., Jaiswal, S. P., **Guntuku, S. C.**, & Au, O. C., **_Maximum a posterior and perceptually motivated reconstruction algorithm: a generic framework_**., 2017, IEEE Transactions on Multimedia [PDF](https://www.researchgate.net/publication/308133953_Maximum_a_Posterior_and_Perceptually_Motivated_Reconstruction_Algorithm_A_Generic_Framework)
-  
-  + Jakhetiya, V., Lin, W., Jaiswal, S. P., Gu, K., & **Guntuku, S. C.**, **_Just Noticeable Difference for Natural Images using RMS Contrast and Feed-back Mechanism_**., 2017, Neurocomputing [Link](http://www.sciencedirect.com/science/article/pii/S0925231217314522)
-  
+  + Jakhetiya, V., Lin, W., Jaiswal, S. P., **Guntuku, S. C.**, & Au, O. C., **_Maximum a posterior and perceptually motivated reconstruction algorithm: a generic framework_**., 2017, IEEE Transactions on Multimedia [PDF](https://www.researchgate.net/publication/308133953_Maximum_a_Posterior_and_Perceptually_Motivated_Reconstruction_Algorithm_A_Generic_Framework)  
     
 #### 2016    
   
