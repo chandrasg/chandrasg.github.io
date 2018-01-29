@@ -21,7 +21,7 @@ author_profile: true
 
 #### 2017
 
-  + **Guntuku, S. C.**, Ramsay, R. J, Merchant, R. M, Ungar, L.H, **_Language of Attention Deficit Hyperactivity Disorder (ADHD) in Adults on Social Media_**, 2017, Journal of Attention Disorders
+  + **Guntuku, S. C.**, Ramsay, R. J, Merchant, R. M, Ungar, L.H, **_Language of Attention Deficit Hyperactivity Disorder (ADHD) in Adults on Social Media_**, 2017, Journal of Attention Disorders [PDF](https://www.researchgate.net/publication/320045034_Language_of_ADHD_in_Adults_on_Social_Media)
 
   + **Guntuku, S. C.**, Yaden, D. B., Kern, M. L., Ungar, L. H., Eichstaedt, J. C., **_Detecting Depression and Mental Illness on Social Media: An Integrative Review_**, 2017, Elsevier Current Opinion in Behavioral Sciences [PDF](https://www.researchgate.net/publication/318811169_Detecting_depression_and_mental_illness_on_social_media_an_integrative_review) 
 
