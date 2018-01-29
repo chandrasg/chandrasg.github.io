@@ -13,10 +13,10 @@ author_profile: true
 
 #### 2018
 
-  + Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE Using Facebook: A Novel Experimental Platform for Future Directions_**., 2017, ACM Transactions on Multimedia (in press) 
+  + Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE Using Facebook: A Novel Experimental Platform for Future Directions_**., 2018, ACM Transactions on Multimedia (in press) 
 
 
-  + Jakhetiya, V., Lin, W., Jaiswal, S. P., Gu, K., & **Guntuku, S. C.**, **_Just Noticeable Difference for Natural Images using RMS Contrast and Feed-back Mechanism_**., 2017, Neurocomputing [Link](http://www.sciencedirect.com/science/article/pii/S0925231217314522)
+  + Jakhetiya, V., Lin, W., Jaiswal, S. P., Gu, K., & **Guntuku, S. C.**, **_Just Noticeable Difference for Natural Images using RMS Contrast and Feed-back Mechanism_**., 2018, Neurocomputing [Link](http://www.sciencedirect.com/science/article/pii/S0925231217314522)
 
 
 #### 2017
