@@ -5,7 +5,9 @@ permalink: /media/
 author_profile: true
 ---
 
-This is a selected list of press coverage on my research:
+This is a selected list of press coverage on my research (`sort by date desc`):
+
++ Psychiatric Times: [What Twitter and Brain Imaging Reveal About ADHD](http://www.psychiatrictimes.com/adhd/what-twitter-and-brain-imaging-reveal-about-adhd)
 
 + Danish Politiken: [Technology and social media can be used to detect people with depression](https://politiken.dk/viden/Tech/art6247436/Teknologi-og-sociale-medier-kan-bruges-til-at-opdage-folk-med-depression)
 
