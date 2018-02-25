@@ -30,6 +30,6 @@ author_profile: true
 
 **Comic Sketch on Plagiarism**
 
-This is a play I wrote and co-directed as a part of Research Methods course during my PhD at NTU 
+This is a play I wrote and co-directed for Research Methods course I took during my PhD at NTU 
 
 [![NTU Research Methods -- Comic Skit on Plagiarism](https://img.youtube.com/vi/r8zYpgCMoTA/0.jpg)](https://www.youtube.com/watch?v=r8zYpgCMoTA)
