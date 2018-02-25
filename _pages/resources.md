@@ -28,3 +28,5 @@ author_profile: true
 
 + [Study Shows Twitter Usage Expresses ADHD](https://openforest.net/twitter-usage-expresses-adhd/)
 
+**Comic Sketch on Plagiarism**
+This is a play I wrote and co-directed as a part of Research Methods course during my PhD at NTU [![NTU Research Methods -- Comic Skit on Plagiarism](https://img.youtube.com/vi/r8zYpgCMoTA/0.jpg)](https://www.youtube.com/watch?v=r8zYpgCMoTA)
