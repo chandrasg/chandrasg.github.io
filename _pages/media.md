@@ -13,6 +13,8 @@ This is a selected list of press coverage on my research (`sort by date desc`):
 
 + Danish Politiken: [Technology and social media can be used to detect people with depression](https://politiken.dk/viden/Tech/art6247436/Teknologi-og-sociale-medier-kan-bruges-til-at-opdage-folk-med-depression)
 
++ The Conversation: [[Social media can be bad for youth mental health, but there are ways it can help]](https://theconversation.com/social-media-can-be-bad-for-youth-mental-health-but-there-are-ways-it-can-help-87613)
+
 + US News: [Can Social Media Help Improve ADHD Treatments?](https://health.usnews.com/health-care/patient-advice/articles/2017-12-06/can-social-media-help-improve-adhd-treatments)
 
 + Penn Current: [Tweets reveal emotions, behavior patterns of people who suffer from ADHD](https://penncurrent.upenn.edu/news/tweets-reveal-emotions-behavior-patterns-of-people-who-suffer-from-adhd)
