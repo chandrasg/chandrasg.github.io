@@ -11,12 +11,13 @@ redirect_from:
 
 Education
 ======
-* B.E. (Hons) in Computer Science, BITS-Pilani, India 2013
-    + Thesis: Analysis and Detection of Security and Privacy Threats in P2P Networks using Machine Learning
-    + Advisor: Prof. Chittaranjan Hota
 * Ph.D. in Computer Science, Nanyang Technological University, Singapore 2017
     + Thesis: Modeling User Factors in Multimedia Preferences
     + Advisor: Prof. Weisi Lin
+
+* B.E. (Hons) in Computer Science, BITS-Pilani, India 2013
+    + Thesis: Analysis and Detection of Security and Privacy Threats in P2P Networks using Machine Learning
+    + Advisor: Prof. Chittaranjan Hota
 
 Work experience
 ======
@@ -42,4 +43,11 @@ Awards
 * **Intel Invent50 Finalist**: Our idea on building personalized tourist hotspot recommender system based on Intel RealSense technology is accepted to the finals.
 * **ACM Multimedia Travel Grant**: Received grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
 * **Nanyang Engineering Doctoral Scholarship**: Given to 6 out of 100+ incoming graduate students at NTU Singapore
+
+Affiliations
+======
+* [Center for Digital Health, University of Pennsylvania](http://centerfordigitalhealth.upenn.edu/)
+* [World Well Being Project, University of Pennsylvania](http://wwbp.org/)
+* [Penn Research in Machine Learning, University of Pennsylvania](https://priml.upenn.edu/)
+
 
