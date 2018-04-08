@@ -7,6 +7,8 @@ author_profile: true
 
 This is a selected list of press coverage on my research (`sort by date desc`):
 
++ Canadian Broadcasting Corporation: [[Data collection by #Facebook and other companies on @OnTheMoneyCBC]](https://twitter.com/OnTheMoneyCBC/status/982030121853894656)
+
 + Mashable: [[Psychographic profiling of your likes and dislikes isn’t new, and it’s not going away]](https://mashable.com/2018/03/27/science-behind--psychographics-cambridge-analytica-facebook/?utm_cid=hp-n-1#LYpUU6aANTqi
 )
 
