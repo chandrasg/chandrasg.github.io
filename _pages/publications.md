@@ -13,7 +13,7 @@ author_profile: true
 
 #### 2018
 
-  + Jaidka, K., **Guntuku, S. C.**, Ungar, L., **_Facebook vs. Twitter: Cross-platform differences in self-disclosure and trait prediction_**, 2018, ICWSM
+  + Jaidka, K., **Guntuku, S. C.**, Ungar, L., **_Facebook vs. Twitter: Cross-platform differences in self-disclosure and trait prediction_**, 2018, ICWSM [[PDF]](http://wwbp.org/papers/ICWSM_18_Crossplatform.pdf)
 
   + Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE Using Facebook: A Novel Experimental Platform for Future Directions_**., 2018, ACM Transactions on Multimedia (in press) 
 
