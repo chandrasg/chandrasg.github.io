@@ -15,11 +15,10 @@ author_profile: true
 
 + Jaidka, K., **Guntuku, S. C.**, Ungar, L., **_Facebook vs. Twitter: Cross-platform differences in self-disclosure and trait prediction_**, 2018, ICWSM [[PDF]](http://wwbp.org/papers/ICWSM_18_Crossplatform.pdf)
 
-  + Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE: A Survey, and Proposal
++ Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE: A Survey, and Proposal
 for Future Directions Using Social Media_**., 2018, ACM Transactions on Multimedia [[Link]](https://dl.acm.org/citation.cfm?id=3183512) 
 
-
-  + Jakhetiya, V., Lin, W., Jaiswal, S. P., Gu, K., & **Guntuku, S. C.**, **_Just Noticeable Difference for Natural Images using RMS Contrast and Feed-back Mechanism_**., 2018, Neurocomputing [[Link]](http://www.sciencedirect.com/science/article/pii/S0925231217314522)
++ Jakhetiya, V., Lin, W., Jaiswal, S. P., Gu, K., & **Guntuku, S. C.**, **_Just Noticeable Difference for Natural Images using RMS Contrast and Feed-back Mechanism_**., 2018, Neurocomputing [[Link]](http://www.sciencedirect.com/science/article/pii/S0925231217314522)
 
 
 #### 2017
