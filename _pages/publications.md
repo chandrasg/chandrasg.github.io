@@ -13,7 +13,9 @@ author_profile: true
 
 #### 2018
 
-  + Jaidka, K., **Guntuku, S. C.**, Ungar, L., **_Facebook vs. Twitter: Cross-platform differences in self-disclosure and trait prediction_**, 2018, ICWSM [[PDF]](http://wwbp.org/papers/ICWSM_18_Crossplatform.pdf)
+  + **Guntuku, S. C.**, Giorgi, S., Ungar, L., **_Current and Future Psychological Health Prediction using Language and Socio-Demographics of Children for the CLPysch 2018 Shared Task_**, 2018, CLPysch [[PDF]](https://www.researchgate.net/publication/325216118_Current_and_Future_Psychological_Health_Prediction_using_Language_and_Socio-Demographics_of_Children_for_the_CLPysch_2018_Shared_Task)
+
++ Jaidka, K., **Guntuku, S. C.**, Ungar, L., **_Facebook vs. Twitter: Cross-platform differences in self-disclosure and trait prediction_**, 2018, ICWSM [[PDF]](http://wwbp.org/papers/ICWSM_18_Crossplatform.pdf)
 
   + Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE: A Survey, and Proposal
 for Future Directions Using Social Media_**., 2018, ACM Transactions on Multimedia [[Link]](https://dl.acm.org/citation.cfm?id=3183512) 
