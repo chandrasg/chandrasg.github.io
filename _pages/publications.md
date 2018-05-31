@@ -11,6 +11,8 @@ author_profile: true
 
 #### 2018
 
+  + Samani, Z. R., **Guntuku, S. C.**, Moghaddam, M. E., Preoţiuc-Pietro, D. & Ungar, L. H. **_Automatic assessment of user personality based on social media images: A survey and a cross-platform and cross-interaction study on Twitter and Flickr_**, 2018, PLOS One 
+
   + **Guntuku, S. C.**, Giorgi, S., Ungar, L., **_Current and Future Psychological Health Prediction using Language and Socio-Demographics of Children for the CLPysch 2018 Shared Task_**, 2018, CLPysch [[PDF]](https://www.researchgate.net/publication/325216118_Current_and_Future_Psychological_Health_Prediction_using_Language_and_Socio-Demographics_of_Children_for_the_CLPysch_2018_Shared_Task)
 
 + Jaidka, K., **Guntuku, S. C.**, Ungar, L., **_Facebook vs. Twitter: Cross-platform differences in self-disclosure and trait prediction_**, 2018, ICWSM [[PDF]](http://wwbp.org/papers/ICWSM_18_Crossplatform.pdf)
