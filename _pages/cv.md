@@ -44,6 +44,15 @@ Awards
 * **ACM Multimedia Travel Grant**: Received grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
 * **Nanyang Engineering Doctoral Scholarship**: Given to 6 out of 100+ incoming graduate students at NTU Singapore
 
+Reviewer
+======
+* IEEE Transactions on Image Processing, IEEE Transactions on Multimedia
+* EPJ Data Science
+* ACM CSCW
+* ICASSP, ICIP
+* 
+ 
+
 Affiliations
 ======
 * [Center for Digital Health, University of Pennsylvania](http://centerfordigitalhealth.upenn.edu/)
