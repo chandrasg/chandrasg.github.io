@@ -11,7 +11,7 @@ author_profile: true
 
 #### 2018
 
-  + Samani, Z. R., **Guntuku, S. C.**, Moghaddam, M. E., Preoţiuc-Pietro, D. & Ungar, L. H. **_A Cross-Platform and Cross-Interaction Study of User Personality based on Images on Twitter and Flickr_**, 2018, PLOS One 
+  + Samani, Z. R., **Guntuku, S. C.**, Moghaddam, M. E., Preoţiuc-Pietro, D. & Ungar, L. H. **_Cross-Platform and Cross-Interaction Study of User Personality based on Images on Twitter and Flickr_**, 2018, PLOS One 
 
   + **Guntuku, S. C.**, Giorgi, S., Ungar, L., **_Current and Future Psychological Health Prediction using Language and Socio-Demographics of Children for the CLPysch 2018 Shared Task_**, 2018, CLPysch [[PDF]](https://www.researchgate.net/publication/325216118_Current_and_Future_Psychological_Health_Prediction_using_Language_and_Socio-Demographics_of_Children_for_the_CLPysch_2018_Shared_Task)
 
