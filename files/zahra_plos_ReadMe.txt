@@ -23,14 +23,17 @@ For more information/questions about the dataset, please contact Sharath Chandra
 
 If using this data set, please cite the following publication:
 
-@inproceedings{guntuku2017studying,
-  title={Cross-platform and cross-interaction study of user personalitybased on images on Twitter and Flickr },
-  author={Zahra Riahi Samani, Sharath Chandra Guntuku, Mohsen Ebrahimi Moghaddam, DanielPreotiuc-Pietro, Lyle H. Ungar},
-  booktitle={Plos One Submission},
-  pages={},
+@article{samani2018cross,
+  title={Cross-platform and cross-interaction study of user personality based on images on Twitter and Flickr},
+  author={Samani, Zahra Riahi and Guntuku, Sharath Chandra and Moghaddam, Mohsen Ebrahimi and Preo{\c{t}}iuc-Pietro, Daniel and Ungar, Lyle H},
+  journal={PloS one},
+  volume={13},
+  number={7},
+  pages={e0198660},
   year={2018},
-  organization={}
+  publisher={Public Library of Science}
 }
+
 
 
 
