@@ -9,6 +9,11 @@ author_profile: true
 
 {% include base_path %}
 
+#### 2019
+
+  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM 
+
+
 #### 2018
 
   + Samani, Z. R., **Guntuku, S. C.**, Moghaddam, M. E., Preoţiuc-Pietro, D. & Ungar, L. H. **_Cross-Platform and Cross-Interaction Study of User Personality based on Images on Twitter and Flickr_**, 2018, PLOS One [[Link]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198660)
