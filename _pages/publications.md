@@ -16,6 +16,8 @@ author_profile: true
 
 #### 2018
 
+  + Yang, Q., Tufts, C., Ungar, L., **Guntuku, S.**, & Merchant, R. (2018). To retweet or not to retweet: Understanding what features of cardiovascular tweets influence their retransmission. Journal of health communication, 23(12), 1026-1035. [[Link]](https://www.tandfonline.com/doi/abs/10.1080/10810730.2018.1540671)
+
   + Samani, Z. R., **Guntuku, S. C.**, Moghaddam, M. E., Preoţiuc-Pietro, D. & Ungar, L. H. **_Cross-Platform and Cross-Interaction Study of User Personality based on Images on Twitter and Flickr_**, 2018, PLOS One [[Link]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198660)
 
   + **Guntuku, S. C.**, Giorgi, S., Ungar, L., **_Current and Future Psychological Health Prediction using Language and Socio-Demographics of Children for the CLPysch 2018 Shared Task_**, 2018, CLPysch [[PDF]](https://www.researchgate.net/publication/325216118_Current_and_Future_Psychological_Health_Prediction_using_Language_and_Socio-Demographics_of_Children_for_the_CLPysch_2018_Shared_Task)
