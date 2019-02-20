@@ -7,6 +7,8 @@ author_profile: true
 
 This is a selected list of press coverage on my research (`sort by date desc`):
 
++ NBC News: [[Mood-forecasting tech could help stop bad moods even before they strike]](https://www.nbcnews.com/mach/science/mood-forecasting-tech-could-help-stop-bad-moods-even-they-ncna973241)
+
 + APA Speaking of Psychology: [[Twitter and ADHD]](http://www.apa.org/research/action/speaking-of-psychology/twitter-adhd.aspx)
 
 + Canadian Broadcasting Corporation: [[Data collection by #Facebook and other companies on @OnTheMoneyCBC]](https://twitter.com/OnTheMoneyCBC/status/982030121853894656)
