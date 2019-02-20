@@ -5,6 +5,8 @@ permalink: /talks/
 author_profile: true
 ---
 
++ **_Studying Cultural Differences using Language_**, Behavioral Insights from Text Conference, Wharton School, January, 2019 [[Link]](https://tbs.wharton.upenn.edu/behavioral-insights-text-conference/)
+
 + **_Leveraging Social and Electronic Communications in Evaluation and Treatment_**, Technology in Psychiatry Summit (McLean and Harvard Med. School), Boston, November, 2018 [[Link]](https://www.mcleanhospital.org/technology-psychiatry-summit#panels)
 
 + **_Using Social Media to measure Psychological Health and Illness: From Individuals to Communities_**, American Psychological Association Technology, Mind and Society Conference (APA Tech), Washington DC, April, 2018 (Session Chair)
