@@ -11,8 +11,13 @@ author_profile: true
 
 #### 2019
 
-  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM 
+  + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM 
 
+  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM 
+  
+  + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM 
+  
+  + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **_ Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo_**, 2019, EMOJI2019 colocated with The WebConf
 
 #### 2018
 
