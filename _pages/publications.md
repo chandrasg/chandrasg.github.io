@@ -17,7 +17,7 @@ author_profile: true
   
   + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM 
   
-  + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **_ Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo_**, 2019, EMOJI2019 colocated with The WebConf
+  + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo**, 2019, EMOJI2019 colocated with The WebConf
 
 #### 2018
 
