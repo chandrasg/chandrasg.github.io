@@ -17,7 +17,7 @@ author_profile: true
 
  + **_Studying Personality through Selfies_**, World Well-Being Project, Philadelphia PA, 2016 [[Slides]](https://docs.google.com/presentation/d/1cdIKnQ6Cc_2SJXGUi3sjSBHfyCF060i9oFIjNQPFQ7I/edit?usp=sharing)
 
- + **_Modelling Human Factors in Perceptual Multimedia Quality: On The Role of Personality and Culture_**, ACM Multimedia, Brisbane Australia, Oct, 2015 [[Slides]](chandrasg.github.io/files/MM_PPT.pdf)
+ + **_Modelling Human Factors in Perceptual Multimedia Quality: On The Role of Personality and Culture_**, ACM Multimedia, Brisbane Australia, Oct, 2015 [[Slides]](https://chandrasg.github.io/chandrasg.github.io/files/MM_PPT.pdf)
 
  + **_Do Others Perceive You As You Want Them To? Modeling Personality based on Selfies_**, ACM Multimedia (WS), Brisbane Australia, Sept, 2015 [[Slides]](chandrasg.github.io/files/selfies_mm.pdf)
 
