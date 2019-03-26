@@ -11,7 +11,7 @@ author_profile: true
 
 + **_Using Social Media to measure Psychological Health and Illness: From Individuals to Communities_**, American Psychological Association Technology, Mind and Society Conference (APA Tech), Washington DC, April, 2018 (Session Chair)
 
- + **_Assessing ADHD from Tweets_**, Society for Personality and Social Psychology (SPSP), Atlanta GA, March, 2018 [[Slides]](https://chandrasg.github.io/chandrasg.github.io/files/ADHD - SPSP.pdf)
+ + **_Assessing ADHD from Tweets_**, Society for Personality and Social Psychology (SPSP), Atlanta GA, March, 2018 [[Slides]](https://chandrasg.github.io/chandrasg.github.io/files/ADHD%20%20-%20SPSP.pdf)
 
  + **_Studying Personality through the Content of Posted and Liked Images on Twitter_**, ACM Web Science, Troy NY, June, 2017 [[Slides]](https://www.dropbox.com/s/zv2zl9iu3vyy797/websci-images.pdf?dl=0)
 
