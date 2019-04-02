@@ -17,7 +17,7 @@ author_profile: true
   
   + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM 
   
-  + Li, M., **Guntuku, S. C.**, Hickman, L. & Ungar, L. H. **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, 2019, NLP+CSS colocated with NAACL
+  + Li, M., **Guntuku, S. C.**, Hickman, L., Tay, L. & Ungar, L. H. **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, 2019, NLP+CSS colocated with NAACL
 
   + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo**, 2019, EMOJI2019 colocated with The WebConf [[PDF]](https://www.researchgate.net/profile/Sharath_Chandra_Guntuku/publication/331828818_Exploring_Dis-Similarities_in_Emoji-Emotion_Association_on_Twitter_and_Weibo/links/5c8eeaae92851c1df9481125/Exploring-Dis-Similarities-in-Emoji-Emotion-Association-on-Twitter-and-Weibo.pdf)
 
