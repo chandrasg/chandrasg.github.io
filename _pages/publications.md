@@ -11,13 +11,13 @@ author_profile: true
 
 #### 2019
 
-  + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM 
+  + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1904.02670.pdf) 
 
-  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM 
+  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1811.07430.pdf)
   
-  + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM 
+  + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1904.02671.pdf)
   
-  + Li, M., **Guntuku, S. C.**, Hickman, L., Tay, L. & Ungar, L. H. **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, 2019, NLP+CSS colocated with NAACL
+  + Li, M., **Guntuku, S. C.**, Hickman, L., Tay, L. & Ungar, L. H. **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, 2019
 
   + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo**, 2019, EMOJI2019 colocated with The WebConf [[PDF]](https://www.researchgate.net/profile/Sharath_Chandra_Guntuku/publication/331828818_Exploring_Dis-Similarities_in_Emoji-Emotion_Association_on_Twitter_and_Weibo/links/5c8eeaae92851c1df9481125/Exploring-Dis-Similarities-in-Emoji-Emotion-Association-on-Twitter-and-Weibo.pdf)
 
