@@ -17,7 +17,7 @@ author_profile: true
   
   + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1904.02671.pdf)
   
-  + Merchant, R. M., Asch, D. A., Crutchley, P., Ungar, L. H., **Guntuku, S. C**, Eichstaedt, J. C., Hill, S., Padrez, K., Smith, R. J. 1, & Schwartz, H. A. (2019, in press) **_Medical conditions are predictable from social media posts_**. PLOS One
+  + Merchant, R. M., Asch, D. A., Crutchley, P., Ungar, L. H., **Guntuku, S. C**, Eichstaedt, J. C., Hill, S., Padrez, K., Smith, R. J., & Schwartz, H. A. (2019, in press) **_Medical conditions are predictable from social media posts_**. PLOS One
   
   + Li, M., **Guntuku, S. C.**, Hickman, L., Tay, L. & Ungar, L. H. **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, 2019
 
