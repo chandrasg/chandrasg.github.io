@@ -49,9 +49,13 @@ Awards
 
 Reviewer
 ======
+* JAMA Network
 * IEEE Transactions on Image Processing, IEEE Transactions on Multimedia
 * EPJ Data Science
 * ACM CSCW
+* AAAI ICWSM
+* AMIA
+* Applied Clinical Informatics
 * ICASSP, ICIP
 * PloS One
  
