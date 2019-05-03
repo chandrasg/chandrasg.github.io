@@ -7,9 +7,6 @@ redirect_from:
   - /resume
 ---
 
-Here is a PDF of my [[CV]](https://chandrasg.github.io/chandrasg.github.io/files/CV_Sharath_Guntuku_May19.pdf).
-
-
 {% include base_path %}
 
 Education
