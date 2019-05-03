@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Here is a PDF of my <u>[[Slides]](https://chandrasg.github.io/chandrasg.github.io/files/CV_Sharath_Chandra_May19.pdf).</u>
+Here is a PDF of my <u>[CV](https://chandrasg.github.io/chandrasg.github.io/files/CV_Sharath_Chandra_May19.pdf).</u>
 
 
 {% include base_path %}
