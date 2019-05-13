@@ -13,3 +13,5 @@ I am a research scientist at the [Centre for Digital Health](http://centerfordig
 I also work closely with the [World Well Being Project](http://www.wwbp.org/) at the [Positive Psychology Center](https://ppc.sas.upenn.edu/) and am affiliated with [Penn Research in Machine Learning](https://priml.upenn.edu/). My work has been covered by the American Psychological Association, Canadian Broadcasting Company, US News and other [venues](https://chandrasg.github.io/media/).
  
 Prior to this, I completed my PhD studies on modeling users personality in multimedia preferences at the School of Computer Science and Engineering in the [Nanyang Technological University, Singapore](http://ntu.edu.sg). I also worked on building Deep Learning Frameworks for Facial Action Unit Recognition while interning at Panasonic R&D. I received my undergraduate degree from [BITS-Pilani, India](http://www.bits-pilani.ac.in/hyderabad) in Computer Science.
+
+<a href="https://chandrasg.github.io/chandrasg.github.io/files/CV_SCG.pdf">Curriculum vitae</a> (updated 04/2019).
