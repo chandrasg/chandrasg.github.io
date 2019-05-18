@@ -7,6 +7,8 @@ author_profile: true
 
 This is a selected list of press coverage on my research (`sort by date desc`):
 
++ Tech Times: [[Twitter Users With Depression And Anxiety Tend To Post Grayscale And Low-Aesthetic Images]](https://www.techtimes.com/articles/243378/20190516/twitter-users-with-depression-and-anxiety.htm)
+
 + NBC News: [[Mood-forecasting tech could help stop bad moods even before they strike]](https://www.nbcnews.com/mach/science/mood-forecasting-tech-could-help-stop-bad-moods-even-they-ncna973241)
 
 + APA Speaking of Psychology: [[Twitter and ADHD]](http://www.apa.org/research/action/speaking-of-psychology/twitter-adhd.aspx)
