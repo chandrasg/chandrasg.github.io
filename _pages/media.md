@@ -7,6 +7,8 @@ author_profile: true
 
 This is a selected list of press coverage on my research (`sort by date desc`):
 
++ The Inquirer: [[Twitter photos may help detect users with depression, anxiety]](https://www.philly.com/health/depression-anxiety-social-media-mental-health-twitter-facebook-instagram-20190522.html)
+
 + Tech Times: [[Twitter Users With Depression And Anxiety Tend To Post Grayscale And Low-Aesthetic Images]](https://www.techtimes.com/articles/243378/20190516/twitter-users-with-depression-and-anxiety.htm)
 
 + NBC News: [[Mood-forecasting tech could help stop bad moods even before they strike]](https://www.nbcnews.com/mach/science/mood-forecasting-tech-could-help-stop-bad-moods-even-they-ncna973241)
