@@ -56,6 +56,7 @@ Reviewer
 * IEEE Transactions on Image Processing, IEEE Transactions on Multimedia
 * EPJ Data Science
 * ACM CSCW
+* IEEE/ACM ASONAM
 * AAAI ICWSM
 * AMIA
 * Applied Clinical Informatics
