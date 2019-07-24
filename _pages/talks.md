@@ -5,6 +5,8 @@ permalink: /talks/
 author_profile: true
 ---
 
++ **_Using Social Media to Inform Healthcare_**, Informatics Day, Institute of Biomedical Informatics, May, 2019
+
 + **_Studying Cultural Differences using Language_**, Behavioral Insights from Text Conference, Wharton School, January, 2019 [[Link]](https://tbs.wharton.upenn.edu/behavioral-insights-text-conference/)
 
 + **_Leveraging Social and Electronic Communications in Evaluation and Treatment_**, Technology in Psychiatry Summit (McLean and Harvard Med. School), Boston, November, 2018 [[Link]](https://www.mcleanhospital.org/technology-psychiatry-summit#panels)
