@@ -7,6 +7,8 @@ author_profile: true
 
 This is a selected list of press coverage on my research (`sort by date desc`):
 
++ Penn Today: [[Cross-cultural similarities and differences in emoji usage]](https://penntoday.upenn.edu/news/cross-cultural-similarities-and-differences-emoji-usage)
+
 + The Inquirer: [[Twitter photos may help detect users with depression, anxiety]](https://www.philly.com/health/depression-anxiety-social-media-mental-health-twitter-facebook-instagram-20190522.html)
 
 + KYW Radio: [[Social media pictures can show a lot more about your health than expected]](https://kywnewsradio.radio.com/articles/news/look-closely-social-media-pictures-they-can-show-lot-more-about-your-health-expected)
