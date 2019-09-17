@@ -23,8 +23,6 @@ author_profile: true
   
   + Matero, M., Idnani, A., Son, Y., Giorgi, S., Vu, H., Zamani, M., Limbachiya, P., **Guntuku, S.C.**, & Schwartz, H. A., **_Suicide Risk Assessment with Multi-level Dual-Context Language and BERT_**, Computational Linguistics and Clinical Psychology Workshop, 2019
   
-  + Li, M., **Guntuku, S. C.**, Hickman, L., Tay, L. & Ungar, L. H. **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, 2019
-
   + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo**, 2019, EMOJI2019 colocated with The WebConf [[PDF]](https://www.researchgate.net/profile/Sharath_Chandra_Guntuku/publication/331828818_Exploring_Dis-Similarities_in_Emoji-Emotion_Association_on_Twitter_and_Weibo/links/5c8eeaae92851c1df9481125/Exploring-Dis-Similarities-in-Emoji-Emotion-Association-on-Twitter-and-Weibo.pdf)
 
 #### 2018
