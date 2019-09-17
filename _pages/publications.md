@@ -17,6 +17,8 @@ author_profile: true
   
   + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1904.02671.pdf)
   
+  + Agarwal AK, Wong V, Pelullo A, **Guntuku S**, Polsky D, Asch DA, Muruako J, Merchant RM. **_Online Reviews of Specialized Drug Treatment Facilities – Identifying potential drivers of high and low patient satisfaction_**. Journal of General Internal Medicine. In press.
+  
   + Merchant, R. M., Asch, D. A., Crutchley, P., Ungar, L. H., **Guntuku, S. C**, Eichstaedt, J. C., Hill, S., Padrez, K., Smith, R. J., & Schwartz, H. A. (2019, in press) **_Medical conditions are predictable from social media posts_**. PLOS One
   
   + Matero, M., Idnani, A., Son, Y., Giorgi, S., Vu, H., Zamani, M., Limbachiya, P., **Guntuku, S.C.**, & Schwartz, H. A., **_Suicide Risk Assessment with Multi-level Dual-Context Language and BERT_**, Computational Linguistics and Clinical Psychology Workshop, 2019
