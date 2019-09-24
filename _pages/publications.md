@@ -11,6 +11,8 @@ author_profile: true
 
 #### 2019
 
+  + **Guntuku S.C.**, Schneider R.C, Pelullo A., Young J.F, Wong V., Ungar L.H, Polsky D., Volpp K., Merchant R.M., **_Characterizing and Measuring Expressions of Loneliness in Individuals using Twitter_**, BMJ Open, In Press
+
   + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. C & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1904.02670.pdf) 
 
   + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. C & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1811.07430.pdf)
@@ -19,11 +21,12 @@ author_profile: true
   
   + Agarwal AK, Wong V, Pelullo A, **Guntuku S**, Polsky D, Asch DA, Muruako J, Merchant RM. **_Online Reviews of Specialized Drug Treatment Facilities – Identifying potential drivers of high and low patient satisfaction_**. Journal of General Internal Medicine. In press.
   
+    + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo**, 2019, EMOJI2019 colocated with The WebConf [[PDF]](https://www.researchgate.net/profile/Sharath_Chandra_Guntuku/publication/331828818_Exploring_Dis-Similarities_in_Emoji-Emotion_Association_on_Twitter_and_Weibo/links/5c8eeaae92851c1df9481125/Exploring-Dis-Similarities-in-Emoji-Emotion-Association-on-Twitter-and-Weibo.pdf)
+  
   + Merchant, R. M., Asch, D. A., Crutchley, P., Ungar, L. H., **Guntuku, S. C**, Eichstaedt, J. C., Hill, S., Padrez, K., Smith, R. J., & Schwartz, H. A. (2019, in press) **_Medical conditions are predictable from social media posts_**. PLOS One
   
   + Matero, M., Idnani, A., Son, Y., Giorgi, S., Vu, H., Zamani, M., Limbachiya, P., **Guntuku, S.C.**, & Schwartz, H. A., **_Suicide Risk Assessment with Multi-level Dual-Context Language and BERT_**, Computational Linguistics and Clinical Psychology Workshop, 2019
   
-  + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo**, 2019, EMOJI2019 colocated with The WebConf [[PDF]](https://www.researchgate.net/profile/Sharath_Chandra_Guntuku/publication/331828818_Exploring_Dis-Similarities_in_Emoji-Emotion_Association_on_Twitter_and_Weibo/links/5c8eeaae92851c1df9481125/Exploring-Dis-Similarities-in-Emoji-Emotion-Association-on-Twitter-and-Weibo.pdf)
 
 #### 2018
 
