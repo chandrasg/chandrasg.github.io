@@ -11,6 +11,8 @@ This is a selected list of press coverage on my research (`sort by date desc`):
 
 + The Inquirer: [[Twitter photos may help detect users with depression, anxiety]](https://www.philly.com/health/depression-anxiety-social-media-mental-health-twitter-facebook-instagram-20190522.html)
 
++ The Economic Times: [[Colourless pictures, negative expressions: How a person's tweets can indicate depression]](https://economictimes.indiatimes.com/magazines/panache/colourless-pictures-negative-expressions-how-a-persons-tweets-can-indicate-depression/articleshow/69356677.cms)
+
 + KYW Radio: [[Social media pictures can show a lot more about your health than expected]](https://kywnewsradio.radio.com/articles/news/look-closely-social-media-pictures-they-can-show-lot-more-about-your-health-expected)
 
 + Tech Times: [[Twitter Users With Depression And Anxiety Tend To Post Grayscale And Low-Aesthetic Images]](https://www.techtimes.com/articles/243378/20190516/twitter-users-with-depression-and-anxiety.htm)
