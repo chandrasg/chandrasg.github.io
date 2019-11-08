@@ -5,6 +5,10 @@ permalink: /talks/
 author_profile: true
 ---
 
++ **_Promise, challenges, and risks of digital data in mental health research and care_**, AMIA Annual Symposium, November, 2019 (Panel Chair)
+
++ **_Using Digital Data to Measure and Understand Mental Health_**, American Psychological Association Technology, Mind and Society Conference (APA Tech), Washington DC, October, 2019 (Session Chair)
+
 + **_Using Social Media to Inform Healthcare_**, Informatics Day, Institute of Biomedical Informatics, May, 2019
 
 + **_Studying Cultural Differences using Language_**, Behavioral Insights from Text Conference, Wharton School, January, 2019 [[Link]](https://tbs.wharton.upenn.edu/behavioral-insights-text-conference/)
