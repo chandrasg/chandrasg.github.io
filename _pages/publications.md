@@ -11,13 +11,13 @@ author_profile: true
 
 #### 2019
 
-  + **Guntuku S.C.**, Schneider R.C, Pelullo A., Young J.F, Wong V., Ungar L.H, Polsky D., Volpp K., Merchant R.M., **_Characterizing and Measuring Expressions of Loneliness in Individuals using Twitter_**, BMJ Open, In Press
+  + **Guntuku S.C.**, Schneider R.C, Pelullo A., Young J.F, Wong V., Ungar L.H, Polsky D., Volpp K., Merchant R.M., **_Characterizing and Measuring Expressions of Loneliness in Individuals using Twitter_**, BMJ Open, [[PDF]](https://bmjopen.bmj.com/content/bmjopen/9/11/e030355.full.pdf)
 
-  + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. C & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1904.02670.pdf) 
+  + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. C & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM [[PDF]](http://wwbp.org/papers/guntuku2019twitter.pdf) 
 
-  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. C & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1811.07430.pdf)
+  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. C & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM [[PDF]](https://arxiv.org/pdf/1811.07430.pdf)
   
-  + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM [[Preprint]](https://arxiv.org/pdf/1904.02671.pdf)
+  + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM [[PDF]](https://arxiv.org/pdf/1904.02671.pdf)
   
   + Agarwal AK, Wong V, Pelullo A, **Guntuku S**, Polsky D, Asch DA, Muruako J, Merchant RM. **_Online Reviews of Specialized Drug Treatment Facilities – Identifying potential drivers of high and low patient satisfaction_**. Journal of General Internal Medicine. In press.
   
