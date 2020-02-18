@@ -5,7 +5,11 @@ permalink: /talks/
 author_profile: true
 ---
 
++ **_User Generated Content: Opportunities for Health Care_**, Computer and Information Science Spring Colloquium, University of Pennsylvania, February, 2020
+
 + **_Promise, challenges, and risks of digital data in mental health research and care_**, AMIA Annual Symposium, November, 2019 (Panel Chair)
+
++ **_User Generated Content: Opportunities for Health Care_**, Langone School of Medicine, New York University, 2019
 
 + **_Using Digital Data to Measure and Understand Mental Health_**, American Psychological Association Technology, Mind and Society Conference (APA Tech), Washington DC, October, 2019 (Session Chair)
 
