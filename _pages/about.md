@@ -14,4 +14,4 @@ I also work closely with the [World Well Being Project](http://www.wwbp.org/) at
  
 Prior to this, I completed my PhD studies on modeling users personality in multimedia preferences at the School of Computer Science and Engineering in the [Nanyang Technological University, Singapore](http://ntu.edu.sg). I also worked on building Deep Learning Frameworks for Facial Action Unit Recognition while interning at Panasonic R&D. I received my undergraduate degree from [BITS-Pilani, India](http://www.bits-pilani.ac.in/hyderabad) in Computer Science.
 
-<a href="https://chandrasg.github.io/chandrasg.github.io/files/CV_SCG.pdf">Curriculum vitae</a> (updated 04/2019).
+[//]: # (<a href="https://chandrasg.github.io/chandrasg.github.io/files/CV_SCG.pdf">Curriculum vitae</a> (updated 04/2019).)
