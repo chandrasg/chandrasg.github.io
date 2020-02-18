@@ -9,6 +9,12 @@ author_profile: true
 
 {% include base_path %}
 
+#### 2020
+
+  + **Guntuku S.C.**, Schwartz H.A., Kashyap A., Gaulton J., Stokes D.C., Asch D.A., Ungar L.H., Merchant R.M, “Variability in Language used on Social Media prior to Hospital Visits”, Scientific Reports (in press)
+  
+  + Agarwal S., **Guntuku S.C.**, Robinson O., Ungar L.H. “Examining the Phenomenon of Quarter-life Crisis through Artificial Intelligence and the Language of Twitter”, Frontiers in Psychology (in press)
+
 #### 2019
 
   + **Guntuku S.C.**, Schneider R.C, Pelullo A., Young J.F, Wong V., Ungar L.H, Polsky D., Volpp K., Merchant R.M., **_Characterizing and Measuring Expressions of Loneliness in Individuals using Twitter_**, BMJ Open, [[PDF]](https://bmjopen.bmj.com/content/bmjopen/9/11/e030355.full.pdf)
