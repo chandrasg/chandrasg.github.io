@@ -13,7 +13,9 @@ author_profile: true
 
   + **Guntuku S.C.**, Schwartz H.A., Kashyap A., Gaulton J., Stokes D.C., Asch D.A., Ungar L.H., Merchant R.M, “Variability in Language used on Social Media prior to Hospital Visits”, Scientific Reports (in press)
   
-  + Agarwal S., **Guntuku S.C.**, Robinson O., Ungar L.H. “Examining the Phenomenon of Quarter-life Crisis through Artificial Intelligence and the Language of Twitter”, Frontiers in Psychology (in press)
+  + Simchon A., **Guntuku S.C.**, Simhon R., Ungar L.H, Giliad M., **_Political Depression? A Big-Data, Multi-Method Investigation of Americans’ Emotional Response to the Trump Presidency_** Journal of Experimental Psychology: General (in press)
+  
+  + Agarwal S., **Guntuku S.C.**, Robinson O., Ungar L.H. **_Examining the Phenomenon of Quarter-life Crisis through Artificial Intelligence and the Language of Twitter_**, Frontiers in Psychology (in press)
 
 #### 2019
 
