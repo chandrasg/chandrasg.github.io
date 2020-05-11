@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sharath Chandra Guntuku"
+title                    : "Sharath Chandra Guntuku | University of Pennsylvania"
 title_separator          : "-"
 name                     : &name "Sharath Chandra"
-description              : &description "Research Scientist at University of Pennsylvania"
+description              : &description "Research Scientist | Center for Digital Health"
 url                      : https://chandrasg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chandrasg/chandrasg.github.io"
