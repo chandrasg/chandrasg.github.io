@@ -14,6 +14,6 @@ I also work closely with the [World Well Being Project](http://www.wwbp.org/) at
  
 Prior to this, I completed my PhD studies on modeling users personality in multimedia preferences at the School of Computer Science and Engineering in the [Nanyang Technological University, Singapore](http://ntu.edu.sg). I also worked on building Deep Learning Frameworks for Facial Action Unit Recognition while interning at Panasonic R&D. I received my undergraduate degree from [BITS-Pilani, India](http://www.bits-pilani.ac.in/hyderabad) in Computer Science.
 
-As a part of the Penn COVID Hub iniative, we have been tracking mental health, common topics of discussion across states, and symptom mentions using Twitter language [[Dashboard]](https://www.arcgis.com/apps/opsdashboard/index.html#/abb41818160d4cec91f604520a088349), [[Penn COVID Hub]](http://penncovid19hub.com/)
+As a part of the [[Penn COVID Hub]](http://penncovid19hub.com/) iniative, we have been tracking mental health, common topics of discussion across states, and symptom mentions using Twitter language [[Dashboard]](https://www.arcgis.com/apps/opsdashboard/index.html#/abb41818160d4cec91f604520a088349)
 
 [//]: # (<a href="https://chandrasg.github.io/chandrasg.github.io/files/CV_SCG.pdf">Curriculum vitae</a> (updated 04/2019).)
