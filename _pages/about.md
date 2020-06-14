@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor (Research) in the Department of Computer and Information Science at the University of Pennsylvania. My research aims to leverage large-scale social media image, text, and sensor data to model social health outcomes and psychological traits. I use machine learning, statistical analysis, natural language processing and computer vision to answer questions pertaining to health and psychology in individuals and communities. 
+I am a Research Assistant Professor in the Department of Computer and Information Science at the University of Pennsylvania. My research focuses on building predictive models for and uncovering insight into health outcomes and psychological states of individuals and communities.
+
+I develop computational models utilizing large-scale user-generated text, image, and mobile sensor data to answer questions pertaining to geospatial, cross-cultural, and temporal aspects of human behavior. My recent work investigates the manifestation of conditions such as loneliness, ADHD, stress, and depression on social media platforms and the role of heterogeneity in the digital behaviors of individuals across cultures. The resulting insights have the potential to supplement clinical diagnoses, facilitate early and personalized interventions, and improve treatments.
 
 I am affiliated as a research scientist at the [Center for Digital Health](https://centerfordigitalhealth.upenn.edu/) in Penn Medicine and work closely with the [World Well Being Project](http://www.wwbp.org/) at the [Positive Psychology Center](https://ppc.sas.upenn.edu/). I am also affiliated with [Penn Research in Machine Learning](https://priml.upenn.edu/). My work has been covered by the American Psychological Association, Canadian Broadcasting Company, US News and other [venues](https://chandrasg.github.io/media/).
  
