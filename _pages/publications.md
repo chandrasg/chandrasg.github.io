@@ -11,7 +11,11 @@ author_profile: true
 
 #### 2020
 
-  + **Guntuku S.C.**, Schwartz H.A., Kashyap A., Gaulton J., Stokes D.C., Asch D.A., Ungar L.H., Merchant R.M, “Variability in Language used on Social Media prior to Hospital Visits”, Scientific Reports (in press)
+  + **Guntuku S.C.**, Sherman G., Stokes D.C., Agarwal A., Seltzer E., Merchant R.M, Ungar L.H. **_Tracking mental health and symptom mentions on Twitter during COVID-19_** , 2020 Journal of general internal medicine, 1.  
+
+  + Stokes, D. C., Andy, A., **Guntuku, S. C.**, Ungar, L. H., & Merchant, R. M. (2020). **_Public priorities and concerns regarding covid-19 in an online discussion forum: Longitudinal topic modeling._** Journal of general internal medicine, 1.
+  
+  + **Guntuku S.C.**, Schwartz H.A., Kashyap A., Gaulton J., Stokes D.C., Asch D.A., Ungar L.H., Merchant R.M, **_Variability in Language used on Social Media prior to Hospital Visits_**, 2020, Scientific Reports
   
   + Simchon A., **Guntuku S.C.**, Simhon R., Ungar L.H, Giliad M., **_Political Depression? A Big-Data, Multi-Method Investigation of Americans’ Emotional Response to the Trump Presidency_** Journal of Experimental Psychology: General (in press)
   
