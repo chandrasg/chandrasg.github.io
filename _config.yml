@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sharath Chandra Guntuku | University of Pennsylvania"
+title                    : "Sharath Chandra Guntuku"
 title_separator          : "-"
 name                     : &name "Sharath Chandra"
 description              : &description ""
