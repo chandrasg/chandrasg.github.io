@@ -13,10 +13,12 @@ author_profile: true
 
   + **Guntuku S.C.**, Sherman G., Stokes D.C., Agarwal A., Seltzer E., Merchant R.M, Ungar L.H. **_Tracking mental health and symptom mentions on Twitter during COVID-19_** , 2020 Journal of general internal medicine, [[PDF]](https://t.co/758x30OKDV?amp=1)
 
-  + Stokes, D. C., Andy, A., **Guntuku, S. C.**, Ungar, L. H., & Merchant, R. M. (2020). **_Public priorities and concerns regarding covid-19 in an online discussion forum: Longitudinal topic modeling._** Journal of general internal medicine, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217615/pdf/11606_2020_Article_5889.pdf)
-  
   + **Guntuku S.C.**, Schwartz H.A., Kashyap A., Gaulton J., Stokes D.C., Asch D.A., Ungar L.H., Merchant R.M, **_Variability in Language used on Social Media prior to Hospital Visits_**, 2020, Scientific Reports, [[PDF]](https://chandrasg.github.io/chandrasg.github.io/files/hcu_paper_scirep_2020.pdf)
-  
+
+  + **Guntuku S.C.**, Gaulton J., Seltzer E., Asch D.A., Srinivas S., Ungar L.H., Mancheno C., Klinger E.V, Merchant R.M, **_Studying social media language changes associated with pregnancy status, trimester, and parity_**, 2020, Women's Health, in press
+
+  + Stokes, D. C., Andy, A., **Guntuku, S. C.**, Ungar, L. H., & Merchant, R. M. (2020). **_Public priorities and concerns regarding covid-19 in an online discussion forum: Longitudinal topic modeling._** Journal of general internal medicine, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217615/pdf/11606_2020_Article_5889.pdf)
+    
   + Simchon A., **Guntuku S.C.**, Simhon R., Ungar L.H, Giliad M., **_Political Depression? A Big-Data, Multi-Method Investigation of Americans’ Emotional Response to the Trump Presidency_** Journal of Experimental Psychology: General, [[PDF]](https://psyarxiv.com/dk34j/)
   
   + Agarwal S., **Guntuku S.C.**, Robinson O., Ungar L.H. **_Examining the Phenomenon of Quarter-life Crisis through Artificial Intelligence and the Language of Twitter_**, Frontiers in Psychology, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7068850/pdf/fpsyg-11-00341.pdf)
