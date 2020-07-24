@@ -20,6 +20,6 @@ My work has been covered by the American Psychological Association, Canadian Bro
   + [World Well-Being Project](http://www.wwbp.org/) / [Positive Psychology Center](https://ppc.sas.upenn.edu/)
   + [Penn Research in Machine Learning](https://priml.upenn.edu/)
 
-As a part of the [Penn COVID Hub](http://penncovid19hub.com/) iniative, we have been tracking mental health, common topics of discussion across states, and symptom mentions during COVID-19 using Twitter language [[Dashboard]](https://www.arcgis.com/apps/opsdashboard/index.html#/abb41818160d4cec91f604520a088349) [[Paper]](https://link.springer.com./article/10.1007/s11606-020-05988-8). 
+As a part of the [Penn COVID Hub](http://penncovid19hub.com/) initiative, we have been tracking mental health, common topics of discussion across states, and symptom mentions during COVID-19 using Twitter language [[Dashboard]](https://www.arcgis.com/apps/opsdashboard/index.html#/abb41818160d4cec91f604520a088349) [[Paper]](https://link.springer.com./article/10.1007/s11606-020-05988-8). 
 
 [//]: # (<a href="https://chandrasg.github.io/chandrasg.github.io/files/CV_SCG.pdf">Curriculum vitae</a> (updated 04/2019).)
