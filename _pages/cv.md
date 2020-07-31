@@ -24,8 +24,11 @@ Education
 
 Work experience
 ======
+* Assistant Professor (Research), **University of Pennsylvania**.
+    + at [Centre for Digital Health](http://centerfordigitalhealth.upenn.edu/)
+    - May 2020 -- present
 * Research Scientist, **University of Pennsylvania**.
-    + at [Centre for Digital Health](http://socialmedialab.upenn.edu/team)
+    + at [Centre for Digital Health](http://centerfordigitalhealth.upenn.edu/)
     - September 2018 -- present
 * Postdoctoral Researcher, **University of Pennsylvania**.
     + at [World Well-Being Project](http://wwbp.org) and [Centre for Digital Health](http://socialmedialab.upenn.edu/team)
@@ -66,6 +69,7 @@ Reviewer
 
 Affiliations
 ======
+* [Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/)
 * [Center for Digital Health, University of Pennsylvania](http://centerfordigitalhealth.upenn.edu/)
 * [World Well Being Project, University of Pennsylvania](http://wwbp.org/)
 * [Penn Research in Machine Learning, University of Pennsylvania](https://priml.upenn.edu/)
