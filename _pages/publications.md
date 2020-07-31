@@ -15,7 +15,7 @@ author_profile: true
 
   + **Guntuku S.C.**, Schwartz H.A., Kashyap A., Gaulton J., Stokes D.C., Asch D.A., Ungar L.H., Merchant R.M, **_Variability in Language used on Social Media prior to Hospital Visits_**, 2020, Scientific Reports, [[PDF]](https://chandrasg.github.io/chandrasg.github.io/files/hcu_paper_scirep_2020.pdf)
   
-  + Li, M., Hickman, L., Tay, L., Ungar, L. H., **Guntuku, S. C.* **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, (2020). ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).
+  + Li, M., Hickman, L., Tay, L., Ungar, L. H., **Guntuku, S. C.** **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, (2020). ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).
 
   + **Guntuku S.C.**, Gaulton J., Seltzer E., Asch D.A., Srinivas S., Ungar L.H., Mancheno C., Klinger E.V, Merchant R.M, **_Studying social media language changes associated with pregnancy status, trimester, and parity_**, 2020, Women's Health, in press
 
