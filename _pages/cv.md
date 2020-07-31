@@ -25,7 +25,7 @@ Education
 Work experience
 ======
 * Assistant Professor (Research), **University of Pennsylvania**.
-    + at [Centre for Digital Health](http://centerfordigitalhealth.upenn.edu/)
+    + Computer and Information Science
     - May 2020 -- present
 * Research Scientist, **University of Pennsylvania**.
     + at [Centre for Digital Health](http://centerfordigitalhealth.upenn.edu/)
