@@ -183,9 +183,9 @@ collections:
   media:
     output: true
     permalink: /:collection/:path/
-  #photography:
-   # output: true
-   # permalink: /:collection/:path/
+  group:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -227,14 +227,14 @@ defaults:
       share: true
       comments: true
   # _photography
-  #- scope:
-  #    path: ""
-  #    type: photography
-  #  values:
-  #    layout: single
-  #    author_profile: true
-  #    share: true
-  #    comments: true
+  - scope:
+      path: ""
+      type: group
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
  #_media
   - scope:
       path: ""
