@@ -9,6 +9,9 @@ This is a selected list of press coverage on my research (`sort by date desc`):
 
 + The Atlantic: [[What Your Facebook Posts Say About Your Mental Health]](https://www.theatlantic.com/health/archive/2019/11/what-your-tweets-say-about-your-mood/601510/)
 
++ Twitter Dev: [[See how the Penn Medicine CDH uses Twitter data to understand the COVID-19 health crisis]](https://developer.twitter.com/en/use-cases/success-stories/penn)
+
+
 + The Times of India: [[Twitter posts can reveal how lonely you are, says study]](https://health.economictimes.indiatimes.com/news/industry/twitter-posts-can-reveal-how-lonely-you-are-says-study/71938667)
 
 + The Inquirer: [[Penn researchers turn to Twitter to identify loneliness]](https://www.inquirer.com/health/loneliness-twitter-university-of-pennsylvania-social-media-20191104.html)
