@@ -21,6 +21,8 @@ author_profile: true
 
   + Stokes, D. C., Andy, A., **Guntuku, S. C.**, Ungar, L. H., & Merchant, R. M. (2020). **_Public priorities and concerns regarding covid-19 in an online discussion forum: Longitudinal topic modeling._** Journal of general internal medicine, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217615/pdf/11606_2020_Article_5889.pdf)
     
+  + Jaidka, K., **Guntuku, S. C.**, Lee, J. H., Luo, Z., Buffone, A., & Ungar, L. H. (2020). **_The rural–urban stress divide: Obtaining geographical insights through Twitter. Computers in Human Behavior_** [[Link]](https://www.sciencedirect.com/science/article/pii/S0747563220302958) [[Data]](https://osf.io/af8ce/)
+  
   + Simchon A., **Guntuku S.C.**, Simhon R., Ungar L.H, Giliad M., **_Political Depression? A Big-Data, Multi-Method Investigation of Americans’ Emotional Response to the Trump Presidency_** Journal of Experimental Psychology: General, [[PDF]](https://psyarxiv.com/dk34j/) [[Data/Code]](https://osf.io/gevts/)
   
   + Agarwal S., **Guntuku S.C.**, Robinson O., Ungar L.H. **_Examining the Phenomenon of Quarter-life Crisis through Artificial Intelligence and the Language of Twitter_**, Frontiers in Psychology, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7068850/pdf/fpsyg-11-00341.pdf)
