@@ -15,40 +15,40 @@ author_profile: true
 
   + **Guntuku S.C.**, Schwartz H.A., Kashyap A., Gaulton J., Stokes D.C., Asch D.A., Ungar L.H., Merchant R.M, **_Variability in Language used on Social Media prior to Hospital Visits_**, 2020, Scientific Reports, [[PDF]](https://chandrasg.github.io/chandrasg.github.io/files/hcu_paper_scirep_2020.pdf)
   
-  + Li, M., Hickman, L., Tay, L., Ungar, L. H., **Guntuku, S. C.** **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, (2020). ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).
+  + Li, M., Hickman, L., Tay, L., Ungar, L. H., **Guntuku, S. C.** **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, (2020). ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW). [[PDF]](https://arxiv.org/pdf/2008.02449.pdf) [[Politness Estimator Library]](https://github.com/tslmy/politeness-estimator)
 
   + **Guntuku S.C.**, Gaulton J., Seltzer E., Asch D.A., Srinivas S., Ungar L.H., Mancheno C., Klinger E.V, Merchant R.M, **_Studying social media language changes associated with pregnancy status, trimester, and parity_**, 2020, Women's Health, in press
 
   + Stokes, D. C., Andy, A., **Guntuku, S. C.**, Ungar, L. H., & Merchant, R. M. (2020). **_Public priorities and concerns regarding covid-19 in an online discussion forum: Longitudinal topic modeling._** Journal of general internal medicine, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217615/pdf/11606_2020_Article_5889.pdf)
     
-  + Simchon A., **Guntuku S.C.**, Simhon R., Ungar L.H, Giliad M., **_Political Depression? A Big-Data, Multi-Method Investigation of Americans’ Emotional Response to the Trump Presidency_** Journal of Experimental Psychology: General, [[PDF]](https://psyarxiv.com/dk34j/)
+  + Simchon A., **Guntuku S.C.**, Simhon R., Ungar L.H, Giliad M., **_Political Depression? A Big-Data, Multi-Method Investigation of Americans’ Emotional Response to the Trump Presidency_** Journal of Experimental Psychology: General, [[PDF]](https://psyarxiv.com/dk34j/) [[Data/Code]](https://osf.io/gevts/)
   
   + Agarwal S., **Guntuku S.C.**, Robinson O., Ungar L.H. **_Examining the Phenomenon of Quarter-life Crisis through Artificial Intelligence and the Language of Twitter_**, Frontiers in Psychology, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7068850/pdf/fpsyg-11-00341.pdf)
 
 #### 2019
 
-  + **Guntuku S.C.**, Schneider R.C, Pelullo A., Young J.F, Wong V., Ungar L.H, Polsky D., Volpp K., Merchant R.M., **_Characterizing and Measuring Expressions of Loneliness in Individuals using Twitter_**, BMJ Open, [[PDF]](https://bmjopen.bmj.com/content/bmjopen/9/11/e030355.full.pdf)
+  + **Guntuku S.C.**, Schneider R.C, Pelullo A., Young J.F, Wong V., Ungar L.H, Polsky D., Volpp K., Merchant R.M., **_Characterizing and Measuring Expressions of Loneliness in Individuals using Twitter_**, BMJ Open, [[PDF]](https://bmjopen.bmj.com/content/bmjopen/9/11/e030355.full.pdf) [[Loneliness Lexica]](https://github.com/chandrasg/lexica)
 
-  + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. C & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM [[PDF]](http://wwbp.org/papers/guntuku2019twitter.pdf) 
+  + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. C & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM [[PDF]](http://wwbp.org/papers/guntuku2019twitter.pdf)   
 
-  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. C & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM [[PDF]](https://arxiv.org/pdf/1811.07430.pdf)
+  + **Guntuku, S. C.**, Buffone, A., Jaidka, K., Eichstaedt, J. C & Ungar, L. H. **_Understanding and Measuring Psychological Stress using Social Media_**, 2019, ICWSM [[PDF]](https://arxiv.org/pdf/1811.07430.pdf) [[Stress Lexica]](https://github.com/chandrasg/lexica)
   
-  + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM [[PDF]](https://arxiv.org/pdf/1904.02671.pdf)
+  + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM [[PDF]](https://arxiv.org/pdf/1904.02671.pdf) [[Data/Code]](https://github.com/tslmy/ICWSM2019)
   
   + Agarwal AK, Wong V, Pelullo A, **Guntuku S**, Polsky D, Asch DA, Muruako J, Merchant RM. **_Online Reviews of Specialized Drug Treatment Facilities – Identifying potential drivers of high and low patient satisfaction_**. Journal of General Internal Medicine. In press.
   
   + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo**, 2019, EMOJI2019 colocated with The WebConf [[PDF]](https://www.researchgate.net/profile/Sharath_Chandra_Guntuku/publication/331828818_Exploring_Dis-Similarities_in_Emoji-Emotion_Association_on_Twitter_and_Weibo/links/5c8eeaae92851c1df9481125/Exploring-Dis-Similarities-in-Emoji-Emotion-Association-on-Twitter-and-Weibo.pdf)
   
-  + Merchant, R. M., Asch, D. A., Crutchley, P., Ungar, L. H., **Guntuku, S. C**, Eichstaedt, J. C., Hill, S., Padrez, K., Smith, R. J., & Schwartz, H. A. (2019, in press) **_Evaluating the predictability of medical conditions from social media posts_**. PLOS One
+  + Merchant, R. M., Asch, D. A., Crutchley, P., Ungar, L. H., **Guntuku, S. C**, Eichstaedt, J. C., Hill, S., Padrez, K., Smith, R. J., & Schwartz, H. A. (2019, in press) **_Evaluating the predictability of medical conditions from social media posts_**. PLOS One [[PDF]](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0215476&type=printable) [[Data]](http://wwbp.org/downloads/public_data/lod/)
   
-  + Matero, M., Idnani, A., Son, Y., Giorgi, S., Vu, H., Zamani, M., Limbachiya, P., **Guntuku, S.C.**, & Schwartz, H. A., **_Suicide Risk Assessment with Multi-level Dual-Context Language and BERT_**, Computational Linguistics and Clinical Psychology Workshop, 2019
+  + Matero, M., Idnani, A., Son, Y., Giorgi, S., Vu, H., Zamani, M., Limbachiya, P., **Guntuku, S.C.**, & Schwartz, H. A., **_Suicide Risk Assessment with Multi-level Dual-Context Language and BERT_**, Computational Linguistics and Clinical Psychology Workshop, 2019 [[PDF]](https://www.aclweb.org/anthology/W19-3005.pdf)
   
 
 #### 2018
 
   + Yang, Q., Tufts, C., Ungar, L., **Guntuku, S.**, & Merchant, R. (2018). To retweet or not to retweet: Understanding what features of cardiovascular tweets influence their retransmission. Journal of health communication, 23(12), 1026-1035. [[Link]](https://www.tandfonline.com/doi/abs/10.1080/10810730.2018.1540671)
 
-  + Samani, Z. R., **Guntuku, S. C.**, Moghaddam, M. E., Preoţiuc-Pietro, D. & Ungar, L. H. **_Cross-Platform and Cross-Interaction Study of User Personality based on Images on Twitter and Flickr_**, 2018, PLOS One [[Link]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198660)
+  + Samani, Z. R., **Guntuku, S. C.**, Moghaddam, M. E., Preoţiuc-Pietro, D. & Ungar, L. H. **_Cross-Platform and Cross-Interaction Study of User Personality based on Images on Twitter and Flickr_**, 2018, PLOS One [[Link]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198660) [[Data]](https://figshare.com/articles/zahra_plos_data_zip/6469577)
 
   + **Guntuku, S. C.**, Giorgi, S., Ungar, L., **_Current and Future Psychological Health Prediction using Language and Socio-Demographics of Children for the CLPysch 2018 Shared Task_**, 2018, CLPysch [[PDF]](https://www.researchgate.net/publication/325216118_Current_and_Future_Psychological_Health_Prediction_using_Language_and_Socio-Demographics_of_Children_for_the_CLPysch_2018_Shared_Task)
 
