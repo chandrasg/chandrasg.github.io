@@ -11,11 +11,11 @@ author_profile: true
 
 #### 2020
 
-  + **Guntuku S.C.**, Sherman G., Stokes D.C., Agarwal A., Seltzer E., Merchant R.M, Ungar L.H. **_Tracking mental health and symptom mentions on Twitter during COVID-19_** , 2020 Journal of general internal medicine, [[PDF]](https://t.co/758x30OKDV?amp=1)
+  + **Guntuku S.C.**, Sherman G., Stokes D.C., Agarwal A., Seltzer E., Merchant R.M, Ungar L.H. **_Tracking mental health and symptom mentions on Twitter during COVID-19_** , 2020 Journal of general internal medicine, [[PDF]](https://t.co/758x30OKDV?amp=1) [[Data]](https://github.com/chandrasg/covid19_mentalhealth_cnty)
 
   + **Guntuku S.C.**, Schwartz H.A., Kashyap A., Gaulton J., Stokes D.C., Asch D.A., Ungar L.H., Merchant R.M, **_Variability in Language used on Social Media prior to Hospital Visits_**, 2020, Scientific Reports, [[PDF]](https://chandrasg.github.io/chandrasg.github.io/files/hcu_paper_scirep_2020.pdf)
   
-  + Li, M., Hickman, L., Tay, L., Ungar, L. H., **Guntuku, S. C.** **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, (2020). ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW). [[PDF]](https://arxiv.org/pdf/2008.02449.pdf) [[Politness Estimation Library]](https://github.com/tslmy/politeness-estimator)
+  + Li, M., Hickman, L., Tay, L., Ungar, L. H., **Guntuku, S. C.** **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, (2020). ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW). [[PDF]](https://arxiv.org/pdf/2008.02449.pdf) [[Code]](https://github.com/tslmy/politeness-estimator)
 
   + **Guntuku S.C.**, Gaulton J., Seltzer E., Asch D.A., Srinivas S., Ungar L.H., Mancheno C., Klinger E.V, Merchant R.M, **_Studying social media language changes associated with pregnancy status, trimester, and parity_**, 2020, Women's Health, in press
 
@@ -37,7 +37,7 @@ author_profile: true
   
   + **Guntuku, S. C.**, Li, M., Tay, L. & Ungar, L. H. **_Studying Cultural Differences in Emoji Usage across the East and the West_**, 2019, ICWSM [[PDF]](https://arxiv.org/pdf/1904.02671.pdf) [[Data/Code]](https://github.com/tslmy/ICWSM2019)
   
-  + Agarwal AK, Wong V, Pelullo A, **Guntuku S**, Polsky D, Asch DA, Muruako J, Merchant RM. **_Online Reviews of Specialized Drug Treatment Facilities – Identifying potential drivers of high and low patient satisfaction_**. Journal of General Internal Medicine. In press.
+  + Agarwal AK, Wong V, Pelullo A, **Guntuku S**, Polsky D, Asch DA, Muruako J, Merchant RM. **_Online Reviews of Specialized Drug Treatment Facilities – Identifying potential drivers of high and low patient satisfaction_**. Journal of General Internal Medicine. [[Link]](https://doi.org/10.1007/s11606-019-05548-9)
   
   + Li, M., **Guntuku, S. C.**, Jakhetiya, V. & Ungar, L. H. **Exploring (Dis-)Similarities in Emoji-Emotion Association on Twitter and Weibo**, 2019, EMOJI2019 colocated with The WebConf [[PDF]](https://www.researchgate.net/profile/Sharath_Chandra_Guntuku/publication/331828818_Exploring_Dis-Similarities_in_Emoji-Emotion_Association_on_Twitter_and_Weibo/links/5c8eeaae92851c1df9481125/Exploring-Dis-Similarities-in-Emoji-Emotion-Association-on-Twitter-and-Weibo.pdf)
   
@@ -56,8 +56,7 @@ author_profile: true
 
 + Jaidka, K., **Guntuku, S. C.**, Ungar, L., **_Facebook vs. Twitter: Cross-platform differences in self-disclosure and trait prediction_**, 2018, ICWSM [[PDF]](http://wwbp.org/papers/ICWSM_18_Crossplatform.pdf)
 
-+ Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE: A Survey, and Proposal
-for Future Directions Using Social Media_**., 2018, ACM Transactions on Multimedia [[Link]](https://dl.acm.org/citation.cfm?id=3183512) 
++ Zhu, Yi., **Guntuku, S. C.**, Lin, W., Ghinea, G., & Redi, J., **_Measuring Individual Video QoE: A Survey, and Proposal for Future Directions Using Social Media_**, 2018, ACM Transactions on Multimedia [[Link]](https://dl.acm.org/citation.cfm?id=3183512) 
 
 + Jakhetiya, V., Lin, W., Jaiswal, S. P., Gu, K., & **Guntuku, S. C.**, **_Just Noticeable Difference for Natural Images using RMS Contrast and Feed-back Mechanism_**., 2018, Neurocomputing [[Link]](http://www.sciencedirect.com/science/article/pii/S0925231217314522)
 
