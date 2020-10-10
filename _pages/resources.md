@@ -9,6 +9,8 @@ author_profile: true
 
 **Datasets**
 
++ *Twitter estimates of county-level mental health during COVID-19* [[Dataset]](https://github.com/chandrasg/covid19_mentalhealth_cnty)
+
 + *Weibo and Twitter word embeddings for 2012-2018*, part of which was used in *Studying Cultural Differences in Emoji Usage across the East and the West. ICWSM 2019.* [[Dataset]](https://forms.gle/q3gn9DzNM5CUzePq9)
 
 + *Cross-platform and cross-interaction study of user personality based on images on Twitter and Flickr*, [[Dataset]](https://drive.google.com/file/d/1rXweI5Jy5FyaRqji2Tp-RfNWTev8vajH/view?usp=sharing) [[Readme]](https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/files/zahra_plos_ReadMe.txt)
