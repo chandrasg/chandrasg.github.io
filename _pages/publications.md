@@ -17,7 +17,7 @@ author_profile: true
   
   + Li, M., Hickman, L., Tay, L., Ungar, L. H., **Guntuku, S. C.** **_Studying Politeness across Cultures using English Twitter and Mandarin Weibo_**, (2020). ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW). [[PDF]](https://arxiv.org/pdf/2008.02449.pdf) [[Code]](https://github.com/tslmy/politeness-estimator)
 
-  + **Guntuku S.C.**, Gaulton J., Seltzer E., Asch D.A., Srinivas S., Ungar L.H., Mancheno C., Klinger E.V, Merchant R.M, **_Studying social media language changes associated with pregnancy status, trimester, and parity_**, 2020, Women's Health, in press
+  + **Guntuku S.C.**, Gaulton J., Seltzer E., Asch D.A., Srinivas S., Ungar L.H., Mancheno C., Klinger E.V, Merchant R.M, **_Studying social media language changes associated with pregnancy status, trimester, and parity_**, 2020, Women's Health, [[PDF]](https://chandrasg.github.io/chandrasg.github.io/files/fb_pregnancy_wh.pdf)
 
   + Stokes, D. C., Andy, A., **Guntuku, S. C.**, Ungar, L. H., & Merchant, R. M. (2020). **_Public priorities and concerns regarding covid-19 in an online discussion forum: Longitudinal topic modeling._** Journal of general internal medicine, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217615/pdf/11606_2020_Article_5889.pdf)
     
