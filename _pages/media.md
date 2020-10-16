@@ -9,6 +9,8 @@ This is a selected list of press coverage on my research (`sort by date desc`):
 
 + The Atlantic: [[What Your Facebook Posts Say About Your Mental Health]](https://www.theatlantic.com/health/archive/2019/11/what-your-tweets-say-about-your-mood/601510/)
 
++ Data Jawn: [[Penn Medicine - Twitter And COVID-19]](https://www.phillydatajawn.com/podcast/penn-medicine-twitter-and-covid-19)
+
 + Twitter Dev: [[See how the Penn Medicine CDH uses Twitter data to understand the COVID-19 health crisis]](https://developer.twitter.com/en/use-cases/success-stories/penn)
 
 
