@@ -10,15 +10,15 @@ author_profile: true
 ### Open Positions 
 We currently have open positions for students currently enrolled at Penn for a COVID-19 contact tracing project for state of Pennsylvania in collaboration with Penn CIS and the [Center for Health Incentives and Behavioral Economics](https://chibe.upenn.edu/). The positions involve building a web-scraper, bash scripting, and basic NLP/ML; and around 10-15 hours/week. Please reach out to me *sharathg [at] cis [dot] upenn [dot] edu* if you're interested!  
 
-# Group
-## Current
+## Group
+### Current
 + Yiling Geng, M.S. (Thesis), UPenn
 + Mohit Kumaraian, M.S. Computer Science, UPenn
 + Zinan Liu, M.S. Systems Engineering, UPenn
 + Harry Wang, M.S. Computer Science, UPenn
 + Grace Jiang, B.S. Computer Science, UPenn 
 
-## Alumni
+### Alumni
 *Graduate students*
 + Mingyang Li, M.S. Data Science (Thesis), UPenn --> Google
 + Shantenu Agarwal, M.S. Bioengineering (Thesis), UPenn -->  Soul Machines
