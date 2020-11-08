@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Group"
+title: "Group/Open Positions"
 permalink: /group/
 author_profile: true
 ---
