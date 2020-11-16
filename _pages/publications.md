@@ -19,6 +19,14 @@ author_profile: true
 
   + **Guntuku S.C.**, Gaulton J., Seltzer E., Asch D.A., Srinivas S., Ungar L.H., Mancheno C., Klinger E.V, Merchant R.M, **_Studying social media language changes associated with pregnancy status, trimester, and parity_**, 2020, Women's Health, [[PDF]](https://chandrasg.github.io/chandrasg.github.io/files/fb_pregnancy_wh.pdf)
 
+  + Santosh, R., Schwartz, H. A., Eichstaedt, J. C., Ungar, L., & **Guntuku, S. C.**, **_Detecting Emerging Symptoms of COVID-19 using Context-based Twitter Embeddings_**. In proceedings of EMNLP 2020 (Empirical Methods in NLP) workshop on COVID-19. [[PDF]](https://arxiv.org/pdf/2011.03983.pdf)
+  
+  + Andy, A. & **Guntuku, S. C.**, **_Does Social Support (Expressed in Post Titles) Elicit Comments in Online Substance Use Recovery Forums?_**. In Proceedings of the Fourth Workshop on Natural Language Processing and Computational Social Science. [[PDF]](https://arxiv.org/pdf/2011.05103.pdf)
+
+  + Zamani, M., Schwartz, H. A., Eichstaedt, J. C., **Guntuku, S. C.**, Ganesan, A. V., Clouston, S., & Giorgi, S. (2020, November). **_Understanding Weekly COVID-19 Concerns through Dynamic Content-Specific LDA Topic Modeling_**. In Proceedings of the Fourth Workshop on Natural Language Processing and Computational Social Science.[[PDF]](https://www.aclweb.org/anthology/2020.nlpcss-1.21/) [[COVID-19 Content-Specific Topics]](https://github.com/wwbp/weekly_covid_lda_topics)
+
+  + van Loon, A., Stewart, S., Waldon, B., Lakshmikanth, S. K., Shah, I., **Guntuku, S. C.**, Sherman, G., Zou, J., & Eichstaedt, J. C. (2020). Explaining the Trump Gap in Social Distancing Using COVID discourse. In proceedings of EMNLP 2020 (Empirical Methods in NLP) workshop on COVID-19. [[PDF]](https://www.aclweb.org/anthology/2020.nlpcovid19-2.10)
+
   + Stokes, D. C., Andy, A., **Guntuku, S. C.**, Ungar, L. H., & Merchant, R. M. (2020). **_Public priorities and concerns regarding covid-19 in an online discussion forum: Longitudinal topic modeling._** Journal of general internal medicine, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217615/pdf/11606_2020_Article_5889.pdf)
     
   + Jaidka, K., **Guntuku, S. C.**, Lee, J. H., Luo, Z., Buffone, A., & Ungar, L. H. (2020). **_The rural–urban stress divide: Obtaining geographical insights through Twitter. Computers in Human Behavior_** [[Link]](https://www.sciencedirect.com/science/article/pii/S0747563220302958) [[Data]](https://osf.io/af8ce/)
