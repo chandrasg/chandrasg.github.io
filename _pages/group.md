@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 ### Open Positions 
-We currently have open positions for students currently enrolled at Penn to work on a COVID-19 contact tracing project for the state of Pennsylvania in collaboration with the [Center for Health Incentives and Behavioral Economics](https://chibe.upenn.edu/). The positions involve building a web-scraper, bash scripting, and basic NLP/ML; and around 10-15 hours/week. Please reach out to me *sharathg [at] cis [dot] upenn [dot] edu* if you're interested!  
+We have open positions for students currently enrolled at Penn to work on a COVID-19 contact tracing project for the state of Pennsylvania in collaboration with the [Center for Health Incentives and Behavioral Economics](https://chibe.upenn.edu/). The positions involve building a web-scraper, bash scripting, and basic NLP/ML; and around 10-15 hours/week. Please reach out to me *sharathg [at] cis [dot] upenn [dot] edu* if you're interested!  
 
 ## Group
 ### Current
