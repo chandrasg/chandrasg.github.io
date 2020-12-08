@@ -21,17 +21,45 @@ Big five personality traits are in this order:
 For more information/questions about the dataset, please contact Sharath Chandra (chandrasg.github.io)
 
 
-If using this data set, please cite the following publication:
+If using this data set, please cite the following publications (as this dataset has been aggregated from multiple sources):
 
 @article{samani2018cross,
-  title={Cross-platform and cross-interaction study of user personality based on images on Twitter and Flickr},
-  author={Samani, Zahra Riahi and Guntuku, Sharath Chandra and Moghaddam, Mohsen Ebrahimi and Preo{\c{t}}iuc-Pietro, Daniel and Ungar, Lyle H},
-  journal={PloS one},
-  volume={13},
-  number={7},
-  pages={e0198660},
-  year={2018},
-  publisher={Public Library of Science}
+title={Cross-platform and cross-interaction study of user personality based on images on Twitter and Flickr},
+author={Samani, Zahra Riahi and Guntuku, Sharath Chandra and Moghaddam, Mohsen Ebrahimi and Preo{\c{t}}iuc-Pietro, Daniel and Ungar, Lyle H},
+journal={PloS one},
+volume={13},
+number={7},
+pages={e0198660},
+year={2018},
+publisher={Public Library of Science}
+}
+
+@inproceedings{guntuku2017studying,
+title={Studying personality through the content of posted and liked images on Twitter},
+author={Guntuku, Sharath Chandra and Lin, Weisi and Carpenter, Jordan and Ng, Wee Keong and Ungar, Lyle H and Preo{\c{t}}iuc-Pietro, Daniel},
+booktitle={Proceedings of the 2017 ACM on web science conference},
+pages={223--227},
+year={2017},
+organization={ACM}
+}
+
+@article{segalin2017pictures,
+title={The pictures we like are our image: continuous mapping of favorite pictures into self-assessed and attributed personality traits},
+author={Segalin, Crisitina and Perina, Alessandro and Cristani, Marco and Vinciarelli, Alessandro},
+journal={IEEE Transactions on Affective Computing},
+volume={8},
+number={2},
+pages={268--285},
+year={2017},
+publisher={IEEE}
+}
+
+@article{guntuku2016likes,
+title={Who likes What, and Why? Insights into Personality Modeling based on ImageLikes'},
+author={Guntuku, Sharath Chandra and Zhou, Joey T and Roy, Sujoy and Weisi, Lin and Tsang, Ivor W},
+journal={IEEE Transactions on Affective Computing},
+year={2016},
+publisher={IEEE}
 }
 
 
