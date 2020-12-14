@@ -1,0 +1,13 @@
+TwitterText dataset used in our paper is shared at the link below (we are unable to share the TwitterSurvey data due to IRB restrictions): 
+https://github.com/chandrasg/chandrasg.github.io/raw/master/files/icwsm_2019_images_dep_anx_data.zip
+
+It contains 3 columns: 
+- twitter_user_id: Twitter userid
+- dep_score: Text-predicted depression score
+- anx_score: Text-predicted anxiety score
+
+Twitter Terms of Service doesn’t allow us to share images. 
+You could use Twitter API to crawl images using the IDs — https://github.com/danielpreotiuc/twitter-collection
+
+Please cite this paper if you use the dataset:
+Guntuku, S. C., Preotiuc-Pietro, D., Eichstaedt, J. C., & Ungar, L. H. (2019, July). What Twitter profile and posted images reveal about depression and anxiety. In Proceedings of the International AAAI Conference on Web and Social Media (Vol. 13, No. 01, pp. 236-246).
