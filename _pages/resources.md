@@ -10,7 +10,7 @@ author_profile: true
 **Datasets**
 
 Mental Health
-+ *Twitter estimates of county-level mental health during COVID-19* [[ongoing state-level dataset (updated daily)]](https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/files/twitter_covid_state_mentalhealth ) ; [[County Dataset]](https://github.com/chandrasg/covid19_mentalhealth_cnty) ; [[Paper]](https://link.springer.com/article/10.1007/s11606-020-05988-8)
++ *Twitter estimates of county-level mental health during COVID-19* [[US state-level dataset (updated daily)]](https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/files/twitter_covid_state_mentalhealth ) ; [[County Dataset]](https://github.com/chandrasg/covid19_mentalhealth_cnty) ; [[Paper]](https://link.springer.com/article/10.1007/s11606-020-05988-8)
 + *Language of ADHD in adults on social media* [[Dataset]](https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/files/twitter_adhd ) [[Paper]](https://wwbp.org/papers/Language_of_ADHD_in_Adults_on_Social_Media.pdf)
 + *What Twitter profile and posted images reveal about depression and anxiety* [[Dataset]](https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/files/twitter_depression_images) [[Paper]](http://wwbp.org/papers/guntuku2019twitter.pdf)
 + Loneliness Lexica: [[Link]](https://github.com/chandrasg/lexica/blob/master/lonely_lex.csv) [[Paper]](http://wwbp.org/papers/guntuku2019studying-loneliness.pdf) 
