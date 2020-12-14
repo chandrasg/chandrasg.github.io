@@ -1,0 +1,25 @@
+Mental health metrics and number of symptom mentions on Twitter are measured daily using pre-trained machine learning models applied to a random 1% Twitter data. 
+
+Data is available here:  https://github.com/gtsherman/covid19-data/blob/master/map-data-upload.csv 
+We update this file everyday. It has data for all states in the United States. 
+
+A part of this dataset is being used by Washington State in their behavioral health reports: 
+https://www.doh.wa.gov/Emergencies/COVID19/HealthcareProviders/BehavioralHealthResources 
+
+Columns in the file:
+`State`
+`Date`
+`# COVID Tweets`: Number of tweets in our dataset containing terms related to COVID-19
+`# Twitter Users`: Number of users tweeting COVID related tweets
+
+Symptoms: Number of tweets containing words related to any of following symptoms (each in a separate column)
+Skin, Body Aches, Fatigue, Flu-like, Seasonal Cold, Trouble Breathing, Nausea or Diarrhea, Loss of Appetite, Fever, Changes in Smell or Taste, Abdominal Pain, Chills, Cough, Headache
+
+Mental health estimates based on random 1% Twitter data: standardized scores compared to January 2020. 
+`Relative Twitter Sentiment`
+`Relative Twitter Loneliness`
+`Relative Twitter Anxiety`
+
+If you use this dataset, please cite the following paper: 
+Guntuku, S. C., Sherman, G., Stokes, D. C., Agarwal, A. K., Seltzer, E., Merchant, R. M., & Ungar, L. H. (2020). Tracking mental health and symptom mentions on Twitter during COVID-19. Journal of general internal medicine, 35(9), 2798-2800.
+
