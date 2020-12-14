@@ -3,8 +3,10 @@ Mental health metrics and number of symptom mentions on Twitter are measured dai
 Data is available here:  https://github.com/gtsherman/covid19-data/blob/master/map-data-upload.csv 
 We update this file everyday. It has data for all states in the United States. 
 
-A part of this dataset is being used by Washington State in their behavioral health reports: 
+A part of this dataset is being used by 
+1/ Washington State in their behavioral health reports: 
 https://www.doh.wa.gov/Emergencies/COVID19/HealthcareProviders/BehavioralHealthResources 
+2/ Penn COVID Twitter map: http://bitly.com/penncovidmap 
 
 Columns in the file:
 `State`
