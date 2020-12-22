@@ -6,7 +6,7 @@ This has two columns:
 `is_adhd_group`: 1 if user self-disclosed ADHD and 0 if user was in the matched control set.
 
 Twitter Terms of Service doesn’t allow us to share images. 
-You could use Twitter API to crawl images using the IDs — https://github.com/danielpreotiuc/twitter-collection
+You could use Twitter API to pull tweets using the IDs — https://github.com/danielpreotiuc/twitter-collection
 
 Please cite this paper if you use the dataset:
 Guntuku, S. C., Ramsay, J. R., Merchant, R. M., & Ungar, L. H. (2019). Language of ADHD in adults on social media. Journal of attention disorders, 23(12), 1475-1485.
