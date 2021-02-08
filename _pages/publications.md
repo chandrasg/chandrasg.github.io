@@ -9,6 +9,12 @@ author_profile: true
 
 {% include base_path %}
 
+#### 2021
+
+  + **Guntuku, S. C.**, Klinger, E. V, McCalphin, H., Ungar, L.H., Asch, D.A., & Merchant, R. M. (2021). **_Social media language of healthcare super-utilizers_**. npj Digital Medicine. 
+
+  + Ojo, A., **Guntuku, S. C.**, Zheng, M., Beidas, R. S., & Ranney, M. L. (2021). **_How Health Care Workers Wield Influence Through Twitter Hashtags: Retrospective Cross-sectional Study of the Gun Violence and COVID-19 Public Health Crises_**. JMIR Public Health and Surveillance, 7(1), e24562. (first and second authors have equal contribution) [[PDF]](https://publichealth.jmir.org/2021/1/e24562/PDF)
+
 #### 2020
 
   + **Guntuku S.C.**, Sherman G., Stokes D.C., Agarwal A., Seltzer E., Merchant R.M, Ungar L.H. **_Tracking mental health and symptom mentions on Twitter during COVID-19_** , 2020 Journal of general internal medicine, [[PDF]](https://t.co/758x30OKDV?amp=1) [[Data]](https://github.com/chandrasg/covid19_mentalhealth_cnty)
