@@ -16,11 +16,11 @@ Education
 ======
 * Ph.D. in Computer Science, Nanyang Technological University, Singapore 2017
     + Thesis: Modeling User Factors in Multimedia Preferences
-    + Advisor: Prof. Weisi Lin
+    + Advisor: Prof. [Weisi Lin](https://scholar.google.com/citations?user=D_S41X4AAAAJ&hl=en)
 
 * B.E. (Hons) in Computer Science, BITS-Pilani, India 2013
     + Thesis: Analysis and Detection of Security and Privacy Threats in P2P Networks using Machine Learning
-    + Advisor: Prof. Chittaranjan Hota
+    + Advisor: Prof. [Chittaranjan Hota](https://www.bits-pilani.ac.in/hyderabad/chittaranjanhota/Profile)
 
 Work experience
 ======
@@ -42,13 +42,9 @@ Work experience
     + Deep Learning Framework for Facial Action Unit Recognition   
     - January 2016 -- June 2016   
   
-Skills
+Funding and Awards
 ======
-* Programming Languages: Python, MATLAB, PHP, HTML, C
-* Tools: Caffe, Pandas, Weka, AutoCAD, Minitab, WireShark
-
-Awards
-======
+* **Google Cloud**: $17,000 USD for various COVID-19 initiatives using social media data
 * **Intel Invent50 Finalist**: Our idea on building personalized tourist hotspot recommender system based on Intel RealSense technology is accepted to the finals.
 * **ACM Multimedia Travel Grant**: Received grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
 * **Nanyang Engineering Doctoral Scholarship**: Given to 6 out of 100+ incoming graduate students at NTU Singapore
@@ -56,11 +52,13 @@ Awards
 Reviewer
 ======
 * JAMA Network
+* Nature Communications
+* PNAS
 * IEEE Transactions on Image Processing, IEEE Transactions on Multimedia
 * EPJ Data Science
 * ACM CSCW
-* IEEE/ACM ASONAM
 * AAAI ICWSM
+* IEEE/ACM ASONAM
 * AMIA
 * Applied Clinical Informatics
 * ICASSP, ICIP
