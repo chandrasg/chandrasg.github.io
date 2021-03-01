@@ -14,16 +14,16 @@ author_profile: true
   + **Guntuku, S. C.**, Klinger, E. V, McCalphin, H., Ungar, L.H., Asch, D.A., & Merchant, R. M. (2021). **_Social media language of healthcare super-utilizers_**. npj Digital Medicine. (in press)
 
   + Andy, A.U., **Guntuku, S.C.**, Adusumalli, S., Asch, D.A., Groeneveld, P.W., Ungar, L.H., Merchant, R.M.
-Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models
+**_Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models_**
 JMIR Cardio 2021;5(1):e24473 [[PDF]](https://cardio.jmir.org/2021/1/e24473/PDF)
 
   + Ojo, A., **Guntuku, S. C.**, Zheng, M., Beidas, R. S., & Ranney, M. L. (2021). **_How Health Care Workers Wield Influence Through Twitter Hashtags: Retrospective Cross-sectional Study of the Gun Violence and COVID-19 Public Health Crises_**. JMIR Public Health and Surveillance, 7(1), e24562. (first and second authors have equal contribution) [[PDF]](https://publichealth.jmir.org/2021/1/e24562/PDF)
 
   + Ortiz R, Southwick L, Schneider R, Klinger EV, Pelullo A, **Guntuku SC**, Merchant RM, Agarwal AK. **_Improving Mood Through Community Connection and Resources Using an Interactive Digital Platform: Development and Usability Study_**, JMIR Ment Health 2021;8(2):e25834, doi: 10.2196/25834 [[PDF]](https://mental.jmir.org/2021/2/e25834/PDF)
 
-  + Mahajan, P., Jakhetiya, V., Abrol, P., Lehana, P., Badri, S., **Guntuku S.C.**, Perceptual Quality Evaluation of Hazy Natural Images, IEEE Transactions of Industrial Informatics, 2021 (in press) 
+  + Mahajan, P., Jakhetiya, V., Abrol, P., Lehana, P., Badri, S., **Guntuku S.C.**, **_Perceptual Quality Evaluation of Hazy Natural Images_**, IEEE Transactions of Industrial Informatics, 2021 (in press) 
 
-  + Andy, A., Chu, B., Fathy, R., Bennett, B., Stokes, D., **Guntuku, S.C.**, Understanding Social Support Expressed in a COVID-19 Online Forum, 12th International Workshop on Health Text Mining and Information Analysis (co-located with EACL 2021)
+  + Andy, A., Chu, B., Fathy, R., Bennett, B., Stokes, D., **Guntuku, S.C.**, **_Understanding Social Support Expressed in a COVID-19 Online Forum_**, 12th International Workshop on Health Text Mining and Information Analysis (co-located with EACL 2021)
 
 #### 2020
 
