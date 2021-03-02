@@ -12,7 +12,7 @@ I am an Assistant Professor (Research) in the Department of Computer and Informa
 
 I develop computational models utilizing large-scale user-generated text, image, and mobile sensor data to answer questions pertaining to geospatial, cross-cultural, and temporal aspects of human behavior. My recent work investigates the manifestation of conditions such as loneliness, ADHD, stress, and depression on social media platforms and the role of heterogeneity in the digital behaviors of individuals across cultures. The resulting [insights](https://chandrasg.github.io/publications/) have the potential to supplement clinical diagnoses, facilitate early and personalized interventions, and improve treatments.
 
-My work has been covered by the American Psychological Association, Canadian Broadcasting Company, The Atlantic, US News, and other [venues](https://chandrasg.github.io/media/).
+My work has been covered by the American Psychological Association, WIRED, Canadian Broadcasting Company, The Atlantic, US News, and other [venues](https://chandrasg.github.io/media/).
 
 ### Affiliations
   + [Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/)
