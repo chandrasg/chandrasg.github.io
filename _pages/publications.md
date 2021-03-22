@@ -13,6 +13,8 @@ author_profile: true
 
   + **Guntuku, S. C.**, Klinger, E. V, McCalphin, H., Ungar, L.H., Asch, D.A., & Merchant, R. M. (2021). **_Social media language of healthcare super-utilizers_**. npj Digital Medicine. (in press)
 
+  + Giorgi, S., **Guntuku, S.C.**, Eichstaedt, J., Schwartz, H., & Ungar, L.H., **_Well-Being Depends on Social Comparison: Hierarchical Models of Twitter Language Suggest That Richer Neighbors Make You Less Happy_**. 2021, ICWSM 
+
   + Andy, A.U., **Guntuku, S.C.**, Adusumalli, S., Asch, D.A., Groeneveld, P.W., Ungar, L.H., Merchant, R.M.
 **_Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models_**
 JMIR Cardio 2021;5(1):e24473 [[PDF]](https://cardio.jmir.org/2021/1/e24473/PDF)
