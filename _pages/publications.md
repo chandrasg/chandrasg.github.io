@@ -15,7 +15,7 @@ author_profile: true
 
   + Giorgi, S., **Guntuku, S.C.**, Eichstaedt, J., Schwartz, H., & Ungar, L.H., **_Well-Being Depends on Social Comparison: Hierarchical Models of Twitter Language Suggest That Richer Neighbors Make You Less Happy_**. 2021, ICWSM 
 
-  + Agarwal, A. K., **Guntuku, S. C.**, Meisel, Z. F., Pelullo, A., Kinkle, B., & Merchant, R. M. (2021). **_Analyzing Online Reviews of Substance Use Disorder Treatment Facilities in the USA Using Machine Learning_**. Journal of General Internal Medicine, 1-4.
+  + Agarwal, A. K., **Guntuku, S. C.**, Meisel, Z. F., Pelullo, A., Kinkle, B., & Merchant, R. M. (2021). **_Analyzing Online Reviews of Substance Use Disorder Treatment Facilities in the USA Using Machine Learning_**. Journal of General Internal Medicine, 1-4. [[Link]](https://link.springer.com/article/10.1007/s11606-021-06618-7)
 
   + Andy, A.U., **Guntuku, S.C.**, Adusumalli, S., Asch, D.A., Groeneveld, P.W., Ungar, L.H., Merchant, R.M.
 **_Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models_**
