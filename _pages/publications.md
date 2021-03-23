@@ -17,9 +17,9 @@ author_profile: true
 
   + Agarwal, A. K., **Guntuku, S. C.**, Meisel, Z. F., Pelullo, A., Kinkle, B., & Merchant, R. M. (2021). **_Analyzing Online Reviews of Substance Use Disorder Treatment Facilities in the USA Using Machine Learning_**. Journal of General Internal Medicine, 1-4. [[Link]](https://link.springer.com/article/10.1007/s11606-021-06618-7)
 
-  + Andy, A.U., **Guntuku, S.C.**, Adusumalli, S., Asch, D.A., Groeneveld, P.W., Ungar, L.H., Merchant, R.M.
-**_Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models_**
-JMIR Cardio 2021;5(1):e24473 [[PDF]](https://cardio.jmir.org/2021/1/e24473/PDF)
+  + Southwick, L., **Guntuku, S.C.**, Klinger, E.V., Pelullo, A., McCalpin, H., Merchant, R.M., **_The role of digital health technologies in COVID-19 surveillance and recovery: A specific case of Long Haulers_**, (in press). International Review of Psychiatry (IIRP) DOI: 10.1080/09540261.2020.1854195.
+
+  + Andy, A.U., **Guntuku, S.C.**, Adusumalli, S., Asch, D.A., Groeneveld, P.W., Ungar, L.H., Merchant, R.M. **_Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models_** JMIR Cardio 2021;5(1):e24473 [[PDF]](https://cardio.jmir.org/2021/1/e24473/PDF)
 
   + Ojo, A., **Guntuku, S. C.**, Zheng, M., Beidas, R. S., & Ranney, M. L. (2021). **_How Health Care Workers Wield Influence Through Twitter Hashtags: Retrospective Cross-sectional Study of the Gun Violence and COVID-19 Public Health Crises_**. JMIR Public Health and Surveillance, 7(1), e24562. (first and second authors have equal contribution) [[PDF]](https://publichealth.jmir.org/2021/1/e24562/PDF)
 
