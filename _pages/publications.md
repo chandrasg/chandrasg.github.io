@@ -11,7 +11,7 @@ author_profile: true
 
 #### 2021
 
-  + **Guntuku, S. C.**, Klinger, E. V, McCalphin, H., Ungar, L.H., Asch, D.A., & Merchant, R. M. (2021). **_Social media language of healthcare super-utilizers_**. npj Digital Medicine. (in press)
+  + **Guntuku, S. C.**, Klinger, E. V, McCalphin, H., Ungar, L.H., Asch, D.A., & Merchant, R. M. (2021). **_Social media language of healthcare super-utilizers_**. npj Digital Medicine. [[PDF]](https://rdcu.be/chyDG)
 
   + Giorgi, S., **Guntuku, S.C.**, Eichstaedt, J., Schwartz, H., & Ungar, L.H., **_Well-Being Depends on Social Comparison: Hierarchical Models of Twitter Language Suggest That Richer Neighbors Make You Less Happy_**. 2021, ICWSM 
 
