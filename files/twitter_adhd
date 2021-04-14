@@ -1,7 +1,6 @@
-The Twitter ADHD dataset used in our paper is shared at the link below
-https://github.com/chandrasg/adhd_twitter_data/blob/master/adhd_labels.csv
+The Twitter ADHD dataset used in our paper is available upon reasonable request. 
 
-This has two columns:
+The dataset has two columns:
 `user_id`: Twitter ID 
 `is_adhd_group`: 1 if user self-disclosed ADHD and 0 if user was in the matched control set.
 
