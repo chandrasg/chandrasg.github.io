@@ -1,7 +1,6 @@
-TwitterText dataset used in our paper is shared at the link below (we are unable to share the TwitterSurvey data due to IRB restrictions): 
-https://github.com/chandrasg/chandrasg.github.io/raw/master/files/icwsm_2019_images_dep_anx_data.zip
+TwitterText dataset used in our paper is available upon reasonable request for research purposes (we are unable to share the TwitterSurvey data due to IRB restrictions).
 
-It contains 3 columns: 
+The dataset contains 3 columns: 
 - twitter_user_id: Twitter userid
 - dep_score: Text-predicted depression score
 - anx_score: Text-predicted anxiety score
