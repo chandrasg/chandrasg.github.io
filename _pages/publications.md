@@ -13,7 +13,11 @@ author_profile: true
 
   + **Guntuku, S. C.**, Klinger, E. V, McCalphin, H., Ungar, L.H., Asch, D.A., & Merchant, R. M. (2021). **_Social media language of healthcare super-utilizers_**. npj Digital Medicine. [[PDF]](https://rdcu.be/chyDG)
 
-  + Giorgi, S., **Guntuku, S.C.**, Eichstaedt, J., Schwartz, H., & Ungar, L.H., **_Well-Being Depends on Social Comparison: Hierarchical Models of Twitter Language Suggest That Richer Neighbors Make You Less Happy_**. 2021, ICWSM 
+  + Giorgi, S., **Guntuku, S.C.**, Eichstaedt, J., Schwartz, H., & Ungar, L.H., **_Well-Being Depends on Social Comparison: Hierarchical Models of Twitter Language Suggest That Richer Neighbors Make You Less Happy_**. 2021, Proceedings of the International AAAI Conference on Web and Social Media (ICWSM) [[PDF]](http://www.salvatoregiorgi.com/publications/giorgi2021hierarchical.pdf) 
+
+  + **Guntuku S.C.**, Purtle J., Meisel Z. F., Merchant R. M., Agarwal A. K., **_Partisan Differences in Twitter Language among United States Legislators during COVID-19: A Cross-Sectional Study_**, (in press), Journal of Medical Internet Research, 2021
+
+  + Chaudhary S., Jakhetiya V., Subudhi B. N., Baid U., **_Guntuku S.C._**, Detecting COVID-19 and Community Acquired Pneumonia using Chest CT scan images with Deep Learning, Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP). Grand Challenge Winner [[Code]](https://github.com/shubhamchaudhary2015/ct_covid19_cap_cnn)
 
   + Agarwal, A. K., **Guntuku, S. C.**, Meisel, Z. F., Pelullo, A., Kinkle, B., & Merchant, R. M. (2021). **_Analyzing Online Reviews of Substance Use Disorder Treatment Facilities in the USA Using Machine Learning_**. Journal of General Internal Medicine, 1-4. [[Link]](https://link.springer.com/article/10.1007/s11606-021-06618-7)
 
@@ -25,7 +29,7 @@ author_profile: true
 
   + Ortiz R, Southwick L, Schneider R, Klinger EV, Pelullo A, **Guntuku SC**, Merchant RM, Agarwal AK. **_Improving Mood Through Community Connection and Resources Using an Interactive Digital Platform: Development and Usability Study_**, JMIR Ment Health 2021;8(2):e25834, doi: 10.2196/25834 [[PDF]](https://mental.jmir.org/2021/2/e25834/PDF)
 
-  + Mahajan, P., Jakhetiya, V., Abrol, P., Lehana, P., Badri, S., **Guntuku S.C.**, **_Perceptual Quality Evaluation of Hazy Natural Images_**, IEEE Transactions of Industrial Informatics, 2021 (in press) 
+  + Mahajan, P., Jakhetiya, V., Abrol, P., Lehana, P., Badri, S., **Guntuku S.C.**, **_Perceptual Quality Evaluation of Hazy Natural Images_**, IEEE Transactions of Industrial Informatics, (in press) 2021  
 
   + Andy, A., Chu, B., Fathy, R., Bennett, B., Stokes, D., **Guntuku, S.C.**, **_Understanding Social Support Expressed in a COVID-19 Online Forum_**, 12th International Workshop on Health Text Mining and Information Analysis (co-located with EACL 2021)
 
