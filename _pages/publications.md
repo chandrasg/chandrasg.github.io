@@ -11,17 +11,19 @@ author_profile: true
 
 #### 2021
 
+  + **Guntuku, S. C.**, Buttenheim, A. M., Sherman, G., & Merchant, R. M. (2021). **_Twitter discourse reveals geographical and temporal variation in concerns about COVID-19 Vaccines in the United States_**. Vaccine. [[Link]](https://www.sciencedirect.com/science/article/pii/S0264410X21007386) [[Data]](https://github.com/wwbp/covid_vaccine_lda_topics)
+
   + **Guntuku, S. C.**, Klinger, E. V, McCalphin, H., Ungar, L.H., Asch, D.A., & Merchant, R. M. (2021). **_Social media language of healthcare super-utilizers_**. npj Digital Medicine. [[PDF]](https://rdcu.be/chyDG)
 
-  + Giorgi, S., **Guntuku, S.C.**, Eichstaedt, J., Schwartz, H., & Ungar, L.H., **_Well-Being Depends on Social Comparison: Hierarchical Models of Twitter Language Suggest That Richer Neighbors Make You Less Happy_**. 2021, Proceedings of the International AAAI Conference on Web and Social Media (ICWSM) [[PDF]](http://www.salvatoregiorgi.com/publications/giorgi2021hierarchical.pdf) 
+  + Giorgi, S., **Guntuku, S.C.**, Eichstaedt, J., Schwartz, H., & Ungar, L.H., **_Well-Being Depends on Social Comparison: Hierarchical Models of Twitter Language Suggest That Richer Neighbors Make You Less Happy_**. 2021, Proceedings of the International AAAI Conference on Web and Social Media (ICWSM) [[PDF]](http://www.salvatoregiorgi.com/publications/giorgi2021hierarchical.pdf) [[Data]](https://github.com/wwbp/lexica/tree/master/happiness)
 
-  + **Guntuku S.C.**, Purtle J., Meisel Z. F., Merchant R. M., Agarwal A. K., **_Partisan Differences in Twitter Language among United States Legislators during COVID-19: A Cross-Sectional Study_**, (in press), Journal of Medical Internet Research, 2021
+  + **Guntuku S.C.**, Purtle J., Meisel Z. F., Merchant R. M., Agarwal A. K., **_Partisan Differences in Twitter Language among United States Legislators during COVID-19: A Cross-Sectional Study_**, (2021), Journal of Medical Internet Research, 2021 [[PDF]](https://www.jmir.org/2021/6/e27300/PDF) 
 
-  + Chaudhary S., Jakhetiya V., Subudhi B. N., Baid U., **_Guntuku S.C._**, Detecting COVID-19 and Community Acquired Pneumonia using Chest CT scan images with Deep Learning, Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP). Grand Challenge Winner [[Code]](https://github.com/shubhamchaudhary2015/ct_covid19_cap_cnn)
+  + Chaudhary S., Jakhetiya V., Subudhi B. N., Baid U., **_Guntuku S.C._**, Detecting COVID-19 and Community Acquired Pneumonia using Chest CT scan images with Deep Learning, Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP). Grand Challenge Runner-up [[PDF]](https://arxiv.org/pdf/2104.05121) [[Code]](https://github.com/shubhamchaudhary2015/ct_covid19_cap_cnn)
 
   + Agarwal, A. K., **Guntuku, S. C.**, Meisel, Z. F., Pelullo, A., Kinkle, B., & Merchant, R. M. (2021). **_Analyzing Online Reviews of Substance Use Disorder Treatment Facilities in the USA Using Machine Learning_**. Journal of General Internal Medicine, 1-4. [[Link]](https://link.springer.com/article/10.1007/s11606-021-06618-7)
 
-  + Southwick, L., **Guntuku, S.C.**, Klinger, E.V., Pelullo, A., McCalpin, H., Merchant, R.M., **_The role of digital health technologies in COVID-19 surveillance and recovery: A specific case of Long Haulers_**, (in press). International Review of Psychiatry (IIRP) DOI: 10.1080/09540261.2020.1854195.
+  + Southwick, L., **Guntuku, S.C.**, Klinger, E.V., Pelullo, A., McCalpin, H., Merchant, R.M., **_The role of digital health technologies in COVID-19 surveillance and recovery: A specific case of Long Haulers_**, (2021). International Review of Psychiatry (IIRP) DOI: 10.1080/09540261.2020.1854195. [[Link]](https://www.tandfonline.com/doi/abs/10.1080/09540261.2020.1854195)
 
   + Andy, A.U., **Guntuku, S.C.**, Adusumalli, S., Asch, D.A., Groeneveld, P.W., Ungar, L.H., Merchant, R.M. **_Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models_** JMIR Cardio 2021;5(1):e24473 [[PDF]](https://cardio.jmir.org/2021/1/e24473/PDF)
 
@@ -31,7 +33,7 @@ author_profile: true
 
   + Mahajan, P., Jakhetiya, V., Abrol, P., Lehana, P., Badri, S., **Guntuku S.C.**, **_Perceptual Quality Evaluation of Hazy Natural Images_**, IEEE Transactions of Industrial Informatics, (in press) 2021  
 
-  + Andy, A., Chu, B., Fathy, R., Bennett, B., Stokes, D., **Guntuku, S.C.**, **_Understanding Social Support Expressed in a COVID-19 Online Forum_**, 12th International Workshop on Health Text Mining and Information Analysis (co-located with EACL 2021)
+  + Andy, A., Chu, B., Fathy, R., Bennett, B., Stokes, D., & **Guntuku, S. C.** (2021, April). Understanding Social Support Expressed in a COVID-19 Online Forum. In Proceedings of the 12th International Workshop on Health Text Mining and Information Analysis (pp. 19-27). [[PDF]](https://www.aclweb.org/anthology/2021.louhi-1.3.pdf)
 
 #### 2020
 
