@@ -12,7 +12,6 @@ We do not have any open positions at this point.
 
 ## Group
 ### Current
-+ Yiling Geng, M.S. (Thesis), UPenn
 + Karan Wanchoo, M.S. (Thesis), UPenn
 + Jai Thirani, B.S. Computer Science, (Thesis) UPenn 
 + Jeffrey (Young-Min) Cho, M.S. DATS, UPenn
@@ -26,6 +25,7 @@ We do not have any open positions at this point.
 *Graduate students*
 + Mingyang Li, M.S. Data Science (Thesis), UPenn --> Google
 + Mohit Kumaraian, M.S. Computer Science, UPenn
++ Yiling Geng, M.S. (Thesis), UPenn --> PhD Student (Hebrew University of Jerusalem)
 + Yuchen Zhang, M.S. Data Science, UPenn 
 + Shantenu Agarwal, M.S. Bioengineering (Thesis), UPenn -->  Soul Machines
 + Agrima Seth, M.S. Computer Science (Thesis), UPenn --> Morgan Stanley 
