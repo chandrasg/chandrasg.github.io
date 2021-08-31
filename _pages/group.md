@@ -14,9 +14,13 @@ We have multiple RA positions available (for undergrad and graduate students) in
 ### Current
 + Ashley Francisco, Ph.D. Student in CIS UPenn
 + Karan Wanchoo, M.S. (Thesis), UPenn
++ Sukanya Joshi, M.S. Data Science, UPenn
++ Shivani Reddy, M.S. CIS, UPenn
 + Jeffrey (Young-Min) Cho, M.S. DATS, UPenn
 + Yuchen Zhang, M.S. Data Science, UPenn 
++ Harry Wang, M.S. Computer Science, UPenn
 + Jackie Peng, M.S. Data Science, UPenn 
++ Juhi Mittal, Visiting Student from BITS-Pilani
 + Arnav Aggarwal, B.S. Jerome Fisher Program in Management and Technology, UPenn
 
 ### Alumni
@@ -29,7 +33,6 @@ We have multiple RA positions available (for undergrad and graduate students) in
 + Roshan Santosh, M.S. Data Science, UPenn --> Facebook
 + Swathi Rajanna, M.S. Computer Science, UPenn --> Microsoft
 + Yogitha Chilukuri, M.S. Computer Science, UPenn --> Adobe
-+ Harry Wang, M.S. Computer Science, UPenn
 + Xiang Cui, M.S. Computer Science, UPenn
 + Zeshen, M.S. Computer Science, UPenn
 
