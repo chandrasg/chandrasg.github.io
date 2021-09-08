@@ -63,7 +63,7 @@ author_profile: true
 
 #### 2019
 
-  + **Guntuku S.C.**, Schneider R.C, Pelullo A., Young J.F, Wong V., Ungar L.H, Polsky D., Volpp K., Merchant R.M., **_Characterizing and Measuring Expressions of Loneliness in Individuals using Twitter_**, BMJ Open, [[PDF]](https://bmjopen.bmj.com/content/bmjopen/9/11/e030355.full.pdf) [[Loneliness Lexica]](https://github.com/chandrasg/lexica)
+  + **Guntuku S.C.**, Schneider R.C, Pelullo A., Young J.F, Wong V., Ungar L.H, Polsky D., Volpp K., Merchant R.M., **_Studying expressions of loneliness in individuals using twitter: an observational study_**, BMJ Open, [[PDF]](https://bmjopen.bmj.com/content/bmjopen/9/11/e030355.full.pdf) [[Loneliness Lexica]](https://github.com/chandrasg/lexica)
 
   + **Guntuku, S. C.**, Preoţiuc-Pietro, D., Eichstaedt, J. C & Ungar, L. H. **_What Twitter Profile and Posted Images Reveal about Depression and Anxiety_**, 2019, ICWSM [[PDF]](http://wwbp.org/papers/guntuku2019twitter.pdf)   [[Data]](https://raw.githubusercontent.com/chandrasg/chandrasg.github.io/master/files/twitter_depression_images)
 
