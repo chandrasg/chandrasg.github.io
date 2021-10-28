@@ -11,7 +11,13 @@ author_profile: true
 
 #### 2021
 
+  + Eichstaedt, J. C., Sherman, G. T., Giorgi, S., Roberts, S. O., Reynolds, M. E., Ungar, L. H., & **Guntuku, S. C.** (2021). **_The emotional and mental health impact of the murder of George Floyd on the US population_**. Proceedings of the National Academy of Sciences, 118(39). [[Link]](https://www.pnas.org/content/118/39/e2109139118.short)
+
   + **Guntuku, S. C.**, Buttenheim, A. M., Sherman, G., & Merchant, R. M. (2021). **_Twitter discourse reveals geographical and temporal variation in concerns about COVID-19 Vaccines in the United States_**. Vaccine. [[Link]](https://www.sciencedirect.com/science/article/pii/S0264410X21007386) [[Data]](https://github.com/wwbp/covid_vaccine_lda_topics)
+
+  + Cui, J., Zhang, T., Pang, D., Jaidka, K., Sherman, G., Jakhetiya, V., Ungar, L. H., **Guntuku, S. C.** (2021). **_Social Media Reveals Urban-Rural Differences in Stress across China_**. Proceedings of the International AAAI Conference on Web and Social Media (ICWSM) [[Preprint]](https://psyarxiv.com/g3tud/download)
+
+  + Southwick, L., **Guntuku, S. C.**, Klinger, E. V., Seltzer, E., McCalpin, H. J., & Merchant, R. M. (2021). **_Characterizing COVID-19 Content Posted to TikTok: Public Sentiment and Response During the First Phase of the COVID-19 Pandemic_**. Journal of Adolescent Health. [[Link]](https://www.sciencedirect.com/science/article/pii/S1054139X21002421)
 
   + **Guntuku, S. C.**, Klinger, E. V, McCalphin, H., Ungar, L.H., Asch, D.A., & Merchant, R. M. (2021). **_Social media language of healthcare super-utilizers_**. npj Digital Medicine. [[PDF]](https://rdcu.be/chyDG)
 
