@@ -11,11 +11,11 @@ author_profile: true
 
 #### 2021
 
-  + Eichstaedt, J. C., Sherman, G. T., Giorgi, S., Roberts, S. O., Reynolds, M. E., Ungar, L. H., & **Guntuku, S. C.** (2021). **_The emotional and mental health impact of the murder of George Floyd on the US population_**. Proceedings of the National Academy of Sciences, 118(39). [[Link]](https://www.pnas.org/content/118/39/e2109139118.short)
+  + Eichstaedt, J. C., Sherman, G. T., Giorgi, S., Roberts, S. O., Reynolds, M. E., Ungar, L. H., & **Guntuku, S. C.** (2021). **_The emotional and mental health impact of the murder of George Floyd on the US population_**. Proceedings of the National Academy of Sciences, 118(39). [[Link]](https://www.pnas.org/content/118/39/e2109139118.short) [[Data]](https://osf.io/ytsae)
 
   + **Guntuku, S. C.**, Buttenheim, A. M., Sherman, G., & Merchant, R. M. (2021). **_Twitter discourse reveals geographical and temporal variation in concerns about COVID-19 Vaccines in the United States_**. Vaccine. [[Link]](https://www.sciencedirect.com/science/article/pii/S0264410X21007386) [[Data]](https://github.com/wwbp/covid_vaccine_lda_topics)
 
-  + Cui, J., Zhang, T., Pang, D., Jaidka, K., Sherman, G., Jakhetiya, V., Ungar, L. H., **Guntuku, S. C.** (2021). **_Social Media Reveals Urban-Rural Differences in Stress across China_**. Proceedings of the International AAAI Conference on Web and Social Media (ICWSM) [[Preprint]](https://psyarxiv.com/g3tud/download)
+  + Cui, J., Zhang, T., Pang, D., Jaidka, K., Sherman, G., Jakhetiya, V., Ungar, L. H., **Guntuku, S. C.** (2021). **_Social Media Reveals Urban-Rural Differences in Stress across China_**. Proceedings of the International AAAI Conference on Web and Social Media (ICWSM) [[Preprint]](https://psyarxiv.com/g3tud/download) [[Data]](https://github.com/jessecui/WWBP-China-Urban-Rural-Stress)
 
   + Southwick, L., **Guntuku, S. C.**, Klinger, E. V., Seltzer, E., McCalpin, H. J., & Merchant, R. M. (2021). **_Characterizing COVID-19 Content Posted to TikTok: Public Sentiment and Response During the First Phase of the COVID-19 Pandemic_**. Journal of Adolescent Health. [[Link]](https://www.sciencedirect.com/science/article/pii/S1054139X21002421)
 
@@ -25,7 +25,7 @@ author_profile: true
 
   + **Guntuku S.C.**, Purtle J., Meisel Z. F., Merchant R. M., Agarwal A. K., **_Partisan Differences in Twitter Language among United States Legislators during COVID-19: A Cross-Sectional Study_**, (2021), Journal of Medical Internet Research, 2021 [[PDF]](https://www.jmir.org/2021/6/e27300/PDF) 
 
-  + Chaudhary S., Jakhetiya V., Subudhi B. N., Baid U., **_Guntuku S.C._**, Detecting COVID-19 and Community Acquired Pneumonia using Chest CT scan images with Deep Learning, Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP). Grand Challenge Runner-up [[PDF]](https://arxiv.org/pdf/2104.05121) [[Code]](https://github.com/shubhamchaudhary2015/ct_covid19_cap_cnn)
+  + Chaudhary S., Jakhetiya V., Subudhi B. N., Baid U., **_Guntuku S.C._**, **_Detecting COVID-19 and Community Acquired Pneumonia using Chest CT scan images with Deep Learning_**, Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP). Grand Challenge Runner-up [[PDF]](https://arxiv.org/pdf/2104.05121) [[Code]](https://github.com/shubhamchaudhary2015/ct_covid19_cap_cnn)
 
   + Agarwal, A. K., **Guntuku, S. C.**, Meisel, Z. F., Pelullo, A., Kinkle, B., & Merchant, R. M. (2021). **_Analyzing Online Reviews of Substance Use Disorder Treatment Facilities in the USA Using Machine Learning_**. Journal of General Internal Medicine, 1-4. [[Link]](https://link.springer.com/article/10.1007/s11606-021-06618-7)
 
@@ -39,7 +39,7 @@ author_profile: true
 
   + Mahajan, P., Jakhetiya, V., Abrol, P., Lehana, P., Badri, S., **Guntuku S.C.**, **_Perceptual Quality Evaluation of Hazy Natural Images_**, IEEE Transactions of Industrial Informatics, (in press) 2021  
 
-  + Andy, A., Chu, B., Fathy, R., Bennett, B., Stokes, D., & **Guntuku, S. C.** (2021, April). Understanding Social Support Expressed in a COVID-19 Online Forum. In Proceedings of the 12th International Workshop on Health Text Mining and Information Analysis (pp. 19-27). [[PDF]](https://www.aclweb.org/anthology/2021.louhi-1.3.pdf)
+  + Andy, A., Chu, B., Fathy, R., Bennett, B., Stokes, D., & **Guntuku, S. C.** (2021, April). **_Understanding Social Support Expressed in a COVID-19 Online Forum_**. In Proceedings of the 12th International Workshop on Health Text Mining and Information Analysis (pp. 19-27). [[PDF]](https://www.aclweb.org/anthology/2021.louhi-1.3.pdf)
 
 #### 2020
 
@@ -57,7 +57,7 @@ author_profile: true
 
   + Zamani, M., Schwartz, H. A., Eichstaedt, J. C., **Guntuku, S. C.**, Ganesan, A. V., Clouston, S., & Giorgi, S. (2020, November). **_Understanding Weekly COVID-19 Concerns through Dynamic Content-Specific LDA Topic Modeling_**. In Proceedings of the Fourth Workshop on Natural Language Processing and Computational Social Science.[[PDF]](https://www.aclweb.org/anthology/2020.nlpcss-1.21/) [[COVID-19 Content-Specific Topics]](https://github.com/wwbp/weekly_covid_lda_topics)
 
-  + van Loon, A., Stewart, S., Waldon, B., Lakshmikanth, S. K., Shah, I., **Guntuku, S. C.**, Sherman, G., Zou, J., & Eichstaedt, J. C. (2020). Explaining the Trump Gap in Social Distancing Using COVID discourse. In proceedings of EMNLP 2020 (Empirical Methods in NLP) workshop on COVID-19. [[PDF]](https://www.aclweb.org/anthology/2020.nlpcovid19-2.10)
+  + van Loon, A., Stewart, S., Waldon, B., Lakshmikanth, S. K., Shah, I., **Guntuku, S. C.**, Sherman, G., Zou, J., & Eichstaedt, J. C. (2020). **_Explaining the Trump Gap in Social Distancing Using COVID discourse_**. In proceedings of EMNLP 2020 (Empirical Methods in NLP) workshop on COVID-19. [[PDF]](https://www.aclweb.org/anthology/2020.nlpcovid19-2.10)
 
   + Stokes, D. C., Andy, A., **Guntuku, S. C.**, Ungar, L. H., & Merchant, R. M. (2020). **_Public priorities and concerns regarding covid-19 in an online discussion forum: Longitudinal topic modeling._** Journal of general internal medicine, [[PDF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217615/pdf/11606_2020_Article_5889.pdf)
     
