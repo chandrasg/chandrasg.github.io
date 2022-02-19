@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[//]: # (Here's a <u><a href="https://chandrasg.github.io/chandrasg.github.io/files/CV_SCG.pdf">PDF</a>.</u>)
+(Here's a <u><a href="https://chandrasg.github.io/chandrasg.github.io/files/short_CV_Sharath.pdf">PDF</a>.</u>)
 
 
 Education
@@ -27,6 +27,8 @@ Work experience
 * Assistant Professor (Research), **University of Pennsylvania**.
     + Computer and Information Science
     - May 2020 -- present
+* Senior Fellow, **Leonard Davis Institute of Health Economics**.
+    - June 2020 -- present
 * Research Scientist, **University of Pennsylvania**.
     + at [Centre for Digital Health](http://centerfordigitalhealth.upenn.edu/)
     - September 2018 -- present
@@ -44,6 +46,12 @@ Work experience
   
 Funding and Awards
 ======
+* **World Bank Group**: $49,309; Role: Principal Investigator (PI)
+* **Global Engagement Fund - India**: $94,534; Role: PI)
+* **Penn Medical Communication Pilot Grant**: $50,000; Role: co-PI)
+* **Penn University Research Fund** $49,951; Role: PI)
+* **National Institutes of Health** $73,862; Role: Co-Investigator (Co-I); PI: Elizabeth Alpern)
+* **Penn China Research and Engagement Fund** $100,000; Role: Co-PI; PI: Ungar)
 * **Google Cloud**: $17,000 USD for various COVID-19 initiatives using social media data
 * **Intel Invent50 Finalist**: Our idea on building personalized tourist hotspot recommender system based on Intel RealSense technology is accepted to the finals.
 * **ACM Multimedia Travel Grant**: Received grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
