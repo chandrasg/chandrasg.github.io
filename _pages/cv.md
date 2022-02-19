@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-(Here's a <u><a href="https://chandrasg.github.io/chandrasg.github.io/files/short_CV_Sharath.pdf">PDF</a>.</u>)
+(Here's a <u><a href="https://github.com/chandrasg/chandrasg.github.io/blob/d585b96d227f070dca7bddc0d6a3013103332bc0/files/short_CV_Sharath.pdf">PDF</a>.</u>)
 
 
 Education
