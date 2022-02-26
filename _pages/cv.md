@@ -44,15 +44,18 @@ Work experience
     + Deep Learning Framework for Facial Action Unit Recognition   
     - January 2016 -- June 2016   
   
-Funding and Awards
+Funding
 ======
-* **World Bank Group**: $49,309; Role: Principal Investigator (PI)
-* **Global Engagement Fund - India**: $94,534; Role: PI)
-* **Penn Medical Communication Pilot Grant**: $50,000; Role: co-PI)
-* **Penn University Research Fund** $49,951; Role: PI)
-* **National Institutes of Health** $73,862; Role: Co-Investigator (Co-I); PI: Elizabeth Alpern)
-* **Penn China Research and Engagement Fund** $100,000; Role: Co-PI; PI: Ungar)
-* **Google Cloud**: $17,000 USD for various COVID-19 initiatives using social media data
+* **World Bank Group**
+* **Global Engagement Fund - India**
+* **Penn Medical Communication Pilot Grant**
+* **Penn University Research Fund** 
+* **National Institutes of Health** -- NIMH, NIDA, NHLBI
+* **Penn China Research and Engagement Fund** 
+* **Google Cloud**: 
+
+Awards
+======
 * **Intel Invent50 Finalist**: Our idea on building personalized tourist hotspot recommender system based on Intel RealSense technology is accepted to the finals.
 * **ACM Multimedia Travel Grant**: Received grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
 * **Nanyang Engineering Doctoral Scholarship**: Given to 6 out of 100+ incoming graduate students at NTU Singapore
