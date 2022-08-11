@@ -5,6 +5,10 @@ permalink: /talks/
 author_profile: true
 ---
 
++ **_Computational Social Listening During COVID-19 Using Social Media_**, United Nations Development Program, New York, 2022
+
++ **_Panel: India in the 21st Century_**, Perry World House, Philadelphia, 2022
+
 + **_User Generated Content: Opportunities for Health Care_**, Computer and Information Science Spring Colloquium, University of Pennsylvania, February, 2020
 
 + **_Promise, challenges, and risks of digital data in mental health research and care_**, AMIA Annual Symposium, November, 2019 (Panel Chair)
