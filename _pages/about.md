@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor (Research) in the Department of Computer and Information Science at the University of Pennsylvania. My research focuses on building predictive models for and uncovering insight into health outcomes and psychological states of individuals and communities. The goal of this research is to supplement clinical diagnoses and facilitate early and personalized interventions for improving treatments and well-being. 
+I am an Assistant Professor in the research-track in the Department of Computer and Information Science at the University of Pennsylvania. My research focuses on building predictive models for and uncovering insight into health outcomes and psychological states of individuals and communities. The goal of this research is to supplement clinical diagnoses and facilitate early and personalized interventions for improving treatments and well-being. 
 
 I develop computational models utilizing large-scale user-generated text, image, and mobile sensor data to answer questions pertaining to geospatial, cross-cultural, and temporal aspects of human behavior. My recent work investigates the manifestation of conditions such as loneliness, ADHD, stress, and depression on social media platforms and the role of heterogeneity in the digital behaviors of individuals across cultures. 
 
