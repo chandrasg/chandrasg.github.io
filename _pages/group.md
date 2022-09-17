@@ -20,6 +20,7 @@ We also have multiple RA positions available for undergrad and graduate students
 + Ashley Francisco, Ph.D student, UPenn
 + Jeffrey (Young-Min) Cho, Data Scientist, UPenn
 + Sukanya Joshi, M.S. Computer Science, UPenn
++ David Anh, M.S. Data Science, UPenn
 + Arnav Agarwal, B.S. Computer Science, UPenn (Wharton SPUR)
 + Devansh Jain, B.S. Computer Science, BITS-Pilani (Visiting Student)
 
