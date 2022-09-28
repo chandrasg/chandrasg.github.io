@@ -14,7 +14,7 @@ I develop computational models utilizing large-scale user-generated text, image,
 
 My work has been covered by the American Psychological Association, WIRED, Canadian Broadcasting Company, The Atlantic, US News, and other [venues](https://chandrasg.github.io/media/).
 
-The National Institutes of Health [[details]](https://reporter.nih.gov/search/CRBV3uic3EKmagTeRM-y9w/project-details/10630593), World Bank Group, and Penn Global [[details]](https://blog.seas.upenn.edu/sharath-guntuku-receives-penn-global-grant-to-continue-vaccine-attitudes-research-in-india/) have graciously funded our work. 
+We are grateful to the National Institutes of Health [[details]](https://reporter.nih.gov/search/CRBV3uic3EKmagTeRM-y9w/project-details/10630593), World Bank Group, and Penn Global [[details]](https://blog.seas.upenn.edu/sharath-guntuku-receives-penn-global-grant-to-continue-vaccine-attitudes-research-in-india/) for funding our work. 
 
 ### Affiliations
   + [Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/)
