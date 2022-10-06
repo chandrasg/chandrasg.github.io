@@ -5,6 +5,8 @@ permalink: /talks/
 author_profile: true
 ---
 
++ **_Panel: Finding the missing pieces_**, Conference on Missingness in Action, Stanford University, 2022
+
 + **_Computational Social Listening During COVID-19 Using Social Media_**, United Nations Development Program, New York, 2022
 
 + **_Panel: India in the 21st Century_**, Perry World House, Philadelphia, 2022
