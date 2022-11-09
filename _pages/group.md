@@ -18,11 +18,12 @@ We have multiple RA positions available for undergrad and graduate students alre
 ## Group
 + Sunny Rai, Postdocotoral Researcher, UPenn
 + Ashley Francisco, Ph.D student, UPenn
++ Shreya Havaldar, Ph.D student, UPenn
 + Jeffrey (Young-Min) Cho, Data Scientist, UPenn
 + Sukanya Joshi, M.S. Computer Science, UPenn
-+ David Ahn, M.S. Data Science, UPenn
 + Arnav Agarwal, B.S. Computer Science, UPenn (Wharton SPUR)
 + Devansh Jain, B.S. Computer Science, BITS-Pilani (Visiting Student)
++ Shubham Innani, B.S. Computer Science (Visiting Student)
 
 ## Alumni
 ### Graduate students
