@@ -7,7 +7,7 @@ ACM Web Science, 2017
 
 For more information/questions about the dataset, please contact Sharath Chandra (chandrasg.github.io)
 
-The file contains twitter user id, self-reported age, gender and their text-predicted personality trait scores 
+The file contains twitter user id and their text-predicted personality trait scores 
 (ope: openness, con: conscientiousness, ext: extraversion, agr: agreeableness, and neu: neuroticism)
 
 If using this data set, please cite the following publication:
