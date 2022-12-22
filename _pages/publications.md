@@ -5,9 +5,21 @@ permalink: /publications/
 author_profile: true
 ---
 
-  You can also find my articles on <u><a href="https://scholar.google.co.in/citations?hl=en&user=76_hrfUAAAAJ&view_op=list_works&sortby=pubdate">my Google Scholar profile</a>.</u>
+  While I try to update this regularly, <u><a href="https://scholar.google.co.in/citations?hl=en&user=76_hrfUAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar profile</a>.</u> does a better job of compiling my most recent articles.
 
 {% include base_path %}
+
+#### 2022
+
++ Liu, T., Ungar, L. H., Curtis, B., Sherman, G., Yadeta, K., Tay, L., ... & Guntuku, S. C. (2022). Head versus heart: social media reveals differential language of loneliness from depression. npj Mental Health Research, 1(1), 1-8.
++ Southwick, L., Francisco, A., Bradley, M., Klinger, E., & Guntuku, S. C (2022). Characterizing Responses to COVID-19 Vaccine Promotion on TikTok. American Journal of Health Promotion, 08901171221141974.
++ Andy, A., Sherman, G., & Guntuku, S. C. (2022). Understanding the expression of loneliness on Twitter across age groups and genders. Plos ONE, 17(9), e0273636.
++ Merchant, R.M., Southwick, L., Beidas, R., Mandell, D.S., Guntuku, S.C., Pelullo, A., Yang, L., Mitra, N., Curtis, B., Ungar, L., & Asch, D., (2022) Effect of Integrating Patient-Generated Digital Data Into Mental Health Therapy: A Randomized Controlled Trial. Psychiatric Services
++ Dixon, E. L., Joshi, S. M., Ferrell, W., Volpp, K. G., Merchant, R. M., & Guntuku, S. C. (2022). COVID-19 contact tracing app reviews reveal concerns and motivations around adoption. PloS ONE, 17(9), e0273222.
++ Seltzer, E. K., Guntuku, S. C., Lanza, A. L., Tufts, C., Srinivas, S. K., Klinger, E. V., ... & Merchant, R. M. (2022). Patient Experience and Satisfaction in Online Reviews of Obstetric Care: Observational Study. JMIR Formative Research, 6(3), e28379.
++ Agarwal, A. K., Guntuku, S. C., Meisel, Z. F., Pelullo, A., Kinkle, B., & Merchant, R. M. (2022). Analyzing Online Reviews of Substance Use Disorder Treatment Facilities in the USA Using Machine Learning. Journal of General Internal Medicine, 37(4), 977-980.
++ Jakhetiya, V., Chaudhary, S., Subudhi, B. N., Lin, W., & Guntuku, S. C. (2022). Perceptually Unimportant Information Reduction and Cosine Similarity-Based Quality Assessment of 3D-Synthesized Images. IEEE Transactions on Image Processing, 31, 2027-2039.
++ Jakhetiya, V., Mumtaz, D., Subudhi, B. N., & Guntuku, S. C. (2022). Stretching artifacts identification for quality assessment of 3D-synthesized views. IEEE Transactions on Image Processing, 31, 1737-1750.
 
 #### 2021
 
