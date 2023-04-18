@@ -5,6 +5,8 @@ permalink: /group/
 author_profile: true
 ---
 
+Please see the [Computational Social Listening Lab](https://csl-lab-upenn.github.io/) for more details on our group. 
+
 {% include base_path %}
 
 ### Open Positions 
