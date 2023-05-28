@@ -23,25 +23,31 @@ We have multiple RA positions available for undergrad and graduate students alre
 
 ## Group
 + Sunny Rai, Postdocotoral Researcher, UPenn
-+ Ashley Francisco, Ph.D student, UPenn
++ Leo Thorbecke, Project Manager, UPenn
 + Shreya Havaldar, Ph.D student, UPenn
-+ Jeffrey (Young-Min) Cho, Data Scientist, UPenn
-+ Sukanya Joshi, M.S. Computer Science, UPenn
++ Jeffrey (Young-Min) Cho, PhD student, UPenn
++ Neil Sehgal, PhD student, UPenn
++ Chunlu Li, M.S. Data Science, UPenn
++ Saurabh Raut, M.S. Computer Science, UPenn
++ Bhairavi Muralidharan, M.S. Computer Science, UPenn
++ Aman Kumar, M.S. Computer Science, UPenn
++ Reyhan Jamalova, B.S. Computer Science, UPenn (Rachleff Scholar)
 + Arnav Agarwal, B.S. Computer Science, UPenn (Wharton SPUR)
++ Emily Liu, B.S. Economics, UPenn
 + Khushi Shelat, B.S. Economics, UPenn
-+ Devansh Jain, B.S. Computer Science, BITS-Pilani (Visiting Student)
 + Shubham Innani, B.S. Computer Science (Visiting Student)
 
 ## Alumni
 ### Graduate students
 + Yiling Geng, M.S. E.E. (Thesis), UPenn (UPenn Master's Academic Award) --> PhD (Hebrew University of Jerusalem)
 + Jackie Peng, M.S. Data Science, UPenn (Hon. Mention UPenn Master's Research Award) --> PhD (UPenn)
-+ Karan Wanchoo, M.S. E.E. (Thesis), UPenn (UPenn Master's Research Award) --> McKinsey \& Co.
++ Karan Wanchoo, M.S. E.E. (Thesis), UPenn (Outstanding Master's Research Award) --> McKinsey \& Co.
++ Sukanya Joshi, M.S. Computer Science, UPenn (Outstanding Master's Research Award)
 + Shantenu Agarwal, M.S. Bioengineering (Thesis), UPenn –> Soul Machines
 + Mingyang Li, M.S. Data Science (Thesis), UPenn –> Google -> Ebay
 + Agrima Seth, M.S. Computer Science (Thesis), UPenn –> Morgan Stanley -> PhD (UMich)
 + Harry Wang, M.S. Computer Science, UPenn --> Roku 
-+ Juhi Mittal, M.Sc. Economics, BITS-Pilani (Visiting Student)
++ Ashley Francisco, M.S. Computer Science, UPenn
 + Shivani Reddy, M.S. Computer Science, UPenn
 + Yuchen Zhang, M.S. Data Science, UPenn
 + Mohit Kumaraian, M.S. Computer Science, UPenn
@@ -54,6 +60,8 @@ We have multiple RA positions available for undergrad and graduate students alre
 
 ### Undergraduate students
 
++ Juhi Mittal, B.S. Computer Science, BITS-Pilani (Visiting Student)
++ Devansh Jain, B.S. Computer Science, BITS-Pilani (Visiting Student)
 + Jesse Cui, B.S. Computer Science, UPenn –> Facebook
 + Jai Thirani, B.A.S Computer Science, (Thesis) UPenn --> YCombinator (TAKT)
 + Margaret Zheng, B.S. Computer Science, UPenn –> Facebook
