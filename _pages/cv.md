@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-(Here's a <u><a href="https://sharathg.cis.upenn.edu//files/CV_Sharath_Chandra.pdf">PDF</a>.</u>)
+(Here's a <u><a href="https://sharathg.cis.upenn.edu//files/CV_Sharath_Guntuku.pdf">PDF</a>.</u>)
 
 
 Education
