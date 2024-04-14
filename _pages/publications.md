@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-  While I try to update this regularly, <u><a href="https://scholar.google.co.in/citations?hl=en&user=76_hrfUAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar profile</a>.</u> does a better job of compiling my most recent articles.
+  While I try to update this ~~regularly~~ (no longer true!), <u><a href="https://scholar.google.co.in/citations?hl=en&user=76_hrfUAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar profile</a>.</u> does a better job of compiling my most recent articles.
 
 {% include base_path %}
 
