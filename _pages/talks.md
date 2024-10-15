@@ -5,6 +5,23 @@ permalink: /talks/
 author_profile: true
 ---
 
++ **_Studying Mental Health Using Big Data and Artificial Intelligence_**, Chiba University, Japan, 2024
+
++ **_Promises & Perils of AI: Mitigating Bias, Exploring Opportunities and Achieving Fairness_**, Meijin-Samvad, Indian Institute of Management (IIM) - Bengaluru, 2024
+
++ **_Bowling Alone: Frontiers in Loneliness Research_**, Population Aging Research Center at Penn, 2024 
+
++ **_Racial Heterogeneity in Language Markers of Depression_**, TADA Journal Club, Emory University, 2024
+
++ **_Computational Social Listening during for Public Health_**, Keynote, Amity University Confluence, 2024
+
++ **_Computational Social Listening during for Public Health_**, Biomedical Data Science Seminar, Institute of Biomedical Informatics (IBI), 2023
+
++ **_Computational Social Listening for Public Health_**, Center for Safe, Explainable, and Trustworthy AI, 2023
+
++ **_Computational Social Listening during for Public Health using Social Media_**, Microsoft Research India, Trustworthy AI Workshop, Bengaluru, 2023
+
+
 + **_Panel: Finding the missing pieces_**, Conference on Missingness in Action, Stanford University, 2022
 
 + **_Computational Social Listening During COVID-19 Using Social Media_**, United Nations Development Program, New York, 2022
