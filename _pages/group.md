@@ -24,21 +24,17 @@ We have multiple RA positions available for undergrad and graduate students alre
 ## Group
 + Sunny Rai, Postdocotoral Researcher, UPenn
 + Leo Thorbecke, Project Manager, UPenn
-+ Shreya Havaldar, Ph.D student, UPenn
 + Jeffrey (Young-Min) Cho, PhD student, UPenn
 + Neil Sehgal, PhD student, UPenn
++ Keyush Shah, M.S. Computer Science, UPenn
++ Reyhan Jamalova, B.S. Computer Science, UPenn (Rachleff Scholar)
+  
+## Alumni
+### Graduate students
 + Chunlu Li, M.S. Data Science, UPenn
 + Saurabh Raut, M.S. Computer Science, UPenn
 + Bhairavi Muralidharan, M.S. Computer Science, UPenn
 + Aman Kumar, M.S. Computer Science, UPenn
-+ Reyhan Jamalova, B.S. Computer Science, UPenn (Rachleff Scholar)
-+ Arnav Agarwal, B.S. Computer Science, UPenn (Wharton SPUR)
-+ Emily Liu, B.S. Economics, UPenn
-+ Khushi Shelat, B.S. Economics, UPenn
-+ Shubham Innani, B.S. Computer Science (Visiting Student)
-
-## Alumni
-### Graduate students
 + Yiling Geng, M.S. E.E. (Thesis), UPenn (UPenn Master's Academic Award) --> PhD (Hebrew University of Jerusalem)
 + Jackie Peng, M.S. Data Science, UPenn (Hon. Mention UPenn Master's Research Award) --> PhD (UPenn)
 + Karan Wanchoo, M.S. E.E. (Thesis), UPenn (Outstanding Master's Research Award) --> McKinsey \& Co.
@@ -60,6 +56,10 @@ We have multiple RA positions available for undergrad and graduate students alre
 
 ### Undergraduate students
 
++ Arnav Agarwal, B.S. Computer Science, UPenn (Wharton SPUR)
++ Emily Liu, B.S. Economics, UPenn
++ Khushi Shelat, B.S. Economics, UPenn
++ Shubham Innani, B.S. Computer Science (Visiting Student)
 + Juhi Mittal, B.S. Computer Science, BITS-Pilani (Visiting Student)
 + Devansh Jain, B.S. Computer Science, BITS-Pilani (Visiting Student)
 + Jesse Cui, B.S. Computer Science, UPenn –> Facebook
