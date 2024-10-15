@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-(Here's a <u><a href="https://sharathg.cis.upenn.edu//files/CV_Sharath_Guntuku.pdf">PDF</a>.</u>)
+(Here's a <u><a href="https://docs.google.com/document/d/e/2PACX-1vTgQW1NbAe2GkEKhrHxm30hj-vSML7yVRsFlPTHNra7O2ywSf8luWmRnzmCEEqRPCQN-h--_gazgZ5q/pub">full CV</a>.</u>)
 
 
 Education
@@ -46,18 +46,20 @@ Work experience
   
 Funding
 ======
+* **National Institutes of Health** -- NIMH, NIDA, NHLBI
 * **World Bank Group**
 * **Global Engagement Fund - India**
 * **Penn Medical Communication Pilot Grant**
 * **Penn University Research Fund** 
-* **National Institutes of Health** -- NIMH, NIDA, NHLBI
 * **Penn China Research and Engagement Fund** 
-* **Google Cloud**: 
+* **Google Cloud** 
 
-Awards
+Honors / Awards
 ======
-* **Intel Invent50 Finalist**: Our idea on building personalized tourist hotspot recommender system based on Intel RealSense technology is accepted to the finals.
-* **ACM Multimedia Travel Grant**: Received grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
+* Appointed Member to the National Advisory Council on Minority Health and Health Disparities (NACMHD) Working Group to Review the Division of Community Health and Population Science (DCHPS). 
+* Best Reviewer Award, AAAI ICWSM 2022
+* **Intel Invent50 Finalist**: Personalized tourist hotspot recommender system based on Intel RealSense technology.
+* **ACM Multimedia Travel Grant**: Travel grant from ACM to attend Multimedia 2015 Conference in Brisbane, Australia for presenting our works on a) investigating the influence of personality on multimedia quality and enjoyment; and b) automatic personality modeling based on users' selfies
 * **Nanyang Engineering Doctoral Scholarship**: Given to 6 out of 100+ incoming graduate students at NTU Singapore
 
 Reviewer
