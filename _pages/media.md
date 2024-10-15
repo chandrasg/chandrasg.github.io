@@ -7,6 +7,8 @@ author_profile: true
 
 This is a selected list of press coverage on my research (`sort by date desc`):
 
++ Thomson Reuters: [[AI fails to detect depression signs in social media posts by Black Americans, study finds]](https://www.reuters.com/business/healthcare-pharmaceuticals/ai-fails-detect-depression-signs-social-media-posts-by-black-americans-study-2024-03-28/)
+
 + WIRED: [[An AI Used Facebook Data to Predict Mental Illness]](https://www.wired.com/story/an-ai-used-facebook-data-to-predict-mental-illness/)
 
 + The Atlantic: [[What Your Facebook Posts Say About Your Mental Health]](https://www.theatlantic.com/health/archive/2019/11/what-your-tweets-say-about-your-mood/601510/)
