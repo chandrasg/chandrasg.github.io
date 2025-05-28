@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Sharath Chandra Guntuku is an Assistant Professor in the research-track in the Department of Computer and Information Science at the University of Pennsylvania. He directs the [Computational Social Listening Lab](https://csl-lab-upenn.github.io/). His group focuses on building predictive models and conversational agents for and uncovering insight into health outcomes and psychological states of individuals and communities. This research aims to supplement clinical diagnoses and facilitate early and personalized interventions for improving treatments and well-being. 
+Sharath Chandra Guntuku is an Associate Professor in the research-track in the Department of Computer and Information Science at the University of Pennsylvania. He directs the [Computational Social Listening Lab](https://csl-lab-upenn.github.io/). His group focuses on building predictive models and conversational agents for and uncovering insight into health outcomes and psychological states of individuals and communities. This research aims to supplement clinical diagnoses and facilitate early and personalized interventions for improving treatments and well-being. 
 
 He develops computational models utilizing large-scale user-generated text, image, and mobile sensor data to answer questions pertaining to geospatial, cross-cultural, and temporal aspects of human behavior. His recent work investigates the manifestation of conditions such as loneliness, stress, and depression on social media platforms and the role of heterogeneity in the digital behaviors of individuals across cultures. 
 
