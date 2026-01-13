@@ -24,9 +24,13 @@ Education
 
 Work experience
 ======
+* Associate Professor (Research), **University of Pennsylvania**.
+    + Computer and Information Science
+    + Annenberg School of Communication
+    - July 2025 -- now
 * Assistant Professor (Research), **University of Pennsylvania**.
     + Computer and Information Science
-    - May 2020 -- present
+    - May 2020 -- June 2025
 * Senior Fellow, **Leonard Davis Institute of Health Economics**.
     - June 2020 -- present
 * Research Scientist, **University of Pennsylvania**.
