@@ -5,6 +5,16 @@ permalink: /talks/
 author_profile: true
 ---
 
++ **_Culturally Aware Conversational Agents for Health_**, Microsoft Research India, 2026
+
++ **_Mapping Gender Norms in Global Media — Using AI to Turn Evidence into Advocacy_**, Impact Guild, 2025
+
++ **_Entertaining Change, Next-Generation Media Partnerships for Social Impact and Gender Equality_**, World Bank Group, Nigeria, 2025
+
++ **_Using Social Media to Understand Mental Health of Individuals and Communities_**, Howard University, 2025
+
++ **_Computational Social Listening for Public Health_**, NORC at the University of Chicago, 2024
+
 + **_Studying Mental Health Using Big Data and Artificial Intelligence_**, Chiba University, Japan, 2024
 
 + **_Promises & Perils of AI: Mitigating Bias, Exploring Opportunities and Achieving Fairness_**, Meijin-Samvad, Indian Institute of Management (IIM) - Bengaluru, 2024
