@@ -31,7 +31,7 @@ His research is at the intersection of **artificial intelligence, public health 
 
 He develops **natural language processing and machine learning** methods to monitor and predict health-related behaviors, assess mental health at individual and population levels, stratify risk across diverse populations, and design scalable, culturally informed interventions, including conversational agents for health behavior change.
 
-This interdisciplinary research agenda is supported by over **$5.1 million USD** in external funding and has led to publications in *PNAS*, *JAMA Network Open*, and *npj Digital Medicine*, with applications ranging from clinical decision support to real-time public health surveillance, implemented with partners including state Departments of Health and the World Bank Group.
+This interdisciplinary research agenda is supported by over **$5.1 million USD** in external funding and has led to publications in *PNAS*, *JAMA Network Open*, *npj Digital Medicine*, *ACL/EMNLP/NAACL (\*CL)*, *AAAI ICWSM*, and *ACM CHI*, with applications ranging from clinical decision support to real-time public health surveillance, implemented with partners including state Departments of Health and the World Bank Group.
 
 His work has been covered by the [American Psychological Association](https://www.apa.org/), [WIRED](https://www.wired.com/), [The Atlantic](https://www.theatlantic.com/), [Thomson Reuters](https://www.reuters.com/), [US News](https://www.usnews.com/), and other [media venues](/media/).
 
