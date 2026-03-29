@@ -1,6 +1,4 @@
 cv:
-  name: Sharath Chandra Guntuku
-
   sections:
     Experience:
       - position: Associate Professor (Research)
@@ -42,27 +40,30 @@ cv:
         end_date: "2013"
 
     Grants & Funding:
-      - bullet: "**NIH NIMH R01** — Racial/Ethnic Disparities in NLP-based Depression Detection (2023–2028)"
-      - bullet: "**NIH NIDA** — Social Media Signals for Opioid Use Disorder Surveillance (2022–2027)"
-      - bullet: "**NIH NHLBI** — Digital Biomarkers for Cardiovascular Risk in Diverse Populations (2021–2026)"
-      - bullet: "**World Bank Group** — AI for Gender Norm Analysis in Global Media (2024–2026)"
-      - bullet: "**Penn University Research Fund** (2020–2021)"
-      - bullet: "**Penn China Research and Engagement Fund** (2021–2022)"
-      - bullet: "**Global Engagement Fund – India** (2022–2023)"
-      - bullet: "**Penn Medical Communication Pilot Grant** (2019–2020)"
-      - bullet: "**Google Cloud Research Credits** (2020–2023)"
+      - bullet: "Total external funding as PI: **$5.1M+**"
+      - bullet: "**World Bank Group** — Mapping Gender Norms in Global Entertainment Media, PI ($494,960, 2025–2027)"
+      - bullet: "**NSF** — BioFoundry: AI-Driven RNA BioFoundry, co-I ($24M total, 2024–2030)"
+      - bullet: "**CDC** — Mobilizing Social Media for Violence Prevention, co-I (2024–2026)"
+      - bullet: "**Penn Global** — Conversational Voicebots to Enhance English Learning for Indian Students, co-PI ($110,000, 2024–2026)"
+      - bullet: "**Global Engagement Fund** — Clinical Multimodal Integration for Glioblastoma, co-PI ($128,000, 2024–2026)"
+      - bullet: "**NIH NIMHD** — COVID-19 Misinformation in Black and Rural Communities, PI ($3.9M, 2022–2025)"
+      - bullet: "**NIH NHLBI** — Mentoring and Patient-Oriented Research in Cardiovascular Health, co-I (2021–2025)"
+      - bullet: "**World Bank Group** — Computational Social Listening for Crisis Informatics, PI ($49,309, 2021–2024)"
+      - bullet: "**Global Engagement Fund – India** — Vaccine Attitudes in India, PI ($94,534, 2022–2025)"
+      - bullet: "**Penn University Research Fund** — Computational Social Listening for Vaccine Hesitancy, PI ($50,000, 2022–2023)"
 
     Honors & Awards:
-      - bullet: Member, National Advisory Council on Minority Health and Health Disparities (NACMHD), NIH
+      - bullet: Appointed Member, NACMHD Working Group (NIH National Advisory Council on Minority Health and Health Disparities)
+      - bullet: Alien of Extraordinary Ability (EB-1A), USCIS — granted for sustained national/international acclaim in health informatics and AI
       - bullet: Best Reviewer Award, AAAI ICWSM 2022
-      - bullet: Intel Invent50 Finalist
-      - bullet: ACM Multimedia Travel Grant
-      - bullet: Nanyang Engineering Doctoral Scholarship
+      - bullet: Intel Invent50 Finalist (top 5 of 150 teams), 2015
+      - bullet: Nanyang Engineering Doctoral Research Award, 2013
 
     Service:
-      - bullet: "**Area Chair / SPC:** ACL 2024, EMNLP 2023–2024, AAAI ICWSM 2022–2025, ACM WebSci 2022–2024"
+      - bullet: "**Area Chair:** EMNLP 2024 (Health & Medicine, Industry Track), AAAI ICWSM 2022–2025, ACM WebSci 2022–2024"
+      - bullet: "**Associate Editor:** Nature Scientific Reports · ACM Transactions on Computing for Healthcare · Frontiers in Psychology · Frontiers in Digital Health"
       - bullet: "**Program Committee:** ACL, EMNLP, NAACL, AAAI, WWW, ACM CSCW, ACM CHI"
-      - bullet: "**Reviewer:** Nature Digital Medicine, JAMA Network Open, PNAS, Journal of Medical Internet Research, Social Science & Medicine"
+      - bullet: "**Reviewer:** PNAS, JAMA Network Open, Nature Communications, IEEE Trans. Affective Computing, Journal of Medical Internet Research"
       - bullet: "**Grant Panels:** NIH, NSF"
 
     Affiliations:
