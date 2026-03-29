@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-For the most current list, see my <u><a href="https://scholar.google.com/citations?hl=en&user=76_hrfUAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar profile</a></u>.
-
 <em>Publications are auto-updated from Google Scholar.</em>
 
 ---
