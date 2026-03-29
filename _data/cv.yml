@@ -3,113 +3,76 @@ cv:
   email: sharathg@cis.upenn.edu
 
   sections:
-    - title: Education
-      type: time_table
-      contents:
-        - title: Ph.D. in Computer Science
-          institution: Nanyang Technological University, Singapore
-          year: 2017
-          description:
-            - "Thesis: Modeling User Factors in Multimedia Preferences"
-            - "Advisor: Prof. Roger Zimmermann"
-        - title: B.E. (Hons) in Computer Science
-          institution: BITS-Pilani, India
-          year: 2013
+    Experience:
+      - position: Associate Professor (Research)
+        name: University of Pennsylvania
+        start_date: "2025"
+        end_date: "present"
+        highlights:
+          - Department of Computer and Information Science
+          - Annenberg School of Communication (secondary appointment)
+      - position: Assistant Professor (Research)
+        name: University of Pennsylvania
+        start_date: "2020"
+        end_date: "2025"
+        highlights:
+          - Department of Computer and Information Science
+      - position: Senior Fellow
+        name: Leonard Davis Institute of Health Economics
+        start_date: "2020"
+        end_date: "present"
+      - position: Research Scientist
+        name: Penn Medicine Center for Digital Health
+        start_date: "2018"
+        end_date: "present"
+      - position: Postdoctoral Researcher
+        name: University of Pennsylvania
+        start_date: "2017"
+        end_date: "2018"
+        highlights:
+          - World Well-Being Project & Center for Digital Health
 
-    - title: Experience
-      type: time_table
-      contents:
-        - title: Associate Professor (Research)
-          institution: University of Pennsylvania
-          year: 2025–present
-          description:
-            - Department of Computer and Information Science
-            - Annenberg School of Communication (secondary appointment)
-        - title: Assistant Professor (Research)
-          institution: University of Pennsylvania
-          year: 2020–2025
-          description:
-            - Department of Computer and Information Science
-        - title: Senior Fellow
-          institution: Leonard Davis Institute of Health Economics, UPenn
-          year: 2020–present
-        - title: Research Scientist
-          institution: Penn Medicine Center for Digital Health
-          year: 2018–present
-        - title: Postdoctoral Researcher
-          institution: University of Pennsylvania
-          year: 2017–2018
-          description:
-            - World Well-Being Project & Center for Digital Health
+    Education:
+      - studyType: Ph.D. in Computer Science
+        institution: Nanyang Technological University, Singapore
+        end_date: "2017"
+        highlights:
+          - "Thesis: Modeling User Factors in Multimedia Preferences"
+      - studyType: B.E. (Hons) in Computer Science
+        institution: BITS-Pilani, India
+        end_date: "2013"
 
-    - title: Grants & Funding
-      type: time_table
-      contents:
-        - title: "NIH NIMH R01: Racial/Ethnic Disparities in NLP-based Depression Detection"
-          year: 2023–2028
-          institution: National Institute of Mental Health
-        - title: "NIH NIDA: Social Media Signals for Opioid Use Disorder Surveillance"
-          year: 2022–2027
-          institution: National Institute on Drug Abuse
-        - title: "NIH NHLBI: Digital Biomarkers for Cardiovascular Risk in Diverse Populations"
-          year: 2021–2026
-          institution: National Heart, Lung, and Blood Institute
-        - title: "World Bank Group: AI for Gender Norm Analysis in Global Media"
-          year: 2024–2026
-          institution: World Bank
-        - title: "Penn University Research Fund"
-          year: 2020–2021
-          institution: University of Pennsylvania
-        - title: "Penn China Research and Engagement Fund"
-          year: 2021–2022
-          institution: University of Pennsylvania
-        - title: "Global Engagement Fund – India"
-          year: 2022–2023
-          institution: University of Pennsylvania
-        - title: "Penn Medical Communication Pilot Grant"
-          year: 2019–2020
-          institution: Penn Medicine
-        - title: "Google Cloud Research Credits"
-          year: 2020–2023
-          institution: Google
+    Grants & Funding:
+      - bullet: "**NIH NIMH R01** — Racial/Ethnic Disparities in NLP-based Depression Detection (2023–2028)"
+      - bullet: "**NIH NIDA** — Social Media Signals for Opioid Use Disorder Surveillance (2022–2027)"
+      - bullet: "**NIH NHLBI** — Digital Biomarkers for Cardiovascular Risk in Diverse Populations (2021–2026)"
+      - bullet: "**World Bank Group** — AI for Gender Norm Analysis in Global Media (2024–2026)"
+      - bullet: "**Penn University Research Fund** (2020–2021)"
+      - bullet: "**Penn China Research and Engagement Fund** (2021–2022)"
+      - bullet: "**Global Engagement Fund – India** (2022–2023)"
+      - bullet: "**Penn Medical Communication Pilot Grant** (2019–2020)"
+      - bullet: "**Google Cloud Research Credits** (2020–2023)"
 
-    - title: Selected Publications
-      type: list
-      contents:
-        - "<a href='https://www.pnas.org/doi/10.1073/pnas.2109139118'>The emotional and mental health impact of the murder of George Floyd on the US population.</a> <em>PNAS</em>, 2021."
-        - "<a href='https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2810419'>Racial and ethnic disparities in the performance of NLP models for depression detection.</a> <em>JAMA Network Open</em>, 2024."
-        - "<a href='https://www.nature.com/articles/s41746-019-0134-9'>Detecting depression and mental illness on social media.</a> <em>npj Digital Medicine</em>, 2019."
-        - "See full list on <a href='https://scholar.google.com/citations?user=76_hrfUAAAAJ'>Google Scholar</a>."
+    Honors & Awards:
+      - bullet: Member, National Advisory Council on Minority Health and Health Disparities (NACMHD), NIH
+      - bullet: Best Reviewer Award, AAAI ICWSM 2022
+      - bullet: Intel Invent50 Finalist
+      - bullet: ACM Multimedia Travel Grant
+      - bullet: Nanyang Engineering Doctoral Scholarship
 
-    - title: Honors & Awards
-      type: list
-      contents:
-        - "Member, National Advisory Council on Minority Health and Health Disparities (NACMHD), NIH"
-        - "Best Reviewer Award, AAAI ICWSM 2022"
-        - "Intel Invent50 Finalist"
-        - "ACM Multimedia Travel Grant"
-        - "Nanyang Engineering Doctoral Scholarship"
+    Service:
+      - bullet: "**Area Chair / SPC:** ACL 2024, EMNLP 2023–2024, AAAI ICWSM 2022–2025, ACM WebSci 2022–2024"
+      - bullet: "**Program Committee:** ACL, EMNLP, NAACL, AAAI, WWW, ACM CSCW, ACM CHI"
+      - bullet: "**Reviewer:** Nature Digital Medicine, JAMA Network Open, PNAS, Journal of Medical Internet Research, Social Science & Medicine"
+      - bullet: "**Grant Panels:** NIH, NSF"
 
-    - title: Service
-      type: list
-      contents:
-        - "<strong>Area Chair / Senior Program Committee:</strong> ACL 2024, EMNLP 2023–2024, AAAI ICWSM 2022–2025, ACM WebSci 2022–2024"
-        - "<strong>Program Committee:</strong> ACL, EMNLP, NAACL, AAAI, WWW, ACM CSCW, ACM CHI"
-        - "<strong>Associate Editor / Reviewer:</strong> Nature Digital Medicine, JAMA Network Open, PNAS, Journal of Medical Internet Research, Social Science & Medicine"
-        - "<strong>Grant Review Panels:</strong> NIH, NSF"
+    Mentoring:
+      - bullet: "**Ph.D. Students (current):** Sunny Rai, Dandan Pang, Neil Sehgal"
+      - bullet: "**Courses:** CIS 5300 Natural Language Processing (UPenn); Health Informatics (UPenn)"
 
-    - title: Mentoring & Teaching
-      type: list
-      contents:
-        - "<strong>Ph.D. Students (current):</strong> Sunny Rai, Dandan Pang, Neil Sehgal, Reyhan Stat (Research Analyst)"
-        - "<strong>Courses taught:</strong> CIS 5300 Natural Language Processing (UPenn), Health Informatics (UPenn)"
-        - "Guest lecturer at Penn Medicine, Annenberg School, and Wharton"
-
-    - title: Affiliations
-      type: list
-      contents:
-        - "<a href='https://ldi.upenn.edu/'>Leonard Davis Institute of Health Economics</a>"
-        - "<a href='https://centerfordigitalhealth.upenn.edu/'>Penn Medicine Center for Digital Health</a>"
-        - "<a href='https://www.wwbp.org/'>World Well-Being Project / Positive Psychology Center</a>"
-        - "<a href='https://priml.upenn.edu/'>Penn Research in Machine Learning (PRiML)</a>"
-        - "<a href='https://csl-lab-upenn.github.io/'>Computational Social Listening Lab</a>"
+    Affiliations:
+      - bullet: "[Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/)"
+      - bullet: "[Penn Medicine Center for Digital Health](https://centerfordigitalhealth.upenn.edu/)"
+      - bullet: "[World Well-Being Project / Positive Psychology Center](https://www.wwbp.org/)"
+      - bullet: "[Penn Research in Machine Learning (PRiML)](https://priml.upenn.edu/)"
+      - bullet: "[Computational Social Listening Lab](https://csl-lab-upenn.github.io/)"
