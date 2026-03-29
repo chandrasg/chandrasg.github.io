@@ -13,7 +13,7 @@ profile:
   image: sharath.jpg
   image_circular: true
   more_info: >
-    <p>Levine Hall, 3330 Walnut St</p>
+    <p>Amy Guttman Hall, 3317 Chestnut St</p>
     <p>Philadelphia, PA 19104</p>
 
 selected_papers: false
