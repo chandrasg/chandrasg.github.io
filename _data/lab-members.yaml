@@ -9,9 +9,6 @@
 - name: Neil Sehgal
   role: PhD Student
   image: https://csl-lab-upenn.github.io/images/NeilSehgal.jpeg
-- name: Shreya Havaldar
-  role: PhD Student
-  image: https://csl-lab-upenn.github.io/images/ShreyaHavaldar.jpg
 - name: Jeffrey Cho
   role: PhD Student
   image: https://csl-lab-upenn.github.io/images/YoungMinCho.jpg
@@ -22,5 +19,5 @@
   role: Master's Student
   image: https://csl-lab-upenn.github.io/images/YuanYuan.jpg
 - name: Reyhan Jamalova
-  role: Undergraduate Researcher
+  role: Research Analyst
   image: https://csl-lab-upenn.github.io/images/ReyhanJamalova.jpg
