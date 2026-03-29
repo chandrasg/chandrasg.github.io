@@ -326,16 +326,7 @@
     cursor: pointer;
   }
 
-  // Bibtex block
-  .bibtex.hidden {
-    display: none;
-    margin-top: 0.5rem;
-  }
-
-  .bibtex.hidden.open {
-    display: block;
-  }
-
+  // Bibtex block — uses max-height animation from _publications.scss
   .bibtex {
     pre, code {
       font-size: 0.75rem;
@@ -401,6 +392,16 @@ a {
  * Responsive refinements
  * --------------------------------------------------------------------------- */
 
+// Prevent any element from causing horizontal overflow
+* {
+  max-width: 100%;
+}
+
+img, video, iframe, embed, object {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 768px) {
   .post-content > ul > li {
     font-size: 0.92rem;
@@ -413,5 +414,67 @@ a {
       padding: 5px 12px;
       font-size: 0.8rem;
     }
+  }
+
+  // Pub entries: tighten spacing on small screens
+  .pub-entry {
+    padding: 0.75rem 0;
+
+    .pub-title {
+      font-size: 0.93rem;
+    }
+
+    .pub-authors,
+    .pub-venue {
+      font-size: 0.82rem;
+    }
+  }
+
+  // CV cards: ensure table doesn't overflow
+  .table-cv {
+    table-layout: fixed;
+    word-break: break-word;
+
+    td {
+      word-break: break-word;
+    }
+  }
+
+  // Projects cards: single column on mobile
+  .projects .row {
+    .col-sm-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  // Lab member grid: 2 columns on mobile
+  .lab-members .col-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  // Theme header: always stack on mobile
+  .theme-header {
+    flex-direction: column;
+    gap: 0.75rem;
+
+    img {
+      width: 100%;
+      height: 120px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  // Tighter page padding on very small screens
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  // Social icons: smaller on very small screens
+  .social a {
+    font-size: 1.1rem;
   }
 }
