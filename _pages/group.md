@@ -18,47 +18,12 @@ Visit our **[lab website](https://csl-lab-upenn.github.io/)** for the latest on 
 ### Current Members
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 20px 0;">
-
+{% for member in site.data.lab-members %}
 <div style="text-align: center; width: 140px;">
-<img src="https://csl-lab-upenn.github.io/images/SunnyRai.jpeg" alt="Sunny Rai" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>Sunny Rai</strong><br><small>Postdoctoral Researcher</small>
+<img src="{{ member.image }}" alt="{{ member.name }}" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+<br><strong>{{ member.name }}</strong><br><small>{{ member.role }}</small>
 </div>
-
-<div style="text-align: center; width: 140px;">
-<img src="https://csl-lab-upenn.github.io/images/VivienneChi.jpeg" alt="Vivienne Chi" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>Vivienne Chi</strong><br><small>Postdoctoral Researcher</small>
-</div>
-
-<div style="text-align: center; width: 140px;">
-<img src="https://csl-lab-upenn.github.io/images/NeilSehgal.jpeg" alt="Neil Sehgal" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>Neil Sehgal</strong><br><small>PhD Student</small>
-</div>
-
-<div style="text-align: center; width: 140px;">
-<img src="https://csl-lab-upenn.github.io/images/ShreyaHavaldar.jpg" alt="Shreya Havaldar" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>Shreya Havaldar</strong><br><small>PhD Student</small>
-</div>
-
-<div style="text-align: center; width: 140px;">
-<img src="https://csl-lab-upenn.github.io/images/YoungMinCho.jpg" alt="Young Min (Jeffrey) Cho" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>Jeffrey Cho</strong><br><small>PhD Student</small>
-</div>
-
-<div style="text-align: center; width: 140px;">
-<img src="https://csl-lab-upenn.github.io/images/NaomiLynch.png" alt="Naomi Lynch" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>Naomi Lynch</strong><br><small>Master's Student</small>
-</div>
-
-<div style="text-align: center; width: 140px;">
-<img src="https://csl-lab-upenn.github.io/images/YuanYuan.jpg" alt="Yuan Yuan" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>Yuan Yuan</strong><br><small>Master's Student</small>
-</div>
-
-<div style="text-align: center; width: 140px;">
-<img src="https://csl-lab-upenn.github.io/images/ReyhanJamalova.jpg" alt="Reyhan Jamalova" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>Reyhan Jamalova</strong><br><small>Undergraduate Researcher</small>
-</div>
-
+{% endfor %}
 </div>
 
 ---

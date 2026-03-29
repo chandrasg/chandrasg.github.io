@@ -1,0 +1,73 @@
+name: sync-lab-members
+run-name: sync lab members from CSL website
+
+on:
+  schedule:
+    # weekly on Monday at 01:00 UTC (after citation update)
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml requests beautifulsoup4
+
+      - name: Fetch lab members from CSL website
+        run: |
+          python3 << 'SCRIPT'
+          import yaml, requests
+          from bs4 import BeautifulSoup
+
+          LAB_URL = "https://csl-lab-upenn.github.io/team/"
+          BASE = "https://csl-lab-upenn.github.io"
+
+          resp = requests.get(LAB_URL, timeout=30)
+          soup = BeautifulSoup(resp.text, "html.parser")
+
+          members = []
+          # Find all member cards/sections with images
+          for card in soup.select("[class*='member'], [class*='card'], [class*='person'], [class*='team']"):
+              img = card.find("img")
+              texts = [t.get_text(strip=True) for t in card.find_all(["h4","h3","h5","strong","b","p","span","small"]) if t.get_text(strip=True)]
+              if img and len(texts) >= 2:
+                  name = texts[0]
+                  role = texts[1]
+                  if "Investigator" in role or "Principal" in role:
+                      continue
+                  src = img.get("src","")
+                  if src.startswith("/"):
+                      src = BASE + src
+                  members.append({"name": name, "role": role, "image": src})
+
+          if members:
+              with open("_data/lab-members.yaml", "w") as f:
+                  f.write("# DO NOT EDIT, GENERATED AUTOMATICALLY FROM CSL LAB WEBSITE\n\n")
+                  yaml.dump(members, f, default_flow_style=False, sort_keys=False)
+              print(f"Updated {len(members)} lab members")
+          else:
+              print("No members found, keeping existing file")
+          SCRIPT
+
+      - name: Check if lab members changed
+        id: changed
+        uses: tj-actions/verify-changed-files@v13
+        with:
+          files: _data/lab-members.yaml
+
+      - name: Commit updated lab members
+        if: steps.changed.outputs.files_changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update lab members from CSL website"
