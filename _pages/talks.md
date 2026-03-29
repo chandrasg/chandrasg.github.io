@@ -66,5 +66,3 @@ author_profile: true
 
 + **_Modeling the Influence of Personality and Culture on Affect and Enjoyment in Multimedia_**, Affective Computing and Intelligent Interaction, Xian China, Sept, 2015 [[Slides]](https://chandrasg.github.io/files/ACII_MM_PPT.pdf)
 
-  
-

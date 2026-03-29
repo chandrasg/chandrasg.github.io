@@ -7,11 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-[//]: # (Here's a <u><a href="https://docs.google.com/document/d/e/2PACX-1vTgQW1NbAe2GkEKhrHxm30hj-vSML7yVRsFlPTHNra7O2ywSf8luWmRnzmCEEqRPCQN-h--_gazgZ5q/pub">full CV</a>.</u>)
-
-
 Education
 ======
 * Ph.D. in Computer Science, Nanyang Technological University, Singapore 2017

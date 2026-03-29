@@ -5,8 +5,6 @@ permalink: /group/
 author_profile: true
 ---
 
-{% include base_path %}
-
 ## Computational Social Listening Lab
 
 The **[Computational Social Listening Lab](https://csl-lab-upenn.github.io/)** at the University of Pennsylvania develops machine learning and NLP methods to measure health behaviors, disparities, and outcomes across cultures and communities. We use large-scale digital data — social media, electronic health records, online reviews, and smartphone interactions — to uncover insights that improve health outcomes and reduce health disparities.
@@ -17,11 +15,12 @@ Visit our **[lab website](https://csl-lab-upenn.github.io/)** for the latest on 
 
 ### Current Members
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 20px 0;">
+<div class="members-grid">
 {% for member in site.data.lab-members %}
-<div style="text-align: center; width: 140px;">
-<img src="{{ member.image }}" alt="{{ member.name }}" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-<br><strong>{{ member.name }}</strong><br><small>{{ member.role }}</small>
+<div class="member-card">
+<img src="{{ member.image }}" alt="{{ member.name }}" loading="lazy">
+<strong>{{ member.name }}</strong>
+<small>{{ member.role }}</small>
 </div>
 {% endfor %}
 </div>

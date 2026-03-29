@@ -5,7 +5,7 @@ permalink: /media/
 author_profile: true
 ---
 
-This is a selected list of press coverage on my research (`sort by date desc`):
+Selected press coverage on my research:
 
 + Thomson Reuters: [[AI fails to detect depression signs in social media posts by Black Americans, study finds]](https://www.reuters.com/business/healthcare-pharmaceuticals/ai-fails-detect-depression-signs-social-media-posts-by-black-americans-study-2024-03-28/)
 

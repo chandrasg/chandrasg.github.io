@@ -5,8 +5,6 @@ permalink: /resources/
 author_profile: true
 ---
 
-{% include base_path %}
-
 **Datasets**
 
 Mental Health

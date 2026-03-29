@@ -16,25 +16,25 @@ He develops natural language processing and machine learning methods to monitor 
 
 ### Research Themes
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; margin: 16px 0;">
+<div class="theme-cards">
 
-<div style="flex: 1; min-width: 220px; border: 1px solid #ddd; border-radius: 8px; padding: 16px; background: #f9f9f9;">
-<strong>Mental Health & NLP</strong><br>
+<div class="theme-card">
+<strong>Mental Health & NLP</strong>
 <small>Detecting and measuring depression, loneliness, ADHD, stress, and well-being from language and images on social media and digital platforms. Building equitable models that account for racial and cultural differences.</small>
 </div>
 
-<div style="flex: 1; min-width: 220px; border: 1px solid #ddd; border-radius: 8px; padding: 16px; background: #f9f9f9;">
-<strong>Public Health</strong><br>
+<div class="theme-card">
+<strong>Public Health</strong>
 <small>Using social media and online data for public health surveillance — tracking COVID-19 discourse, vaccine attitudes, substance use, cardiovascular risk, and health behaviors at population scale.</small>
 </div>
 
-<div style="flex: 1; min-width: 220px; border: 1px solid #ddd; border-radius: 8px; padding: 16px; background: #f9f9f9;">
-<strong>Cross-Cultural AI</strong><br>
+<div class="theme-card">
+<strong>Cross-Cultural AI</strong>
 <small>Studying how language, emotion, and social behavior vary across cultures, platforms, and communities — from emoji usage to politeness norms to stress expression across the East and West.</small>
 </div>
 
-<div style="flex: 1; min-width: 220px; border: 1px solid #ddd; border-radius: 8px; padding: 16px; background: #f9f9f9;">
-<strong>Conversational AI for Health Interventions</strong><br>
+<div class="theme-card">
+<strong>Conversational AI for Health Interventions</strong>
 <small>Designing culturally aware conversational agents and digital health interventions for health behavior change, integrating patient-generated data into clinical care.</small>
 </div>
 
