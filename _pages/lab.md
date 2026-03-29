@@ -19,12 +19,12 @@ Visit our **[lab website](https://csl-lab-upenn.github.io/)** for the latest on 
 
 ### Current Members
 
-<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 justify-content-center" style="margin: 1.5rem 0;">
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 justify-content-center lab-members">
 {% for member in site.data.lab-members %}
-<div class="col text-center mb-4">
-  <img src="{{ member.image }}" alt="{{ member.name }}" class="rounded-circle" loading="lazy" style="width: 110px; height: 110px; object-fit: cover; border: 3px solid var(--global-divider-color);">
-  <div class="mt-2"><strong style="font-size: 0.9rem;">{{ member.name }}</strong></div>
-  <div style="font-size: 0.8rem; color: var(--global-text-color-light);">{{ member.role }}</div>
+<div class="col lab-member">
+  <img src="{{ member.image }}" alt="{{ member.name }}" class="rounded-circle" loading="lazy">
+  <div class="member-name">{{ member.name }}</div>
+  <div class="member-role">{{ member.role }}</div>
 </div>
 {% endfor %}
 </div>

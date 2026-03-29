@@ -1,0 +1,37 @@
+name: classify-publications
+run-name: Auto-classify publications into research themes
+
+on:
+  push:
+    paths:
+      - "_bibliography/papers.bib"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Classify publications
+        run: python3 bin/classify_publications.py
+
+      - name: Check if classifications changed
+        id: changed
+        uses: tj-actions/verify-changed-files@v13
+        with:
+          files: _bibliography/papers.bib
+
+      - name: Commit updated classifications
+        if: steps.changed.outputs.files_changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Auto-classify publications into research themes"
