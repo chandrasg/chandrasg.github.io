@@ -26,18 +26,18 @@ Work experience
 ======
 * Associate Professor (Research), **University of Pennsylvania**.
     + Computer and Information Science
-    + Annenberg School of Communication
-    - July 2025 -- now
+    + Annenberg School of Communication (secondary appointment)
+    - July 2025 -- present
 * Assistant Professor (Research), **University of Pennsylvania**.
     + Computer and Information Science
     - May 2020 -- June 2025
 * Senior Fellow, **Leonard Davis Institute of Health Economics**.
     - June 2020 -- present
 * Research Scientist, **University of Pennsylvania**.
-    + at [Centre for Digital Health](http://centerfordigitalhealth.upenn.edu/)
+    + at [Centre for Digital Health](https://centerfordigitalhealth.upenn.edu/)
     - September 2018 -- present
 * Postdoctoral Researcher, **University of Pennsylvania**.
-    + at [World Well-Being Project](http://wwbp.org) and [Centre for Digital Health](http://socialmedialab.upenn.edu/team)
+    + at [World Well-Being Project](https://wwbp.org) and [Centre for Digital Health](https://centerfordigitalhealth.upenn.edu/)
     + Working on social media research in building user level prediction models by looking at correlations between multiple modalities (text and images) with psychological traits (personality) and health outcomes.
     - April 2017 -- August 2018
 * Visiting Scholar, **University of Pennsylvania**.
@@ -85,8 +85,8 @@ Reviewer
 Affiliations
 ======
 * [Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/)
-* [Center for Digital Health, University of Pennsylvania](http://centerfordigitalhealth.upenn.edu/)
-* [World Well Being Project, University of Pennsylvania](http://wwbp.org/)
+* [Center for Digital Health, University of Pennsylvania](https://centerfordigitalhealth.upenn.edu/)
+* [World Well Being Project, University of Pennsylvania](https://wwbp.org/)
 * [Penn Research in Machine Learning, University of Pennsylvania](https://priml.upenn.edu/)
 
 

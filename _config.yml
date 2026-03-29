@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sharath Chandra Guntuku"
 title_separator          : "-"
 name                     : &name "Sharath Chandra"
-description              : &description ""
+description              : &description "Sharath Chandra Guntuku - Associate Professor at UPenn. Research in AI, NLP, public health informatics, mental health, and computational social science."
 url                      : https://sharathg.cis.upenn.edu # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chandrasg/chandrasg.github.io"
@@ -70,14 +70,14 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # Google Universal Analytics (UA) was sunset in July 2023. Replace with GA4 tracking_id if needed.
   google:
-    tracking_id          : "UA-77477931-1"
+    tracking_id          : ""
 
 
 # Site Author
 author:
-  name             : ""
+  name             : "Sharath Chandra Guntuku"
   avatar           : "sharath.jpg"
   bio              : "Computer Science x Psychology and Health Research"
   location         : #"Philadelphia, PA"
@@ -94,7 +94,7 @@ author:
   github           : "sharathchandra92"
   google_plus      :
   keybase          :
-  instagram        : "sharathchandra92"
+  instagram        :
   lastfm           :
   linkedin         : "sharathchandra92"
   orcid            : #"http://orcid.org/yourorcidurl"
@@ -118,6 +118,7 @@ include:
   - files
   - pages
 exclude:
+  - _cite
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -277,7 +278,7 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

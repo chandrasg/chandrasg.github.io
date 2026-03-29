@@ -1,0 +1,21 @@
+name: on-schedule
+run-name: on schedule
+
+on:
+  schedule:
+    # weekly on Monday
+    - cron: "0 0 * * 1"
+
+  # run if user manually requests it
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-citations:
+    uses: ./.github/workflows/update-citations.yaml
+    secrets: inherit
+    with:
+      open-pr: true
