@@ -217,6 +217,151 @@
 }
 
 /* ---------------------------------------------------------------------------
+ * Publication entry styles
+ * --------------------------------------------------------------------------- */
+
+.pub-entry {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .pub-title {
+    font-size: 0.975rem;
+    font-weight: 600;
+    line-height: 1.45;
+    margin-bottom: 0.2rem;
+    color: var(--global-text-color);
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .pub-award-badge {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #b8860b;
+    background: #fff8dc;
+    border: 1px solid #e6c96c;
+    border-radius: 4px;
+    padding: 1px 6px;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .pub-authors {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.15rem;
+    line-height: 1.4;
+
+    strong {
+      color: var(--global-text-color);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--global-text-color-light);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .pub-venue {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+
+    .pub-note {
+      font-style: normal;
+      font-size: 0.8rem;
+    }
+  }
+
+  .pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 0.35rem;
+  }
+
+  .pub-btn {
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 0.76rem;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1.5px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    background: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: inherit;
+    line-height: 1.6;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      background: transparent;
+      text-decoration: none;
+    }
+  }
+
+  .pub-btn-cite {
+    cursor: pointer;
+  }
+
+  // Bibtex block
+  .bibtex.hidden {
+    display: none;
+    margin-top: 0.5rem;
+  }
+
+  .bibtex.hidden.open {
+    display: block;
+  }
+
+  .bibtex {
+    pre, code {
+      font-size: 0.75rem;
+      border-radius: 6px;
+    }
+  }
+}
+
+// Bibliography wrapper — remove default list/ol margins
+.bibliography {
+  ol, ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    border-bottom: none !important;
+    padding: 0 !important;
+
+    &::before {
+      display: none !important;
+    }
+  }
+}
+
+/* ---------------------------------------------------------------------------
  * Consistent link behavior site-wide
  * --------------------------------------------------------------------------- */
 

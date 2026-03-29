@@ -35,4 +35,4 @@ This interdisciplinary research agenda is supported by over **$5.1 million USD**
 
 His work has been covered by the [American Psychological Association](https://www.apa.org/), [WIRED](https://www.wired.com/), [The Atlantic](https://www.theatlantic.com/), [Thomson Reuters](https://www.reuters.com/), [US News](https://www.usnews.com/), and other [media venues](/media/).
 
-**Affiliations:** [Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/) · [Penn Medicine Center for Digital Health](https://centerfordigitalhealth.upenn.edu/) · [World Well-Being Project](https://www.wwbp.org/) · [Penn Research in Machine Learning](https://priml.upenn.edu/)
+**Affiliations:** [Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/) · [Penn Medicine Center for Digital Health](https://centerfordigitalhealth.upenn.edu/) · [World Well-Being Project](https://www.wwbp.org/) · [Penn Research in Machine Learning](https://priml.upenn.edu/) · [Penn NLP](https://nlp.cis.upenn.edu/)
