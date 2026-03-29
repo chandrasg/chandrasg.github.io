@@ -1,0 +1,68 @@
+cv:
+  name: Sharath Chandra Guntuku
+  email: sharathg@cis.upenn.edu
+
+  sections:
+    - title: Education
+      type: time_table
+      contents:
+        - title: Ph.D. in Computer Science
+          institution: Nanyang Technological University, Singapore
+          year: 2017
+          description:
+            - "Thesis: Modeling User Factors in Multimedia Preferences"
+        - title: B.E. (Hons) in Computer Science
+          institution: BITS-Pilani, India
+          year: 2013
+
+    - title: Experience
+      type: time_table
+      contents:
+        - title: Associate Professor (Research)
+          institution: University of Pennsylvania
+          year: 2025 - present
+          description:
+            - Computer and Information Science
+            - Annenberg School of Communication (secondary appointment)
+        - title: Assistant Professor (Research)
+          institution: University of Pennsylvania
+          year: 2020 - 2025
+          description:
+            - Computer and Information Science
+        - title: Senior Fellow
+          institution: Leonard Davis Institute of Health Economics
+          year: 2020 - present
+        - title: Research Scientist
+          institution: University of Pennsylvania, Center for Digital Health
+          year: 2018 - present
+        - title: Postdoctoral Researcher
+          institution: University of Pennsylvania, World Well-Being Project & Center for Digital Health
+          year: 2017 - 2018
+
+    - title: Funding
+      type: list
+      contents:
+        - National Institutes of Health (NIMH, NIDA, NHLBI)
+        - World Bank Group
+        - Global Engagement Fund - India
+        - Penn Medical Communication Pilot Grant
+        - Penn University Research Fund
+        - Penn China Research and Engagement Fund
+        - Google Cloud
+
+    - title: Honors & Awards
+      type: list
+      contents:
+        - Member, National Advisory Council on Minority Health and Health Disparities (NACMHD)
+        - Best Reviewer Award, AAAI ICWSM 2022
+        - Intel Invent50 Finalist
+        - ACM Multimedia Travel Grant
+        - Nanyang Engineering Doctoral Scholarship
+
+    - title: Affiliations
+      type: list
+      contents:
+        - Leonard Davis Institute of Health Economics
+        - Penn Medicine Center for Digital Health
+        - World Well-Being Project / Positive Psychology Center
+        - Penn Research in Machine Learning (PRiML)

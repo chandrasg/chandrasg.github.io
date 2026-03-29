@@ -1,20 +1,10 @@
 ---
-layout: archive
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: publications
+description: Auto-updated from Google Scholar.
+nav: true
+nav_order: 1
 ---
 
-{% include base_path %}
-
-<em>Auto-updated from Google Scholar.</em>
-
----
-
-{% assign pubs = site.data.citations | sort: "date" | reverse %}
-
-<ul class="pub-list">
-{% for pub in pubs %}
-<li>{{ pub.authors | join: ", " }} ({{ pub.date | slice: 0, 4 }}). <strong>{{ pub.title }}</strong>. <em>{{ pub.publisher }}</em>.{% if pub.link %} <a href="{{ pub.link }}">[Link]</a>{% endif %}</li>
-{% endfor %}
-</ul>
+{% bibliography %}

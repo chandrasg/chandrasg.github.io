@@ -1,68 +1,62 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: page
 permalink: /talks/
-author_profile: true
+title: talks
+description: Selected talks and presentations.
+nav: true
+nav_order: 5
 ---
 
-+ **_Culturally Aware Conversational Agents for Health_**, Microsoft Research India, 2026
+- **Culturally Aware Conversational Agents for Health**, Microsoft Research India, 2026
 
-+ **_Mapping Gender Norms in Global Media — Using AI to Turn Evidence into Advocacy_**, Impact Guild, 2025
+- **Mapping Gender Norms in Global Media -- Using AI to Turn Evidence into Advocacy**, Impact Guild, 2025
 
-+ **_Entertaining Change, Next-Generation Media Partnerships for Social Impact and Gender Equality_**, World Bank Group, Nigeria, 2025
+- **Entertaining Change, Next-Generation Media Partnerships for Social Impact and Gender Equality**, World Bank Group, Nigeria, 2025
 
-+ **_Using Social Media to Understand Mental Health of Individuals and Communities_**, Howard University, 2025
+- **Using Social Media to Understand Mental Health of Individuals and Communities**, Howard University, 2025
 
-+ **_Computational Social Listening for Public Health_**, NORC at the University of Chicago, 2024
+- **Computational Social Listening for Public Health**, NORC at the University of Chicago, 2024
 
-+ **_Studying Mental Health Using Big Data and Artificial Intelligence_**, Chiba University, Japan, 2024
+- **Studying Mental Health Using Big Data and Artificial Intelligence**, Chiba University, Japan, 2024
 
-+ **_Promises & Perils of AI: Mitigating Bias, Exploring Opportunities and Achieving Fairness_**, Meijin-Samvad, Indian Institute of Management (IIM) - Bengaluru, 2024
+- **Promises & Perils of AI: Mitigating Bias, Exploring Opportunities and Achieving Fairness**, Meijin-Samvad, Indian Institute of Management (IIM) - Bengaluru, 2024
 
-+ **_Bowling Alone: Frontiers in Loneliness Research_**, Population Aging Research Center at Penn, 2024 
+- **Bowling Alone: Frontiers in Loneliness Research**, Population Aging Research Center at Penn, 2024
 
-+ **_Racial Heterogeneity in Language Markers of Depression_**, TADA Journal Club, Emory University, 2024
+- **Racial Heterogeneity in Language Markers of Depression**, TADA Journal Club, Emory University, 2024
 
-+ **_Computational Social Listening for Public Health_**, Keynote, Amity University Confluence, 2024
+- **Computational Social Listening for Public Health**, Keynote, Amity University Confluence, 2024
 
-+ **_Computational Social Listening for Public Health_**, Biomedical Data Science Seminar, Institute of Biomedical Informatics (IBI), 2023
+- **Computational Social Listening for Public Health**, Biomedical Data Science Seminar, Institute of Biomedical Informatics (IBI), 2023
 
-+ **_Computational Social Listening for Public Health_**, Center for Safe, Explainable, and Trustworthy AI, 2023
+- **Computational Social Listening for Public Health**, Center for Safe, Explainable, and Trustworthy AI, 2023
 
-+ **_Computational Social Listening during for Public Health using Social Media_**, Microsoft Research India, Trustworthy AI Workshop, Bengaluru, 2023
+- **Computational Social Listening for Public Health using Social Media**, Microsoft Research India, Trustworthy AI Workshop, Bengaluru, 2023
 
+- **Panel: Finding the missing pieces**, Conference on Missingness in Action, Stanford University, 2022
 
-+ **_Panel: Finding the missing pieces_**, Conference on Missingness in Action, Stanford University, 2022
+- **Computational Social Listening During COVID-19 Using Social Media**, United Nations Development Program, New York, 2022
 
-+ **_Computational Social Listening During COVID-19 Using Social Media_**, United Nations Development Program, New York, 2022
+- **Panel: India in the 21st Century**, Perry World House, Philadelphia, 2022
 
-+ **_Panel: India in the 21st Century_**, Perry World House, Philadelphia, 2022
+- **User Generated Content: Opportunities for Health Care**, Computer and Information Science Spring Colloquium, University of Pennsylvania, 2020
 
-+ **_User Generated Content: Opportunities for Health Care_**, Computer and Information Science Spring Colloquium, University of Pennsylvania, February, 2020
+- **Promise, challenges, and risks of digital data in mental health research and care**, AMIA Annual Symposium, 2019 (Panel Chair)
 
-+ **_Promise, challenges, and risks of digital data in mental health research and care_**, AMIA Annual Symposium, November, 2019 (Panel Chair)
+- **User Generated Content: Opportunities for Health Care**, Langone School of Medicine, New York University, 2019
 
-+ **_User Generated Content: Opportunities for Health Care_**, Langone School of Medicine, New York University, 2019
+- **Using Digital Data to Measure and Understand Mental Health**, APA Technology, Mind and Society Conference, Washington DC, 2019 (Session Chair)
 
-+ **_Using Digital Data to Measure and Understand Mental Health_**, American Psychological Association Technology, Mind and Society Conference (APA Tech), Washington DC, October, 2019 (Session Chair)
+- **Using Social Media to Inform Healthcare**, Informatics Day, Institute of Biomedical Informatics, 2019
 
-+ **_Using Social Media to Inform Healthcare_**, Informatics Day, Institute of Biomedical Informatics, May, 2019
+- **Studying Cultural Differences using Language**, Behavioral Insights from Text Conference, Wharton School, 2019 [[Link]](https://tbs.wharton.upenn.edu/behavioral-insights-text-conference/)
 
-+ **_Studying Cultural Differences using Language_**, Behavioral Insights from Text Conference, Wharton School, January, 2019 [[Link]](https://tbs.wharton.upenn.edu/behavioral-insights-text-conference/)
+- **Leveraging Social and Electronic Communications in Evaluation and Treatment**, Technology in Psychiatry Summit, McLean/Harvard Med. School, 2018
 
-+ **_Leveraging Social and Electronic Communications in Evaluation and Treatment_**, Technology in Psychiatry Summit (McLean and Harvard Med. School), Boston, November, 2018 [[Link]](https://www.mcleanhospital.org/technology-psychiatry-summit#panels)
+- **Using Social Media to measure Psychological Health and Illness**, APA Technology, Mind and Society Conference, Washington DC, 2018 (Session Chair)
 
-+ **_Using Social Media to measure Psychological Health and Illness: From Individuals to Communities_**, American Psychological Association Technology, Mind and Society Conference (APA Tech), Washington DC, April, 2018 (Session Chair)
+- **Assessing ADHD from Tweets**, Society for Personality and Social Psychology (SPSP), Atlanta, 2018
 
- + **_Assessing ADHD from Tweets_**, Society for Personality and Social Psychology (SPSP), Atlanta GA, March, 2018 [[Slides]](https://chandrasg.github.io/files/ADHD%20%20-%20SPSP.pdf)
+- **Studying Personality through the Content of Posted and Liked Images on Twitter**, ACM Web Science, Troy NY, 2017
 
- + **_Studying Personality through the Content of Posted and Liked Images on Twitter_**, ACM Web Science, Troy NY, June, 2017 [[Slides]](https://www.dropbox.com/s/zv2zl9iu3vyy797/websci-images.pdf?dl=0)
-
- + **_Studying Personality through Selfies_**, World Well-Being Project, Philadelphia PA, 2016 [[Slides]](https://docs.google.com/presentation/d/1cdIKnQ6Cc_2SJXGUi3sjSBHfyCF060i9oFIjNQPFQ7I/edit?usp=sharing)
-
- + **_Modelling Human Factors in Perceptual Multimedia Quality: On The Role of Personality and Culture_**, ACM Multimedia, Brisbane Australia, Oct, 2015 [[Slides]](https://chandrasg.github.io/files/MM_PPT.pdf)
-
- + **_Do Others Perceive You As You Want Them To? Modeling Personality based on Selfies_**, ACM Multimedia (WS), Brisbane Australia, Sept, 2015 [[Slides]](https://chandrasg.github.io/files/selfies_mm.pdf)
-
-+ **_Modeling the Influence of Personality and Culture on Affect and Enjoyment in Multimedia_**, Affective Computing and Intelligent Interaction, Xian China, Sept, 2015 [[Slides]](https://chandrasg.github.io/files/ACII_MM_PPT.pdf)
-
+- **Modelling Human Factors in Perceptual Multimedia Quality**, ACM Multimedia, Brisbane, 2015
