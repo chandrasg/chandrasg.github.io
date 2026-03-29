@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /lab/
+redirect_from:
+  - /group/
 title: lab
 description: The Computational Social Listening Lab at the University of Pennsylvania.
 nav: true

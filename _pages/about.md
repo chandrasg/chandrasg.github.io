@@ -2,6 +2,9 @@
 layout: about
 title: about
 permalink: /
+redirect_from:
+  - /about/
+  - /about.html
 subtitle: >
   Associate Professor (Research), <a href="https://www.cis.upenn.edu/">Computer and Information Science</a>, <a href="https://www.upenn.edu/">University of Pennsylvania</a>
 
