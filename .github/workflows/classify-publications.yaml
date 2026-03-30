@@ -7,6 +7,11 @@ on:
       - "_bibliography/papers.bib"
   workflow_dispatch:
 
+# Only one classify job runs at a time; cancel any queued duplicate
+concurrency:
+  group: classify-publications
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -34,4 +39,4 @@ jobs:
         if: steps.changed.outputs.files_changed == 'true'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Auto-classify publications into research themes"
+          commit_message: "Auto-classify publications into research themes [skip classify]"
