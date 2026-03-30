@@ -213,16 +213,18 @@ def _cr_fields(item: dict) -> dict:
 # ─── Enrichment ──────────────────────────────────────────────────────────────
 
 def enrich(title: str) -> dict:
-    """Return enriched fields from S2 then CrossRef, or {}."""
-    paper = _s2_lookup(title)
-    if paper:
-        fields = _s2_fields(paper)
-        if fields.get("author"):
-            return fields
-
+    """Return enriched fields from CrossRef then S2, or {}."""
+    # CrossRef first — generous rate limits, no key needed
     item = _cr_lookup(title)
     if item:
         fields = _cr_fields(item)
+        if fields.get("author"):
+            return fields
+
+    # Semantic Scholar as fallback
+    paper = _s2_lookup(title)
+    if paper:
+        fields = _s2_fields(paper)
         if fields.get("author"):
             return fields
 
@@ -282,22 +284,105 @@ def _scholar_fields(pub: dict) -> dict:
     return f
 
 
+def _fetch_scholar_html(scholar_id: str) -> list[dict]:
+    """Scrape Scholar profile HTML to get basic pub list (title, year, scholar key).
+    Returns list of minimal dicts compatible with _scholar_fields format.
+    Used as fallback when scholarly is blocked."""
+    pubs = []
+    start = 0
+    page_size = 100
+    base = "https://scholar.google.com/citations"
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    while True:
+        url = (
+            f"{base}?user={scholar_id}&hl=en"
+            f"&view_op=list_works&sortby=pubdate"
+            f"&cstart={start}&pagesize={page_size}"
+        )
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=20) as r:
+                html = r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            print(f"  [html-scrape] request failed: {e}", file=sys.stderr)
+            break
+
+        # Extract citations rows: <tr class="gsc_a_tr">
+        rows = re.findall(r'<tr class="gsc_a_tr">(.*?)</tr>', html, re.DOTALL)
+        if not rows:
+            break
+
+        for row in rows:
+            # Title + link
+            tm = re.search(
+                r'<a href="(/citations\?[^"]*view_op=view_citation[^"]*)"[^>]*>([^<]+)</a>',
+                row
+            )
+            if not tm:
+                continue
+            href = tm.group(1)
+            title = re.sub(r"&#\d+;", " ", tm.group(2)).strip()
+            title = re.sub(r"&amp;", "&", title)
+
+            # Scholar citation key from href
+            kid = re.search(r"citation_for_view=([^&\"]+)", href)
+            scholar_key = kid.group(1).replace(":", "_").replace("/", "_") if kid else None
+
+            # Year
+            ym = re.search(r'<span class="gsc_a_h gsc_a_hc gs_ibl">(\d{4})</span>', row)
+            year = ym.group(1) if ym else ""
+
+            # Venue (second .gs_gray span)
+            venues = re.findall(r'<div class="gs_gray">([^<]+)</div>', row)
+            venue = venues[1].strip() if len(venues) >= 2 else ""
+
+            pub = {
+                "author_pub_id": kid.group(1) if kid else title[:30],
+                "bib": {
+                    "title": title,
+                    "pub_year": year,
+                    "journal": venue,
+                },
+                "pub_url": f"https://scholar.google.com{href}",
+            }
+            pubs.append(pub)
+
+        time.sleep(2)
+        if len(rows) < page_size:
+            break
+        start += page_size
+
+    print(f"  [html-scrape] found {len(pubs)} publications.")
+    return pubs
+
+
 def fetch_scholar_pubs(scholar_id: str) -> list[dict]:
-    """Return list of scholarly publication dicts, or [] on failure."""
+    """Return list of scholarly publication dicts, or [] on failure.
+    Tries scholarly library first, falls back to HTML scraping."""
     try:
         from scholarly import scholarly as sc
-        print("Fetching Google Scholar profile (this may take a minute)...")
+        print("Fetching Google Scholar profile via scholarly...")
         author = sc.search_author_id(scholar_id)
         author = sc.fill(author, sections=["publications"])
         pubs = author.get("publications", [])
-        print(f"  Found {len(pubs)} publications on Scholar.")
-        return pubs
+        if pubs:
+            print(f"  Found {len(pubs)} publications on Scholar.")
+            return pubs
+        raise ValueError("Empty publication list from scholarly")
     except ImportError:
-        print("scholarly not installed — run: pip install scholarly", file=sys.stderr)
-        return []
+        print("scholarly not installed — trying HTML scrape...", file=sys.stderr)
     except Exception as e:
-        print(f"Scholar fetch failed ({e}) — proceeding with enrich-only.", file=sys.stderr)
-        return []
+        print(f"scholarly failed ({e}) — trying HTML scrape...", file=sys.stderr)
+
+    # Fallback: direct HTML scrape
+    return _fetch_scholar_html(scholar_id)
 
 
 # ─── Main ────────────────────────────────────────────────────────────────────
