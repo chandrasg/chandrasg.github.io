@@ -56,6 +56,51 @@ def _similarity(a: str, b: str) -> float:
     return len(wa & wb) / max(len(wa), len(wb))
 
 
+# Words that indicate a title is truncated mid-sentence when they appear at the end
+_TRUNCATION_WORDS = {
+    # prepositions
+    "a", "an", "the", "and", "or", "but", "nor", "for", "yet", "so",
+    "in", "on", "at", "to", "of", "by", "as", "is", "are", "be",
+    "with", "from", "into", "onto", "via", "per", "its", "their",
+    # trailing comma or other truncation indicators are handled by char checks
+}
+
+
+def is_title_clean(title: str) -> bool:
+    """Return True only if the title looks complete and well-formed.
+
+    Returns False if any of the following are detected:
+    - Title is shorter than 10 characters
+    - Title contains raw unicode escapes (e.g. \\u2014)
+    - Title contains HTML entities (e.g. &amp;, &#x2019;, &lt;, &gt;)
+    - Title ends with a trailing comma
+    - Title ends with a preposition, conjunction, or article (suggests truncation)
+    """
+    if not title or len(title.strip()) < 10:
+        return False
+
+    t = title.strip()
+
+    # Raw unicode escape sequences left in the string
+    if re.search(r"\\u[0-9a-fA-F]{4}", t):
+        return False
+
+    # HTML entities
+    if re.search(r"&(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);", t, re.IGNORECASE):
+        return False
+
+    # Trailing comma
+    if t.endswith(","):
+        return False
+
+    # Ends with a stop word (truncated mid-phrase)
+    last_word = re.split(r"\s+", t.rstrip(".,;:!?"))[-1].lower().rstrip(".,;:!?")
+    if last_word in _TRUNCATION_WORDS:
+        return False
+
+    return True
+
+
 # ─── HTTP helper ──────────────────────────────────────────────────────────────
 
 def _get(url: str) -> dict | None:
@@ -190,7 +235,19 @@ def _cr_fields(item: dict) -> dict:
         f["author"] = " and ".join(parts)
     titles = item.get("title", [])
     if titles:
-        f["title"] = re.sub(r"<[^>]+>", "", titles[0])
+        raw_title = re.sub(r"<[^>]+>", "", titles[0])
+        # Decode common HTML entities that CrossRef occasionally returns
+        raw_title = (raw_title
+                     .replace("&amp;", "&")
+                     .replace("&lt;", "<")
+                     .replace("&gt;", ">")
+                     .replace("&quot;", '"')
+                     .replace("&apos;", "'")
+                     .replace("&#x2014;", "\u2014")
+                     .replace("&#x2013;", "\u2013")
+                     .replace("&#x2018;", "\u2018")
+                     .replace("&#x2019;", "\u2019"))
+        f["title"] = raw_title
     for dk in ("published", "published-print", "published-online"):
         dp = item.get(dk, {}).get("date-parts", [[]])
         if dp and dp[0]:
@@ -213,11 +270,20 @@ def _cr_fields(item: dict) -> dict:
 # ─── Enrichment ──────────────────────────────────────────────────────────────
 
 def enrich(title: str) -> dict:
-    """Return enriched fields from CrossRef then S2, or {}."""
+    """Return enriched fields from CrossRef then S2, or {}.
+
+    CrossRef is tried first and its title is always preferred — CrossRef titles
+    are the canonical, complete form.  If CrossRef returns a title we use it
+    unconditionally; we never let a (potentially truncated) Scholar title win
+    over a clean CrossRef title.
+    """
     # CrossRef first — generous rate limits, no key needed
     item = _cr_lookup(title)
     if item:
         fields = _cr_fields(item)
+        # Always use CrossRef title when available and clean — it is authoritative
+        if fields.get("title") and is_title_clean(fields["title"]):
+            fields["_cr_title_authoritative"] = True
         if fields.get("author"):
             return fields
 
@@ -240,13 +306,19 @@ def _merge(existing: dict, new: dict) -> tuple[dict, bool]:
             continue
         cur = f.get(k, "").strip()
         if not cur:
-            # Field missing — add it
+            # Field missing — add it.
+            # For titles, only add if the new value is clean.
+            if k == "title" and not is_title_clean(v):
+                continue
             f[k] = v
             changed = True
-        elif k == "title" and len(v) > len(cur) + 5:
-            # Longer title = likely less truncated
-            f[k] = v
-            changed = True
+        elif k == "title":
+            # Only overwrite an existing title if:
+            #   1. The new title passes the cleanliness check, AND
+            #   2. The new title is meaningfully longer (less truncated)
+            if is_title_clean(v) and (not is_title_clean(cur) or len(v) > len(cur) + 5):
+                f[k] = v
+                changed = True
         elif k == "pdf" and not cur:
             f[k] = v
             changed = True
