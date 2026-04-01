@@ -1,9 +1,10 @@
 name: Sync publications from Google Scholar
 
 on:
-  schedule:
-    - cron: "0 3 * * 1"  # Every Monday at 03:00 UTC
-  workflow_dispatch:      # Also runnable manually from the Actions tab
+  # Schedule disabled — publications are maintained manually from CV
+  # schedule:
+  #   - cron: "0 3 * * 1"  # Every Monday at 03:00 UTC
+  workflow_dispatch:      # Still runnable manually from the Actions tab if needed
 
 permissions:
   contents: write
