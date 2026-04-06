@@ -295,6 +295,15 @@ def main() -> int:
 
     entries = parse_bib(BIB_FILE)
     by_key  = {e["_key"]: e for e in entries if e.get("_key")}
+    # Secondary lookup by DOI and normalised title for duplicate detection
+    by_doi  = {
+        e["_fields"]["doi"].strip().lower(): e["_key"]
+        for e in entries if e.get("_key") and e["_fields"].get("doi")
+    }
+    by_norm_title = {
+        _norm(e["_fields"]["title"]): e["_key"]
+        for e in entries if e.get("_key") and e["_fields"].get("title")
+    }
     print(f"Loaded {len(entries)} entries from {BIB_FILE}.")
 
     # -- Step 1: Add new publications from Google Scholar via SerpAPI ----------
@@ -307,7 +316,15 @@ def main() -> int:
         for pub in scholar_pubs:
             key   = pub["scholar_key"]
             title = pub["title"]
-            if not key or key in by_key or not title:
+            if not key or not title:
+                continue
+            # Skip if already present by key, DOI, or title
+            if key in by_key:
+                continue
+            enriched_doi = pub.get("doi", "").strip().lower()
+            if enriched_doi and enriched_doi in by_doi:
+                continue
+            if _norm(title) in by_norm_title:
                 continue
 
             print(f"  + {title[:72]}")
