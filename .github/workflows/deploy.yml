@@ -21,10 +21,7 @@ jobs:
         with:
           ruby-version: "3.2"
       - name: Install gems
-        run: |
-          ruby --version
-          bundle --version
-          bundle install --verbose 2>&1 | tail -30 || (bundle install 2>&1; exit 1)
+        run: bundle install
       - name: Install Node deps
         run: npm install -g terser
       - name: Install and Build
