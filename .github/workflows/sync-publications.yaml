@@ -2,7 +2,7 @@ name: Sync publications from Google Scholar
 
 on:
   schedule:
-    - cron: "0 3 * * 1"  # Every Monday at 03:00 UTC
+    - cron: "0 3 * * 4"  # Every Thursday at 03:00 UTC (CSL lab runs Monday, staggered to avoid SerpAPI rate limits)
   workflow_dispatch:      # Also runnable manually from the Actions tab
 
 permissions:
