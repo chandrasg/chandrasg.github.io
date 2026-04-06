@@ -1,10 +1,9 @@
 name: Sync publications from Google Scholar
 
 on:
-  # Schedule disabled — publications are maintained manually from CV
-  # schedule:
-  #   - cron: "0 3 * * 1"  # Every Monday at 03:00 UTC
-  workflow_dispatch:      # Still runnable manually from the Actions tab if needed
+  schedule:
+    - cron: "0 3 * * 1"  # Every Monday at 03:00 UTC
+  workflow_dispatch:      # Also runnable manually from the Actions tab
 
 permissions:
   contents: write
@@ -22,16 +21,12 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install scholarly
+        run: pip install google-search-results
 
       - name: Sync publications from Google Scholar
         run: python bin/sync_publications.py
         env:
-          # scholarly uses environment proxies if set; leave blank for direct access
-          HTTPS_PROXY: ""
-
-      - name: Classify publications into research themes
-        run: python bin/classify_publications.py
+          GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
 
       - name: Commit and push if changed
         run: |

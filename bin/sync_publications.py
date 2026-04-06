@@ -2,18 +2,20 @@
 """
 Sync Google Scholar publications to _bibliography/papers.bib.
 
-Steps
------
-1. Fetch all publications from Google Scholar via `scholarly`.
-   - Any entry not already in papers.bib is added.
-2. Enrich every entry that is missing `author` (or has a truncated title)
-   using Semantic Scholar, then CrossRef as fallback.
-   - Also picks up open-access PDF links from Semantic Scholar.
-3. Write the updated papers.bib in-place.
+Mirrors the CSL-lab approach (csl-lab-upenn.github.io):
+  1. SerpAPI (google_scholar_author engine) fetches the full paper list.
+     SerpAPI bypasses anti-bot and returns complete, non-truncated titles.
+  2. CrossRef enriches each entry with DOI, full author list, volume, pages.
+  3. New papers not already in papers.bib are added.
+  4. Existing entries are enriched if metadata is missing.
 
-Usage
------
-  pip install scholarly
+Requirements:
+  pip install google-search-results
+
+Environment:
+  GOOGLE_SCHOLAR_API_KEY  -- SerpAPI key (stored as GitHub secret)
+
+Usage:
   python bin/sync_publications.py               # full sync
   python bin/sync_publications.py --enrich-only # skip Scholar fetch
   python bin/sync_publications.py --dry-run     # print diff, don't write
@@ -21,6 +23,7 @@ Usage
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -29,18 +32,16 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-# ─── Config ───────────────────────────────────────────────────────────────────
+# --- Config ------------------------------------------------------------------
 
 SCHOLAR_ID = "76_hrfUAAAAJ"
 BIB_FILE   = Path("_bibliography/papers.bib")
-API_PAUSE  = 1.2   # seconds between external API calls
+API_PAUSE  = 0.5   # seconds between CrossRef requests
 
-S2_SEARCH = "https://api.semanticscholar.org/graph/v1/paper/search"
-S2_FIELDS = "title,authors,year,venue,journal,externalIds,isOpenAccess,openAccessPdf"
-CR_WORKS  = "https://api.crossref.org/works"
-UA        = "bib-sync/2.0 (mailto:sharathg@cis.upenn.edu)"
+CR_WORKS   = "https://api.crossref.org/works"
+UA         = "bib-sync/3.0 (mailto:sharathg@cis.upenn.edu)"
 
-# ─── Text helpers ─────────────────────────────────────────────────────────────
+# --- Text helpers ------------------------------------------------------------
 
 def _norm(text: str) -> str:
     t = unicodedata.normalize("NFKD", text)
@@ -56,52 +57,7 @@ def _similarity(a: str, b: str) -> float:
     return len(wa & wb) / max(len(wa), len(wb))
 
 
-# Words that indicate a title is truncated mid-sentence when they appear at the end
-_TRUNCATION_WORDS = {
-    # prepositions
-    "a", "an", "the", "and", "or", "but", "nor", "for", "yet", "so",
-    "in", "on", "at", "to", "of", "by", "as", "is", "are", "be",
-    "with", "from", "into", "onto", "via", "per", "its", "their",
-    # trailing comma or other truncation indicators are handled by char checks
-}
-
-
-def is_title_clean(title: str) -> bool:
-    """Return True only if the title looks complete and well-formed.
-
-    Returns False if any of the following are detected:
-    - Title is shorter than 10 characters
-    - Title contains raw unicode escapes (e.g. \\u2014)
-    - Title contains HTML entities (e.g. &amp;, &#x2019;, &lt;, &gt;)
-    - Title ends with a trailing comma
-    - Title ends with a preposition, conjunction, or article (suggests truncation)
-    """
-    if not title or len(title.strip()) < 10:
-        return False
-
-    t = title.strip()
-
-    # Raw unicode escape sequences left in the string
-    if re.search(r"\\u[0-9a-fA-F]{4}", t):
-        return False
-
-    # HTML entities
-    if re.search(r"&(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);", t, re.IGNORECASE):
-        return False
-
-    # Trailing comma
-    if t.endswith(","):
-        return False
-
-    # Ends with a stop word (truncated mid-phrase)
-    last_word = re.split(r"\s+", t.rstrip(".,;:!?"))[-1].lower().rstrip(".,;:!?")
-    if last_word in _TRUNCATION_WORDS:
-        return False
-
-    return True
-
-
-# ─── HTTP helper ──────────────────────────────────────────────────────────────
+# --- HTTP helper -------------------------------------------------------------
 
 def _get(url: str) -> dict | None:
     try:
@@ -109,16 +65,155 @@ def _get(url: str) -> dict | None:
         with urllib.request.urlopen(req, timeout=20) as r:
             return json.loads(r.read())
     except Exception as e:
-        print(f"    [warn] {url[:80]}: {e}", file=sys.stderr)
+        print(f"    [warn] GET {url[:80]}: {e}", file=sys.stderr)
         return None
     finally:
         time.sleep(API_PAUSE)
 
 
-# ─── BibTeX parser / writer ───────────────────────────────────────────────────
+# --- SerpAPI: Google Scholar fetch -------------------------------------------
+
+def fetch_scholar_pubs(scholar_id: str) -> list[dict]:
+    """Fetch all publications via SerpAPI google_scholar_author engine.
+
+    Same approach as the CSL lab website. SerpAPI handles anti-bot,
+    returns complete non-truncated titles, and paginates cleanly.
+
+    Returns list of dicts with keys:
+      scholar_key, title, authors, venue, year, scholar_url
+    """
+    try:
+        from serpapi import GoogleSearch
+    except ImportError:
+        print(
+            "ERROR: 'google-search-results' package not installed.\n"
+            "  pip install google-search-results",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    api_key = os.environ.get("GOOGLE_SCHOLAR_API_KEY", "").strip()
+    if not api_key:
+        print("ERROR: GOOGLE_SCHOLAR_API_KEY environment variable not set.", file=sys.stderr)
+        sys.exit(1)
+
+    all_articles: list[dict] = []
+    start = 0
+
+    while True:
+        params = {
+            "engine":    "google_scholar_author",
+            "author_id": scholar_id,
+            "api_key":   api_key,
+            "num":       100,
+            "start":     start,
+            "sort":      "pubdate",
+        }
+        print(f"  Fetching Scholar page (start={start})...")
+        results  = GoogleSearch(params).get_dict()
+        articles = results.get("articles", [])
+        if not articles:
+            break
+        all_articles.extend(articles)
+        print(f"    Got {len(articles)} articles (total: {len(all_articles)})")
+        if len(articles) < 100:
+            break
+        start += 100
+
+    pubs: list[dict] = []
+    for work in all_articles:
+        citation_id = work.get("citation_id", "")
+        # Normalise to a valid BibTeX key
+        key = citation_id.replace(":", "_").replace("/", "_")
+        pubs.append({
+            "scholar_key": key,
+            "title":       work.get("title", "").strip(),
+            "authors":     work.get("authors", "").strip(),
+            "venue":       work.get("publication", "").strip(),
+            "year":        str(work.get("year", "")).strip(),
+            "scholar_url": work.get("link", "").strip(),
+        })
+
+    return pubs
+
+
+# --- CrossRef enrichment -----------------------------------------------------
+
+def _cr_lookup_doi(doi: str) -> dict | None:
+    data = _get(f"{CR_WORKS}/{urllib.parse.quote(doi, safe='')}")
+    return data.get("message") if data else None
+
+
+def _cr_lookup_title(title: str) -> dict | None:
+    data = _get(f"{CR_WORKS}?query.title={urllib.parse.quote(title)}&rows=5")
+    if not data:
+        return None
+    for item in data.get("message", {}).get("items", []):
+        cand = (item.get("title") or [""])[0]
+        if _similarity(title, cand) >= 0.75:
+            return item
+    return None
+
+
+def _cr_to_fields(item: dict) -> dict:
+    """Convert a CrossRef work item to BibTeX-ready field dict."""
+    f: dict[str, str] = {}
+
+    # Authors
+    parts = [
+        f"{a.get('family', '')}, {a.get('given', '')}".strip(", ")
+        for a in item.get("author", []) if a.get("family")
+    ]
+    if parts:
+        f["author"] = " and ".join(parts)
+
+    # Title — CrossRef is canonical; strip HTML tags/entities
+    titles = item.get("title", [])
+    if titles:
+        t = re.sub(r"<[^>]+>", "", titles[0])
+        t = (t.replace("&amp;", "\\&")
+              .replace("&lt;", "<").replace("&gt;", ">")
+              .replace("&quot;", '"').replace("&apos;", "'"))
+        f["title"] = t.strip()
+
+    # Year
+    for dk in ("published", "published-print", "published-online"):
+        dp = item.get(dk, {}).get("date-parts", [[]])
+        if dp and dp[0]:
+            f["year"] = str(dp[0][0])
+            break
+
+    # Venue / volume / issue / pages / DOI
+    ct = item.get("container-title", [])
+    if ct:
+        f["journal"] = ct[0]
+    if item.get("volume"):
+        f["volume"] = str(item["volume"])
+    if item.get("issue"):
+        f["number"] = str(item["issue"])
+    if item.get("page"):
+        f["pages"] = str(item["page"]).replace("-", "--")
+    if item.get("DOI"):
+        f["doi"] = item["DOI"].lower()
+
+    # Entry-type hint
+    ctype = item.get("type", "")
+    f["_bib_type"] = "inproceedings" if ("proceedings" in ctype or "chapter" in ctype) else "article"
+
+    return f
+
+
+def enrich(title: str, doi: str = "") -> dict:
+    """Return CrossRef fields for this paper, or {}."""
+    item = _cr_lookup_doi(doi) if doi else None
+    if not item:
+        item = _cr_lookup_title(title)
+    return _cr_to_fields(item) if item else {}
+
+
+# --- BibTeX parser / writer --------------------------------------------------
 
 def parse_bib(path: Path) -> list[dict]:
-    """Return list of entry dicts (with _raw, _type, _key, _fields)."""
     text = path.read_text("utf-8")
     entries: list[dict] = []
     for raw in re.findall(r"@\w+\{[^@]+", text, re.DOTALL):
@@ -134,9 +229,9 @@ def parse_bib(path: Path) -> list[dict]:
         ):
             fields[fm.group(1).lower()] = fm.group(2).strip()
         entries.append({
-            "_raw": raw,
-            "_type": m.group(1).lower(),
-            "_key": m.group(2).strip(),
+            "_raw":    raw,
+            "_type":   m.group(1).lower(),
+            "_key":    m.group(2).strip(),
             "_fields": fields,
         })
     return entries
@@ -144,401 +239,138 @@ def parse_bib(path: Path) -> list[dict]:
 
 _FIELD_ORDER = [
     "title", "author", "journal", "booktitle", "year",
-    "volume", "number", "pages", "doi", "pdf", "html",
-    "keywords", "bibtex_show",
+    "volume", "number", "pages", "doi", "arxiv", "pdf", "html",
+    "note", "keywords", "bibtex_show",
 ]
 
 
 def _entry_str(e: dict) -> str:
     if not e.get("_type"):
         return e["_raw"]
-    f = e["_fields"]
-    ordered = [k for k in _FIELD_ORDER if k in f]
+    f = {k: v for k, v in e["_fields"].items() if not k.startswith("_")}
+    ordered  = [k for k in _FIELD_ORDER if k in f]
     ordered += sorted(k for k in f if k not in _FIELD_ORDER)
     lines = [f"@{e['_type']}{{{e['_key']},"]
     for k in ordered:
-        v = f[k]
-        # escape any unbalanced braces in value
-        lines.append(f"  {k} = {{{v}}},")
+        lines.append(f"  {k} = {{{f[k]}}},")
     lines.append("}")
     return "\n".join(lines)
 
 
 def write_bib(path: Path, entries: list[dict]) -> None:
-    chunks = [_entry_str(e) for e in entries]
-    path.write_text("\n\n\n".join(chunks) + "\n", "utf-8")
+    path.write_text("\n\n\n".join(_entry_str(e) for e in entries) + "\n", "utf-8")
 
 
-# ─── Semantic Scholar ─────────────────────────────────────────────────────────
-
-def _s2_lookup(title: str) -> dict | None:
-    q = urllib.parse.quote(title)
-    data = _get(f"{S2_SEARCH}?query={q}&fields={S2_FIELDS}&limit=5")
-    if not data:
-        return None
-    for paper in data.get("data", []):
-        if _similarity(title, paper.get("title", "")) >= 0.70:
-            return paper
-    return None
-
-
-def _s2_fields(paper: dict) -> dict:
-    f: dict[str, str] = {}
-    names = [a.get("name", "") for a in paper.get("authors", []) if a.get("name")]
-    if names:
-        f["author"] = " and ".join(names)
-    if paper.get("title"):
-        f["title"] = paper["title"]
-    if paper.get("year"):
-        f["year"] = str(paper["year"])
-    j = paper.get("journal") or {}
-    if j.get("name"):
-        f["journal"] = j["name"]
-        if j.get("volume"):
-            f["volume"] = str(j["volume"])
-        if j.get("pages"):
-            f["pages"] = str(j["pages"]).replace("-", "--")
-    elif paper.get("venue"):
-        f["journal"] = paper["venue"]
-    doi = (paper.get("externalIds") or {}).get("DOI")
-    if doi:
-        f["doi"] = doi
-    # Open-access PDF
-    oapdf = paper.get("openAccessPdf") or {}
-    if oapdf.get("url"):
-        f["pdf"] = oapdf["url"]
-    return f
-
-
-# ─── CrossRef ────────────────────────────────────────────────────────────────
-
-def _cr_lookup(title: str) -> dict | None:
-    q = urllib.parse.quote(title)
-    data = _get(f"{CR_WORKS}?query.title={q}&rows=5")
-    if not data:
-        return None
-    for item in data.get("message", {}).get("items", []):
-        cand = ((item.get("title") or [""])[0])
-        if _similarity(title, cand) >= 0.75:
-            return item
-    return None
-
-
-def _cr_fields(item: dict) -> dict:
-    f: dict[str, str] = {}
-    authors = item.get("author", [])
-    parts = [
-        f"{a.get('family', '')}, {a.get('given', '')}".strip(", ")
-        for a in authors if a.get("family")
-    ]
-    if parts:
-        f["author"] = " and ".join(parts)
-    titles = item.get("title", [])
-    if titles:
-        raw_title = re.sub(r"<[^>]+>", "", titles[0])
-        # Decode common HTML entities that CrossRef occasionally returns
-        raw_title = (raw_title
-                     .replace("&amp;", "&")
-                     .replace("&lt;", "<")
-                     .replace("&gt;", ">")
-                     .replace("&quot;", '"')
-                     .replace("&apos;", "'")
-                     .replace("&#x2014;", "\u2014")
-                     .replace("&#x2013;", "\u2013")
-                     .replace("&#x2018;", "\u2018")
-                     .replace("&#x2019;", "\u2019"))
-        f["title"] = raw_title
-    for dk in ("published", "published-print", "published-online"):
-        dp = item.get(dk, {}).get("date-parts", [[]])
-        if dp and dp[0]:
-            f["year"] = str(dp[0][0])
-            break
-    ct = item.get("container-title", [])
-    if ct:
-        f["journal"] = ct[0]
-    if item.get("volume"):
-        f["volume"] = str(item["volume"])
-    if item.get("issue"):
-        f["number"] = str(item["issue"])
-    if item.get("page"):
-        f["pages"] = str(item["page"]).replace("-", "--")
-    if item.get("DOI"):
-        f["doi"] = item["DOI"]
-    return f
-
-
-# ─── Enrichment ──────────────────────────────────────────────────────────────
-
-def enrich(title: str) -> dict:
-    """Return enriched fields from CrossRef then S2, or {}.
-
-    CrossRef is tried first and its title is always preferred — CrossRef titles
-    are the canonical, complete form.  If CrossRef returns a title we use it
-    unconditionally; we never let a (potentially truncated) Scholar title win
-    over a clean CrossRef title.
-    """
-    # CrossRef first — generous rate limits, no key needed
-    item = _cr_lookup(title)
-    if item:
-        fields = _cr_fields(item)
-        # Always use CrossRef title when available and clean — it is authoritative
-        if fields.get("title") and is_title_clean(fields["title"]):
-            fields["_cr_title_authoritative"] = True
-        if fields.get("author"):
-            return fields
-
-    # Semantic Scholar as fallback
-    paper = _s2_lookup(title)
-    if paper:
-        fields = _s2_fields(paper)
-        if fields.get("author"):
-            return fields
-
-    return {}
-
+# --- Merge helper ------------------------------------------------------------
 
 def _merge(existing: dict, new: dict) -> tuple[dict, bool]:
-    """Merge new fields into existing. Returns (merged, changed)."""
+    """Fill in missing fields from new. CrossRef title wins if longer."""
     f = dict(existing)
     changed = False
     for k, v in new.items():
-        if not v:
+        if k.startswith("_") or not v:
             continue
         cur = f.get(k, "").strip()
         if not cur:
-            # Field missing — add it.
-            # For titles, only add if the new value is clean.
-            if k == "title" and not is_title_clean(v):
-                continue
             f[k] = v
             changed = True
-        elif k == "title":
-            # Only overwrite an existing title if:
-            #   1. The new title passes the cleanliness check, AND
-            #   2. The new title is meaningfully longer (less truncated)
-            if is_title_clean(v) and (not is_title_clean(cur) or len(v) > len(cur) + 5):
-                f[k] = v
-                changed = True
-        elif k == "pdf" and not cur:
-            f[k] = v
+        elif k == "title" and len(v) > len(cur) + 5:
+            f[k] = v   # CrossRef title is more complete
             changed = True
     return f, changed
 
 
-# ─── Google Scholar via scholarly ────────────────────────────────────────────
-
-def _scholar_key(pub: dict) -> str | None:
-    apid = pub.get("author_pub_id", "")
-    if not apid:
-        return None
-    return apid.replace(":", "_").replace("/", "_")
-
-
-def _scholar_fields(pub: dict) -> dict:
-    bib = pub.get("bib", {})
-    f: dict[str, str] = {}
-    if bib.get("author"):
-        f["author"] = bib["author"]
-    if bib.get("title"):
-        f["title"] = bib["title"]
-    year = bib.get("pub_year") or bib.get("year")
-    if year:
-        f["year"] = str(year)
-    venue = bib.get("journal") or bib.get("venue") or bib.get("booktitle")
-    if venue:
-        f["journal"] = venue
-    for k in ("volume", "number", "pages"):
-        if bib.get(k):
-            f[k] = str(bib[k])
-    url = pub.get("pub_url") or pub.get("eprint_url")
-    if url:
-        f["html"] = url
-    return f
-
-
-def _fetch_scholar_html(scholar_id: str) -> list[dict]:
-    """Scrape Scholar profile HTML to get basic pub list (title, year, scholar key).
-    Returns list of minimal dicts compatible with _scholar_fields format.
-    Used as fallback when scholarly is blocked."""
-    pubs = []
-    start = 0
-    page_size = 100
-    base = "https://scholar.google.com/citations"
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0.0.0 Safari/537.36"
-        ),
-        "Accept-Language": "en-US,en;q=0.9",
-    }
-    while True:
-        url = (
-            f"{base}?user={scholar_id}&hl=en"
-            f"&view_op=list_works&sortby=pubdate"
-            f"&cstart={start}&pagesize={page_size}"
-        )
-        try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=20) as r:
-                html = r.read().decode("utf-8", errors="replace")
-        except Exception as e:
-            print(f"  [html-scrape] request failed: {e}", file=sys.stderr)
-            break
-
-        # Extract citations rows: <tr class="gsc_a_tr">
-        rows = re.findall(r'<tr class="gsc_a_tr">(.*?)</tr>', html, re.DOTALL)
-        if not rows:
-            break
-
-        for row in rows:
-            # Title + link
-            tm = re.search(
-                r'<a href="(/citations\?[^"]*view_op=view_citation[^"]*)"[^>]*>([^<]+)</a>',
-                row
-            )
-            if not tm:
-                continue
-            href = tm.group(1)
-            title = re.sub(r"&#\d+;", " ", tm.group(2)).strip()
-            title = re.sub(r"&amp;", "&", title)
-
-            # Scholar citation key from href
-            kid = re.search(r"citation_for_view=([^&\"]+)", href)
-            scholar_key = kid.group(1).replace(":", "_").replace("/", "_") if kid else None
-
-            # Year
-            ym = re.search(r'<span class="gsc_a_h gsc_a_hc gs_ibl">(\d{4})</span>', row)
-            year = ym.group(1) if ym else ""
-
-            # Venue (second .gs_gray span)
-            venues = re.findall(r'<div class="gs_gray">([^<]+)</div>', row)
-            venue = venues[1].strip() if len(venues) >= 2 else ""
-
-            pub = {
-                "author_pub_id": kid.group(1) if kid else title[:30],
-                "bib": {
-                    "title": title,
-                    "pub_year": year,
-                    "journal": venue,
-                },
-                "pub_url": f"https://scholar.google.com{href}",
-            }
-            pubs.append(pub)
-
-        time.sleep(2)
-        if len(rows) < page_size:
-            break
-        start += page_size
-
-    print(f"  [html-scrape] found {len(pubs)} publications.")
-    return pubs
-
-
-def fetch_scholar_pubs(scholar_id: str) -> list[dict]:
-    """Return list of scholarly publication dicts, or [] on failure.
-    Tries scholarly library first, falls back to HTML scraping."""
-    try:
-        from scholarly import scholarly as sc
-        print("Fetching Google Scholar profile via scholarly...")
-        author = sc.search_author_id(scholar_id)
-        author = sc.fill(author, sections=["publications"])
-        pubs = author.get("publications", [])
-        if pubs:
-            print(f"  Found {len(pubs)} publications on Scholar.")
-            return pubs
-        raise ValueError("Empty publication list from scholarly")
-    except ImportError:
-        print("scholarly not installed — trying HTML scrape...", file=sys.stderr)
-    except Exception as e:
-        print(f"scholarly failed ({e}) — trying HTML scrape...", file=sys.stderr)
-
-    # Fallback: direct HTML scrape
-    return _fetch_scholar_html(scholar_id)
-
-
-# ─── Main ────────────────────────────────────────────────────────────────────
+# --- Main --------------------------------------------------------------------
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Sync Google Scholar → papers.bib")
-    ap.add_argument("--scholar-id", default=SCHOLAR_ID)
-    ap.add_argument("--enrich-only", action="store_true",
+    ap = argparse.ArgumentParser(
+        description="Sync Google Scholar -> papers.bib (SerpAPI + CrossRef)"
+    )
+    ap.add_argument("--scholar-id",   default=SCHOLAR_ID)
+    ap.add_argument("--enrich-only",  action="store_true",
                     help="Skip Scholar fetch; only enrich existing entries")
-    ap.add_argument("--dry-run", action="store_true",
+    ap.add_argument("--dry-run",      action="store_true",
                     help="Print what would change but don't write")
     args = ap.parse_args()
 
     entries = parse_bib(BIB_FILE)
-    by_key = {e["_key"]: e for e in entries if e.get("_key")}
+    by_key  = {e["_key"]: e for e in entries if e.get("_key")}
     print(f"Loaded {len(entries)} entries from {BIB_FILE}.")
 
-    # ── Step 1: Add new publications from Google Scholar ──────────────────────
+    # -- Step 1: Add new publications from Google Scholar via SerpAPI ----------
     added = 0
     if not args.enrich_only:
-        for pub in fetch_scholar_pubs(args.scholar_id):
-            key = _scholar_key(pub)
-            if not key or key in by_key:
+        print("\nFetching publications from Google Scholar via SerpAPI...")
+        scholar_pubs = fetch_scholar_pubs(args.scholar_id)
+        print(f"SerpAPI returned {len(scholar_pubs)} publications.")
+
+        for pub in scholar_pubs:
+            key   = pub["scholar_key"]
+            title = pub["title"]
+            if not key or key in by_key or not title:
                 continue
-            sf = _scholar_fields(pub)
-            if not sf.get("title"):
-                continue
-            new_e: dict = {
-                "_type": "article",
-                "_key": key,
-                "_fields": {**sf, "bibtex_show": "true"},
+
+            print(f"  + {title[:72]}")
+
+            # Enrich via CrossRef
+            cr       = enrich(title)
+            bib_type = cr.pop("_bib_type", "article")
+
+            fields: dict[str, str] = {
+                **cr,
+                # Fall back to SerpAPI values for anything CrossRef didn't find
+                "title":       cr.get("title")  or title,
+                "year":        cr.get("year")   or pub["year"],
+                "bibtex_show": "true",
             }
+            if pub["scholar_url"] and not fields.get("html"):
+                fields["html"] = pub["scholar_url"]
+            if pub["venue"] and not fields.get("journal"):
+                fields["journal"] = pub["venue"]
+            if pub["authors"] and not fields.get("author"):
+                fields["author"] = pub["authors"]
+
+            new_e: dict = {"_type": bib_type, "_key": key, "_fields": fields}
             entries.append(new_e)
             by_key[key] = new_e
             added += 1
-            print(f"  + {sf.get('title', '')[:75]}")
-        print(f"Added {added} new publication(s) from Scholar.")
 
-    # ── Step 2: Enrich entries missing author or with truncated titles ─────────
-    # An entry needs enrichment if:
-    #   a) no author field, OR
-    #   b) title ends with "..." or looks truncated (ends mid-word without punct)
+        print(f"Added {added} new publication(s).")
+
+    # -- Step 2: Enrich existing entries missing metadata ----------------------
     def needs_enrichment(e: dict) -> bool:
         f = e["_fields"]
-        if not f.get("title"):
-            return False  # nothing to search with
-        if not f.get("author", "").strip():
-            return True
-        title = f.get("title", "").strip()
-        # Heuristic: truncated if last char is not punctuation and not a closing brace
-        if title and title[-1] not in ".!?)}'\"":
-            return True
-        return False
+        return bool(f.get("title")) and (
+            not f.get("author") or not f.get("doi") or not f.get("year")
+        )
 
     need = [e for e in entries if e.get("_key") and needs_enrichment(e)]
-    print(f"\nEnriching {len(need)} entries...")
+    print(f"\nEnriching {len(need)} entries missing metadata...")
 
     enriched = 0
-    failed = 0
     for i, e in enumerate(need, 1):
         title = e["_fields"].get("title", "").strip()
-        key = e["_key"]
-        print(f"  [{i:3d}/{len(need)}] {key[:40]:40s}  {title[:45]}...")
+        doi   = e["_fields"].get("doi",   "").strip()
+        print(f"  [{i:3d}/{len(need)}] {title[:65]}...")
 
-        new_f = enrich(title)
-        if not new_f:
-            print("           ✗ not found")
-            failed += 1
+        cr = enrich(title, doi)
+        if not cr:
+            print("           x not found in CrossRef")
             continue
-
-        merged, changed = _merge(e["_fields"], new_f)
+        cr.pop("_bib_type", None)
+        merged, changed = _merge(e["_fields"], cr)
         if changed:
             if not args.dry_run:
                 e["_fields"] = merged
             enriched += 1
-            author_preview = merged.get("author", "")[:60]
-            print(f"           ✓ {author_preview}")
+            print("           + enriched")
         else:
-            print("           ~ no new data")
+            print("           ~ already complete")
 
-    print(f"\nSummary: {added} added · {enriched} enriched · {failed} not found")
+    print(f"\nSummary: {added} added  {enriched} enriched")
 
     if args.dry_run:
-        print("Dry run — not writing.")
+        print("Dry run -- not writing.")
         return 0
 
     write_bib(BIB_FILE, entries)
