@@ -21,12 +21,15 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install google-search-results
+        run: pip install google-search-results pyyaml
 
       - name: Sync publications from Google Scholar
         run: python bin/sync_publications.py
         env:
           GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
+
+      - name: Reconcile authors and venues against CV ground truth
+        run: python bin/reconcile_cv.py
 
       - name: Commit and push if changed
         id: commit
