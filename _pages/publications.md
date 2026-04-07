@@ -19,13 +19,13 @@ nav_order: 1
   <button onclick="showPubs('other', this)">Other</button>
 </div>
 
-<div id="pub-all" class="pub-section active">
+<div id="pub-all" class="pub-section publications active">
 
 {% bibliography %}
 
 </div>
 
-<div id="pub-mental-health" class="pub-section">
+<div id="pub-mental-health" class="pub-section publications">
 <div class="theme-header">
   <img src="/assets/img/themes/mental-health.jpg" alt="Mental Health & NLP">
   <div class="theme-info">
@@ -38,7 +38,7 @@ nav_order: 1
 
 </div>
 
-<div id="pub-public-health" class="pub-section">
+<div id="pub-public-health" class="pub-section publications">
 <div class="theme-header">
   <img src="/assets/img/themes/public-health.jpg" alt="Public Health">
   <div class="theme-info">
@@ -51,7 +51,7 @@ nav_order: 1
 
 </div>
 
-<div id="pub-cross-cultural" class="pub-section">
+<div id="pub-cross-cultural" class="pub-section publications">
 <div class="theme-header">
   <img src="/assets/img/themes/cross-cultural.png" alt="Cross-Cultural AI">
   <div class="theme-info">
@@ -64,7 +64,7 @@ nav_order: 1
 
 </div>
 
-<div id="pub-health-interventions" class="pub-section">
+<div id="pub-health-interventions" class="pub-section publications">
 <div class="theme-header">
   <div class="theme-info">
     <h2>Conversational AI for Health Interventions</h2>
@@ -76,7 +76,7 @@ nav_order: 1
 
 </div>
 
-<div id="pub-personality-and-social-media" class="pub-section">
+<div id="pub-personality-and-social-media" class="pub-section publications">
 <div class="theme-header">
   <img src="/assets/img/themes/personality.png" alt="Personality & Social Media">
   <div class="theme-info">
@@ -89,7 +89,7 @@ nav_order: 1
 
 </div>
 
-<div id="pub-multimedia-and-images" class="pub-section">
+<div id="pub-multimedia-and-images" class="pub-section publications">
 <div class="theme-header">
   <div class="theme-info">
     <h2>Multimedia & Images</h2>
@@ -101,7 +101,7 @@ nav_order: 1
 
 </div>
 
-<div id="pub-nlp-and-machine-learning" class="pub-section">
+<div id="pub-nlp-and-machine-learning" class="pub-section publications">
 <div class="theme-header">
   <div class="theme-info">
     <h2>NLP & Machine Learning</h2>
@@ -113,7 +113,7 @@ nav_order: 1
 
 </div>
 
-<div id="pub-other" class="pub-section">
+<div id="pub-other" class="pub-section publications">
 <div class="theme-header">
   <div class="theme-info">
     <h2>Other</h2>
