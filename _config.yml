@@ -216,6 +216,7 @@ scholar:
   join_strings: true
 
   details_dir: bibliography
+  details_layout: bib_detail.html
   details_link: Details
 
   query: "@*"

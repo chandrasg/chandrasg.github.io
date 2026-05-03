@@ -1,0 +1,104 @@
+---
+layout: default
+---
+<div class="post-content">
+  <div class="pub-entry" style="border-bottom:none; padding-top:0;">
+
+    {%- comment -%} Title {%- endcomment -%}
+    <h1 style="font-size:1.35rem; font-weight:700; line-height:1.4; margin-bottom:0.6rem; color:var(--global-text-color);">
+      {{ page.entry.title | strip_html }}
+    </h1>
+
+    {%- comment -%} Authors {%- endcomment -%}
+    {%- assign author_array_size = page.entry.author_array | size -%}
+    {%- if author_array_size > 0 -%}
+    <div class="pub-authors" style="font-size:0.9rem; margin-bottom:0.5rem;">
+      {%- for author in page.entry.author_array -%}
+        {%- assign author_is_self = false -%}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {%- if site.scholar.last_name contains author_last_name -%}
+          {%- if site.scholar.first_name contains author.first -%}
+            {%- assign author_is_self = true -%}
+          {%- endif -%}
+        {%- endif -%}
+        {%- if forloop.first == false -%}, {% endif -%}
+        {%- if author_is_self -%}
+          <strong>{{ author.first }} {{ author.last }}</strong>
+        {%- else -%}
+          {{ author.first }} {{ author.last }}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- comment -%} Venue + year {%- endcomment -%}
+    {%- assign proceedings = 'inproceedings,incollection' | split: ',' -%}
+    {%- assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' -%}
+    {%- assign venue_text = '' -%}
+    {%- if page.entry.type == 'article' and page.entry.journal -%}
+      {%- assign venue_text = page.entry.journal -%}
+    {%- elsif proceedings contains page.entry.type and page.entry.booktitle -%}
+      {%- assign venue_text = page.entry.booktitle -%}
+    {%- elsif thesis contains page.entry.type and page.entry.school -%}
+      {%- assign venue_text = page.entry.school -%}
+    {%- endif -%}
+    {%- if venue_text != '' or page.entry.year -%}
+    <div class="pub-venue" style="margin-bottom:0.75rem;">
+      {%- if venue_text != '' -%}
+        <em>{{ venue_text | strip_html }}</em>
+        {%- if page.entry.year -%}, {{ page.entry.year }}{%- endif -%}
+      {%- elsif page.entry.year -%}
+        {{ page.entry.year }}
+      {%- endif -%}
+      {%- if page.entry.note -%}
+        &mdash; {{ page.entry.note }}
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+
+    {%- comment -%} Action links {%- endcomment -%}
+    <div class="pub-links" style="margin-bottom:1rem;">
+      {%- if page.entry.pdf -%}
+        {%- if page.entry.pdf contains '://' -%}
+          <a href="{{ page.entry.pdf }}" class="pub-btn" target="_blank" rel="noopener noreferrer">PDF</a>
+        {%- else -%}
+          <a href="{{ page.entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="pub-btn" target="_blank" rel="noopener noreferrer">PDF</a>
+        {%- endif -%}
+      {%- endif -%}
+      {%- if page.entry.doi -%}
+        <a href="https://doi.org/{{ page.entry.doi }}" class="pub-btn" target="_blank" rel="noopener noreferrer">DOI</a>
+      {%- endif -%}
+      {%- if page.entry.arxiv -%}
+        <a href="https://arxiv.org/abs/{{ page.entry.arxiv }}" class="pub-btn" target="_blank" rel="noopener noreferrer">arXiv</a>
+      {%- endif -%}
+      {%- if page.entry.html -%}
+        {%- if page.entry.html contains '://' -%}
+          <a href="{{ page.entry.html }}" class="pub-btn" target="_blank" rel="noopener noreferrer">HTML</a>
+        {%- else -%}
+          <a href="{{ page.entry.html | prepend: '/assets/html/' | relative_url }}" class="pub-btn" target="_blank" rel="noopener noreferrer">HTML</a>
+        {%- endif -%}
+      {%- endif -%}
+      {%- if page.entry.code -%}
+        <a href="{{ page.entry.code }}" class="pub-btn" target="_blank" rel="noopener noreferrer">Code</a>
+      {%- endif -%}
+      <a href="{{ '/publications/' | relative_url }}" class="pub-btn">&larr; All Publications</a>
+    </div>
+
+    {%- comment -%} Abstract {%- endcomment -%}
+    {%- if page.entry.abstract -%}
+    <div style="margin:1.25rem 0;">
+      <h2 style="font-size:1rem; font-weight:600; margin-bottom:0.4rem; color:var(--global-text-color);">Abstract</h2>
+      <p style="font-size:0.9rem; line-height:1.65; color:var(--global-text-color);">{{ page.entry.abstract | strip_html }}</p>
+    </div>
+    {%- endif -%}
+
+    {%- comment -%} BibTeX {%- endcomment -%}
+    <div style="margin-top:1.5rem;">
+      <h2 style="font-size:1rem; font-weight:600; margin-bottom:0.4rem; color:var(--global-text-color);">Citation</h2>
+      <div class="bibtex" style="font-size:0.8rem;">
+        {% highlight bibtex %}{{ page.bibtex | hideCustomBibtex }}{% endhighlight %}
+      </div>
+    </div>
+
+  </div>
+</div>
