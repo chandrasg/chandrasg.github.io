@@ -66,6 +66,7 @@ nav_order: 1
 
 <div id="pub-health-interventions" class="pub-section publications">
 <div class="theme-header">
+  <img src="/assets/img/themes/health-interventions.jpg" alt="Health Interventions">
   <div class="theme-info">
     <h2>Conversational AI for Health Interventions</h2>
     <p>Culturally aware conversational agents and digital health interventions for behavior change, integrating patient-generated data into clinical care.</p>
@@ -91,9 +92,10 @@ nav_order: 1
 
 <div id="pub-multimedia-and-images" class="pub-section publications">
 <div class="theme-header">
+  <img src="/assets/img/themes/multimedia.jpg" alt="Multimedia & Images">
   <div class="theme-info">
     <h2>Multimedia & Images</h2>
-    <p>Visual content analysis, image aesthetics, multimedia quality perception, and computer vision for understanding user behavior and health.</p>
+    <p>Perceptual image/video quality, 3D synthesized view quality, audio quality, and computer vision for medical imaging and content analysis.</p>
   </div>
 </div>
 
@@ -103,9 +105,10 @@ nav_order: 1
 
 <div id="pub-nlp-and-machine-learning" class="pub-section publications">
 <div class="theme-header">
+  <img src="/assets/img/themes/nlp-ml.jpg" alt="NLP & Machine Learning">
   <div class="theme-info">
     <h2>NLP & Machine Learning</h2>
-    <p>Methods contributions in natural language processing, deep learning, and machine learning -- models, benchmarks, and representations.</p>
+    <p>Methods in natural language processing, topic modeling, LLMs, and machine learning — including language markers, cultural lexica, and benchmark evaluation.</p>
   </div>
 </div>
 
