@@ -62,7 +62,7 @@ THEMES = {
         "china and japan", "temporal orientation",
         "politeness", "weibo", "mandarin",
         "racial", "race", "equity", "fairness",
-        "disparit", "india", "china", "african", "arabic",
+        "disparit", " india", " china", "african", "arabic",
         "hindi", "chinese", "spanish", "south asia", "east asia",
         "international", "stereotype", "discriminat",
         "underrepresent", "minorit", "low-resource",
@@ -132,6 +132,9 @@ THEMES = {
         "image analys", "perceptual", "aesthetic",
         "video qoe", "video recommendation", "voD",
         "multimedia perception", "underwater image",
+        "whole slide image", "wsi", "digital pathology",
+        "computational pathology", "histopatholog",
+        "slide image", "tissue section",
     ],
 }
 
