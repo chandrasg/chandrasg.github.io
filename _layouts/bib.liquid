@@ -122,8 +122,6 @@
     {%- if entry.bibtex_show -%}
       <a class="pub-btn pub-btn-cite bibtex" role="button">Cite</a>
     {%- endif -%}
-    {%- assign _detail_key = entry.key | replace: ':', '_' -%}
-    <a href="{{ '/bibliography/' | append: _detail_key | append: '/' | relative_url }}" class="pub-btn">Details</a>
   </div>
 
   {%- comment -%} Hidden bibtex block — toggled by common.js via .bibtex class {%- endcomment -%}
