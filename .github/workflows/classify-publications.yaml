@@ -26,6 +26,12 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Install pdftotext (poppler-utils)
+        # Without this the classifier silently falls back to title-only
+        # classification and overwrites the richer PDF-informed keywords,
+        # ping-ponging with local runs that do have pdftotext.
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
       - name: Classify publications
         run: python3 bin/classify_publications.py
 

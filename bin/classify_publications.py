@@ -268,8 +268,14 @@ def main():
             theme_counts[t] += 1
         classified += 1
 
+    # Parts already carry their leading newline from the lookahead split —
+    # joining with "" keeps the file byte-stable across repeated runs
+    # (joining with "\n" used to add one blank line per entry per run).
+    output = "".join(new_parts)
+    # Collapse any blank-line runs accumulated from previous buggy runs
+    output = re.sub(r"\n{3,}", "\n\n\n", output)
     with open(bib_path, "w") as f:
-        f.write("\n".join(new_parts))
+        f.write(output)
 
     print(f"\nClassified {classified} publications:")
     for theme, count in theme_counts.most_common():
