@@ -7,10 +7,12 @@
  * Consistent page content styling
  * --------------------------------------------------------------------------- */
 
-// All page content inherits these baseline styles
+// All page content inherits these baseline styles.
+// :not() guards keep this rule from bleeding into project card titles
+// and jekyll-scholar year markers, which have their own styling below.
 .post-content,
 .post {
-  h2 {
+  h2:not(.card-title):not(.bibliography) {
     color: var(--global-theme-color);
     font-size: 1.4rem;
     font-weight: 600;
@@ -28,62 +30,70 @@
     color: var(--global-text-color);
   }
 
-  // Polished list items for talks, media, resources
-  > ul {
-    list-style: none;
-    padding-left: 0;
+  // Horizontal rules
+  hr {
+    margin: 1.75rem 0;
+    border-top: 1px solid var(--global-divider-color);
+  }
+}
 
-    > li {
-      position: relative;
-      padding: 0.65rem 0 0.65rem 1.25rem;
-      border-bottom: 1px solid var(--global-divider-color);
-      line-height: 1.55;
+// Polished list items for talks, media, resources.
+// The page layout renders markdown inside `.post > article`, so both
+// selectors are needed for the rule to reach top-level lists.
+.post-content > ul,
+.post article > ul {
+  list-style: none;
+  padding-left: 0;
 
-      &:last-child {
-        border-bottom: none;
-      }
+  > li {
+    position: relative;
+    padding: 0.65rem 0 0.65rem 1.25rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    line-height: 1.55;
 
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background: var(--global-theme-color);
-      }
+    &:last-child {
+      border-bottom: none;
+    }
 
-      strong {
-        color: var(--global-text-color);
-      }
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.85rem;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--global-theme-color);
+    }
+
+    strong {
+      color: var(--global-text-color);
     }
   }
 
   // Nested lists (e.g., resources page with dataset links)
-  > ul > li > ul {
+  > li > ul {
     list-style: none;
     padding-left: 1rem;
     margin-top: 0.25rem;
 
     > li {
-      padding: 0.25rem 0;
+      position: relative;
+      padding: 0.25rem 0 0.25rem 1rem;
       border-bottom: none;
       font-size: 0.92rem;
 
       &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.72rem;
         width: 4px;
         height: 4px;
+        border-radius: 50%;
         background: var(--global-text-color-light);
       }
     }
-  }
-
-  // Horizontal rules
-  hr {
-    margin: 1.75rem 0;
-    border-top: 1px solid var(--global-divider-color);
   }
 }
 
@@ -180,6 +190,36 @@
   }
 }
 
+// Year markers between publication groups (jekyll-scholar group_by: year).
+// Replaces al-folio's near-invisible right-aligned ghost year with a clear,
+// scannable section label: bold year + hairline rule extending right.
+.publications h2.bibliography {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--global-theme-color);
+  text-align: left;
+  border-top: none;
+  border-bottom: none;
+  padding: 0;
+  margin: 2.5rem 0 1rem;
+
+  &::after {
+    content: "";
+    flex: 1 1 auto;
+    height: 1px;
+    background: var(--global-divider-color);
+  }
+}
+
+// Tighten the gap for the first year marker in each filtered section
+.pub-section h2.bibliography:first-of-type {
+  margin-top: 1.25rem;
+}
+
 /* ---------------------------------------------------------------------------
  * Lab member grid styling (moved from inline styles)
  * --------------------------------------------------------------------------- */
@@ -191,15 +231,43 @@
     text-align: center;
     margin-bottom: 1.5rem;
 
-    img {
+    // Circle avatar with initials fallback: the initials render behind the
+    // photo (::before), so if the remote image 404s and removes itself
+    // (onerror in lab.md), a clean initials badge shows instead.
+    .member-avatar {
+      position: relative;
       width: 110px;
       height: 110px;
-      object-fit: cover;
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+      background: var(--global-code-bg-color);
       border: 3px solid var(--global-divider-color);
       transition: border-color 0.2s ease;
+
+      &::before {
+        content: attr(data-initials);
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--global-theme-color);
+      }
+
+      img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: none;
+      }
     }
 
-    &:hover img {
+    &:hover .member-avatar {
       border-color: var(--global-theme-color);
     }
 
@@ -251,8 +319,8 @@
     margin-left: 0.5rem;
     font-size: 0.72rem;
     font-weight: 600;
-    color: #b8860b;
-    background: #fff8dc;
+    color: #9a6700;
+    background: #fff8c5;
     border: 1px solid #e6c96c;
     border-radius: 4px;
     padding: 1px 6px;
@@ -333,6 +401,13 @@
       border-radius: 6px;
     }
   }
+}
+
+// Dark-mode variant of the award badge (light cream chip would glare)
+html[data-theme="dark"] .pub-entry .pub-award-badge {
+  color: #e3b341;
+  background: rgba(187, 128, 9, 0.15);
+  border-color: rgba(187, 128, 9, 0.45);
 }
 
 // Bibliography wrapper — remove default list/ol margins

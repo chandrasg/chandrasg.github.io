@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Public Health
-description: Using social media and online data for public health surveillance -- tracking COVID-19 discourse, vaccine attitudes, substance use, cardiovascular risk, and health behaviors at population scale.
+description: Using social media and online data for public health surveillance – tracking COVID-19 discourse, vaccine attitudes, substance use, cardiovascular risk, and health behaviors at population scale.
 img:
 importance: 2
 category:

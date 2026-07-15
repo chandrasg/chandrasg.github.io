@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cross-Cultural AI
-description: Studying how language, emotion, and social behavior vary across cultures, platforms, and communities -- from emoji usage to politeness norms to stress expression across the East and West.
+description: Studying how language, emotion, and social behavior vary across cultures, platforms, and communities – from emoji usage to politeness norms to stress expression across the East and West.
 img:
 importance: 3
 category:

@@ -7,16 +7,16 @@ nav: true
 nav_order: 1
 ---
 
-<div class="pub-filters">
-  <button class="active" onclick="showPubs('all', this)">All</button>
-  <button onclick="showPubs('mental-health', this)">Mental Health & NLP</button>
-  <button onclick="showPubs('public-health', this)">Public Health</button>
-  <button onclick="showPubs('cross-cultural', this)">Cross-Cultural AI</button>
-  <button onclick="showPubs('health-interventions', this)">Health Interventions</button>
-  <button onclick="showPubs('personality-and-social-media', this)">Personality & Social Media</button>
-  <button onclick="showPubs('multimedia-and-images', this)">Multimedia & Images</button>
-  <button onclick="showPubs('nlp-and-machine-learning', this)">NLP & ML</button>
-  <button onclick="showPubs('other', this)">Other</button>
+<div class="pub-filters" role="group" aria-label="Filter publications by research theme">
+  <button class="active" aria-pressed="true" onclick="showPubs('all', this)">All</button>
+  <button aria-pressed="false" onclick="showPubs('mental-health', this)">Mental Health & NLP</button>
+  <button aria-pressed="false" onclick="showPubs('public-health', this)">Public Health</button>
+  <button aria-pressed="false" onclick="showPubs('cross-cultural', this)">Cross-Cultural AI</button>
+  <button aria-pressed="false" onclick="showPubs('health-interventions', this)">Health Interventions</button>
+  <button aria-pressed="false" onclick="showPubs('personality-and-social-media', this)">Personality & Social Media</button>
+  <button aria-pressed="false" onclick="showPubs('multimedia-and-images', this)">Multimedia & Images</button>
+  <button aria-pressed="false" onclick="showPubs('nlp-and-machine-learning', this)">NLP & ML</button>
+  <button aria-pressed="false" onclick="showPubs('other', this)">Other</button>
 </div>
 
 <div id="pub-all" class="pub-section publications active">
@@ -43,7 +43,7 @@ nav_order: 1
   <img src="/assets/img/themes/public-health.jpg" alt="Public Health">
   <div class="theme-info">
     <h2>Public Health</h2>
-    <p>Social media and digital data for public health surveillance -- COVID-19, vaccines, substance use, cardiovascular risk, and health behaviors at population scale.</p>
+    <p>Social media and digital data for public health surveillance – COVID-19, vaccines, substance use, cardiovascular risk, and health behaviors at population scale.</p>
   </div>
 </div>
 
@@ -56,7 +56,7 @@ nav_order: 1
   <img src="/assets/img/themes/cross-cultural.png" alt="Cross-Cultural AI">
   <div class="theme-info">
     <h2>Cross-Cultural AI</h2>
-    <p>How language, emotion, and social behavior vary across cultures and communities -- emoji usage, politeness norms, gender, racial equity in AI.</p>
+    <p>How language, emotion, and social behavior vary across cultures and communities – emoji usage, politeness norms, gender, racial equity in AI.</p>
   </div>
 </div>
 
@@ -82,7 +82,7 @@ nav_order: 1
   <img src="/assets/img/themes/personality.png" alt="Personality & Social Media">
   <div class="theme-info">
     <h2>Personality & Social Media</h2>
-    <p>Understanding personality traits and self-presentation through social media content -- posted images, language patterns, and user behavior on Twitter, Facebook, and Flickr.</p>
+    <p>Understanding personality traits and self-presentation through social media content – posted images, language patterns, and user behavior on Twitter, Facebook, and Flickr.</p>
   </div>
 </div>
 
@@ -131,9 +131,13 @@ nav_order: 1
 <script>
 function showPubs(id, btn) {
   document.querySelectorAll('.pub-section').forEach(function(s) { s.classList.remove('active'); });
-  document.querySelectorAll('.pub-filters button').forEach(function(b) { b.classList.remove('active'); });
+  document.querySelectorAll('.pub-filters button').forEach(function(b) {
+    b.classList.remove('active');
+    b.setAttribute('aria-pressed', 'false');
+  });
   document.getElementById('pub-' + id).classList.add('active');
   btn.classList.add('active');
+  btn.setAttribute('aria-pressed', 'true');
   window.scrollTo({ top: document.querySelector('.pub-filters').offsetTop - 80, behavior: 'smooth' });
 }
 </script>

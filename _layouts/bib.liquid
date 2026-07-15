@@ -88,11 +88,17 @@
   {%- elsif thesis contains entry.type and entry.school -%}
     {%- assign venue_text = entry.school -%}
   {%- endif -%}
+  {%- comment -%} Scholar-synced journal fields often end in ", YYYY" — strip it so the year isn't shown twice {%- endcomment -%}
+  {%- assign venue_text = venue_text | regex_replace: ',\s*(19|20)[0-9][0-9]\s*$', '' -%}
+  {%- comment -%} Skip the appended year when the venue name itself carries it (e.g. "Interspeech 2022") {%- endcomment -%}
+  {%- assign year_string = entry.year | append: '' -%}
+  {%- assign show_year = true -%}
+  {%- if venue_text contains year_string -%}{%- assign show_year = false -%}{%- endif -%}
   {%- if venue_text != '' or entry.year or entry.note -%}
   <div class="pub-venue">
     {%- if venue_text != '' -%}
       <em>{{ venue_text }}</em>
-      {%- if entry.year -%}, {{ entry.year }}{%- endif -%}
+      {%- if entry.year and show_year -%}, {{ entry.year }}{%- endif -%}
     {%- elsif entry.year -%}
       {{ entry.year }}
     {%- endif -%}

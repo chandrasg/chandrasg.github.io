@@ -21,8 +21,12 @@ Visit our **[lab website](https://csl-lab-upenn.github.io/)** for the latest on 
 
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 justify-content-center lab-members">
 {% for member in site.data.lab-members %}
+{% assign name_parts = member.name | split: " " %}
+{% capture member_initials %}{{ name_parts.first | slice: 0 }}{% if name_parts.size > 1 %}{{ name_parts.last | slice: 0 }}{% endif %}{% endcapture %}
 <div class="col lab-member">
-  <img src="{{ member.image }}" alt="{{ member.name }}" class="rounded-circle" loading="lazy">
+  <div class="member-avatar" data-initials="{{ member_initials | strip }}">
+    <img src="{{ member.image }}" alt="{{ member.name }}" loading="lazy" onerror="this.remove()">
+  </div>
   <div class="member-name">{{ member.name }}</div>
   <div class="member-role">{{ member.role }}</div>
 </div>

@@ -7,7 +7,7 @@ importance: 1
 category:
 ---
 
-We develop NLP and machine learning methods to detect, measure, and understand mental health conditions from digital traces -- social media posts, images, and smartphone interactions.
+We develop NLP and machine learning methods to detect, measure, and understand mental health conditions from digital traces – social media posts, images, and smartphone interactions.
 
 **Key areas:**
 - Depression and anxiety detection from social media language and images
