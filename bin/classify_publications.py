@@ -64,7 +64,7 @@ THEMES = {
         "racial", "race", "equity", "fairness",
         "disparit", " india", " china", "african", "arabic",
         "hindi", "chinese", "spanish", "south asia", "east asia",
-        "international", "stereotype", "discriminat",
+        "stereotype", "discriminat",
         "underrepresent", "minorit", "low-resource",
         "norms in cinema", "gender norms", "cultural variation",
         "urban-rural", "rural urban", "geography", "geographical",
