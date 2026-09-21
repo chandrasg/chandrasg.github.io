@@ -25,7 +25,7 @@ Visit our **[lab website](https://csl-lab-upenn.github.io/)** for the latest on 
 {% capture member_initials %}{{ name_parts.first | slice: 0 }}{% if name_parts.size > 1 %}{{ name_parts.last | slice: 0 }}{% endif %}{% endcapture %}
 <div class="col lab-member">
   <div class="member-avatar" data-initials="{{ member_initials | strip }}">
-    <img src="{{ member.image }}" alt="{{ member.name }}" loading="lazy" onerror="this.remove()">
+    {% if member.image %}<img src="{{ member.image }}" alt="{{ member.name }}" loading="lazy" onerror="this.remove()">{% endif %}
   </div>
   <div class="member-name">{{ member.name }}</div>
   <div class="member-role">{{ member.role }}</div>

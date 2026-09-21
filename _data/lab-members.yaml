@@ -1,23 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM CSL LAB WEBSITE
 
-- name: Sunny Rai
-  role: Postdoctoral Researcher
-  image: https://csl-lab-upenn.github.io/images/SunnyRai.jpeg
 - name: Vivienne Chi
   role: Postdoctoral Researcher
   image: https://csl-lab-upenn.github.io/images/VivienneChi.jpeg
 - name: Neil Sehgal
   role: PhD Student
   image: https://csl-lab-upenn.github.io/images/NeilSehgal.jpeg
-- name: Jeffrey Cho
+- name: Shreya Havaldar
+  role: PhD Student
+  image: https://csl-lab-upenn.github.io/images/ShreyaHavaldar.jpg
+- name: Young Min (Jeffrey) Cho
   role: PhD Student
   image: https://csl-lab-upenn.github.io/images/YoungMinCho.jpg
-- name: Naomi Lynch
+- name: Allison Mi
   role: Master's Student
-  image: https://csl-lab-upenn.github.io/images/NaomiLynch.png
-- name: Yuan Yuan
+- name: Ishwari Mulay
   role: Master's Student
-  image: https://csl-lab-upenn.github.io/images/YuanYuan.jpg
+  image: https://csl-lab-upenn.github.io/images/IshwariMulay.jpg
 - name: Reyhan Jamalova
-  role: Research Analyst
+  role: Undergraduate Student
   image: https://csl-lab-upenn.github.io/images/ReyhanJamalova.jpg
