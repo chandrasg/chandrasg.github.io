@@ -1,0 +1,23 @@
+# Target inventory and reproduction boundary
+
+Paper: Rai et al. (2024), DOI 10.1073/pnas.2319837121. Classification: **partial_public_output_reproduction**. Original participant-level fit targets remain unreproduced; they are not replaced with fits over PHQ-cell means.
+
+| Source target | Inventory | Available work | Remaining blocker |
+|---|---|---|---|
+| Final Figure 1 | Overall and race-dependent I-usage fits and intervals | 54 released raw I means; explicitly new equal-cell descriptors | Original participant records, covariates, weights, scale and fitted uncertainty |
+| Final Figure 2 | Four normalized topic interaction panels and word clouds | Full raw mean curves and released keyword mappings for the four topics | Original scaling, individual regression fits, intervals and word-cloud weights |
+| Final Table 1 | 8 r and 8 p displays = 16 numeric cells | All source values transcribed; 16/16 agree with OSF manuscript | Original language features, labeled folds, predictions and complete preprocessing; no retraining |
+| Author manuscript Table S1 | 3 rows × 10 = 30 numeric cells | All values transcribed; BH on the 3 printed interaction p values gives 1 rejection at .05 | Original regression inputs and multiplicity implementation |
+| Author manuscript Table S2 | 23 rows × 10 = 230 numeric cells | All values transcribed; BH on the 23 printed interaction p values gives 5 rejections at .05 | Same original-fit blocker; 2 topic-ID correspondences unresolved |
+| Author Figure S1 | Fifth topic interaction plot, Despair / X431 | Released mean points and theme/keyword evidence | Fitted normalized lines, uncertainty and original word weights |
+| Author Figure S2 | WE and EMO_NEG overall/race fits | Released raw means | Original individual-level coefficients, scaling and uncertainty |
+| OSF histogram / author Figure 3 | 20 bar counts, 10 printed x labels | 20 integer counts recovered; Black total 434, White total 432 | Exact bin edges and individual values absent; White subtotal differs from matched N by −2 |
+| Final supplement B.1 | Shapiro W=.98, p=.88 | A fresh test of 27 released Black PHQ-cell means rounds to the pair | Individual-level claim unverified; identical rounded outputs cannot identify the original input |
+| Matching and sample description | Final n=868, 434 per race; age/gender matching and reported summaries | Literal design and source-version assessment | Individual demographic records and exact matching ledger absent |
+| Topic screening | 2,000 pretrained topics → 320 associated → 23 negative-emotion topics | All 23 final CSV topic mappings | Initial feature weights, screening statistics and annotation records absent |
+
+The 1,404 released means are data outputs rather than 1,404 independent paper-statistic replications. The 276 numeric table cells are source transcriptions. The histogram recovery, equal-cell diagnostics and printed-p calculations are separate result classes and are not added together into an inflated reproduction count.
+
+The final published supplement is a three-page methods document. Detailed Tables S1/S2 and Figures S1/S2 occur in the distinct nine-page OSF author manuscript. All correspondence claims use the specified version. The source S2 Anger row's keywords duplicate Worry, and a Despair row's keywords duplicate Emptiness-longing; null topic IDs preserve that ambiguity.
+
+BH is applied to two explicitly separate displayed-p families (3 and 23), using monotone adjusted p values and q=.05. Agreement with shading is an arithmetic compatibility result. It does not confirm the original correction family, recover full-precision p values or reproduce the individual regression tests.
