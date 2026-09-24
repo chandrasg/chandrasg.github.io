@@ -2,10 +2,18 @@
 layout: page
 permalink: /resources/
 title: resources
-description: Datasets, code, and lexica from our research.
+description: Interactive research demos, datasets, code, and lexica from our research.
 nav: true
 nav_order: 7
 ---
+
+## Interactive research demos
+
+- [Dear Pandemic]({{ '/demos/dear-pandemic/' | relative_url }}) — explore how an audience's public-health questions changed over time.
+- [Pediatric vaccine narratives]({{ '/demos/vaccine-narratives/' | relative_url }}) — compare themes, trust concerns, and communication patterns in historical public comments.
+- [Depression, language, and race]({{ '/demos/depression-language-race/' | relative_url }}) — explore language markers and the importance of evaluating mental-health AI across communities.
+
+[About these research companions →]({{ '/demos/' | relative_url }})
 
 ## Datasets
 

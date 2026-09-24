@@ -1,0 +1,86 @@
+{
+  "osf_project": "https://osf.io/hkep7/",
+  "verified_at": "2026-09-10",
+  "license": "CC BY 4.0",
+  "license_metadata_url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+  "license_metadata_sha256": "32fb3d7b32be0843803f96424fe7739f69574481211a2d323e16f8da8536c635",
+  "files": [
+    {
+      "name": "Fb_TopicMapping.csv",
+      "osf_file_id": "653826e88a28b1111effc6d1",
+      "guid": "b5um7",
+      "version": 1,
+      "source_download_url": "https://osf.io/download/b5um7/?version=1",
+      "source_page": "https://osf.io/hkep7/files/osfstorage/653826e88a28b1111effc6d1",
+      "bytes": 2527,
+      "sha256": "cc193e0dd6d7935d14879e93c36fd17971e07324ad920b6f69a0e839d0a9b722",
+      "local_verified": true,
+      "role": "public_aggregate_data"
+    },
+    {
+      "name": "IUsage_racewise_Histogram.pdf",
+      "osf_file_id": "65a9883f99d01000246272ae",
+      "guid": "9e4uf",
+      "version": 1,
+      "source_download_url": "https://osf.io/download/9e4uf/?version=1",
+      "source_page": "https://osf.io/hkep7/files/osfstorage/65a9883f99d01000246272ae",
+      "bytes": 14609,
+      "sha256": "431000bb343fe83b8cb818b806f0c3592c89bf3abe5834c315af5ea2f4ff7cf2",
+      "local_verified": true,
+      "role": "published_histogram"
+    },
+    {
+      "name": "Fb_LanguageMarkers.csv",
+      "osf_file_id": "653826eb87852d1227a58fe1",
+      "guid": "2m5q4",
+      "version": 1,
+      "source_download_url": "https://osf.io/download/2m5q4/?version=1",
+      "source_page": "https://osf.io/hkep7/files/osfstorage/653826eb87852d1227a58fe1",
+      "bytes": 28195,
+      "sha256": "3c05bb465729deaadb9044e4e3ea0b551ab1f7a72c97cbc453f3fb35bcac5667",
+      "local_verified": true,
+      "role": "public_aggregate_data"
+    },
+    {
+      "name": "LIWC_languageMarkers.csv",
+      "osf_file_id": "653826e987852d122da58ffe",
+      "guid": "at4xh",
+      "version": 1,
+      "source_download_url": "https://osf.io/download/at4xh/?version=1",
+      "source_page": "https://osf.io/hkep7/files/osfstorage/653826e987852d122da58ffe",
+      "bytes": 3624,
+      "sha256": "4fd4f411f9bab06035a624371a6b7bf45d03ff5e5710ea3ae0eed14f85c1e93e",
+      "local_verified": true,
+      "role": "public_aggregate_data"
+    },
+    {
+      "name": "OSF_manuscript.pdf",
+      "osf_file_id": "65be811a9b32ca073a97f5ad",
+      "guid": "uf9ga",
+      "version": 1,
+      "source_download_url": "https://osf.io/download/uf9ga/?version=1",
+      "bytes": 2597727,
+      "sha256": "29205dff1233293b4bb31c942be99f33eec07a31f8cc3428df9d3004927a3c46",
+      "local_verified": true,
+      "role": "author_public_manuscript_including_methods_and_supplement"
+    }
+  ],
+  "published_supplement": {
+    "name": "published_supplement.pdf",
+    "sha256": "71e06875f66d73faae4183eded242ae2b655d87397aa2e19054acd2915cd2e3e",
+    "bytes": 148304,
+    "pages": 3,
+    "discovery_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10998627/fullTextXML",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10998627/supplementaryFiles",
+    "archive_member": "pnas.2319837121.sapp.pdf",
+    "publisher_url": "https://www.pnas.org/doi/suppl/10.1073/pnas.2319837121/suppl_file/pnas.2319837121.sapp.pdf",
+    "license": "CC BY-NC-ND 4.0",
+    "public_bundle": false
+  },
+  "canonical_paper": {
+    "doi": "10.1073/pnas.2319837121",
+    "pages": 3,
+    "sha256": "566d61f8cc1afc7cbd412329917d0e4285c21dfb99ef00f730f870e1942519f7",
+    "public_bundle": false
+  }
+}
