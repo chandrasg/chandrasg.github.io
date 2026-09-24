@@ -2,29 +2,29 @@
 layout: page
 permalink: /demos/
 title: interactive research
-description: Explore public-health communication, audience questions, and equity through three research companions.
+description: Explore the questions, findings, and figures behind three public-health research papers.
 nav: false
 ---
 
-These interactive companions make findings from our research easier to explore. Each includes its sources and explains what the available evidence can establish.
+Start with a question, explore a figure, and see what the study found. These interactive versions of our research bring the papers' results into focus, with plain-language explanations and links to the original publications.
 
 ## Dear Pandemic
 
-**How do an audience's health questions change over time?** Explore 25 topics from 3,839 questions submitted to the Dear Pandemic science-communication project between August 2020 and August 2021. Compare vaccine concerns, information needs, and the data behind reconstructed trends.
+**What did people need to know as the pandemic changed?** Explore 25 topics from 3,839 questions submitted to the Dear Pandemic science-communication project. Follow how questions about variants, vaccines, and daily life changed between August 2020 and August 2021—and what that means for listening to an audience.
 
-[Explore the demo →]({{ '/demos/dear-pandemic/' | relative_url }}) · [Read the paper](https://doi.org/10.1371/journal.pone.0281773)
+[Explore the study →]({{ '/demos/dear-pandemic/' | relative_url }}) · [Read the paper](https://doi.org/10.1371/journal.pone.0281773)
 
 ## Public narratives about pediatric vaccines
 
-**How do people frame a public-health decision?** Explore 13 overlapping themes in historical US regulatory comments, including trust, autonomy, and emotional appeals. Compare themes and see when comments arrived. This is a study of self-selected public comments; theme counts describe model topics, rather than population opinion.
+**What arguments shape a public-health debate?** Explore the study's three-part framework: what commenters argued about pediatric vaccines, why they took those positions, and how they made their case. Compare 13 themes, including trust, autonomy, and emotional appeals, in comments submitted to US regulators.
 
-[Explore the demo →]({{ '/demos/vaccine-narratives/' | relative_url }}) · [Read the paper](https://doi.org/10.1093/haschl/qxae082)
+[Explore the study →]({{ '/demos/vaccine-narratives/' | relative_url }}) · [Read the paper](https://doi.org/10.1093/haschl/qxae082)
 
 ## Depression, language, and race
 
-**Do language patterns associated with mental health transfer across communities?** Explore 26 language markers and compare the study's published results across groups. The companion distinguishes released aggregate observations from the original individual-level models.
+**Does a language model for depression work equally well across groups?** Compare the paper's model results for Black and White participants, then explore language patterns across depression-symptom scores. See why evaluating a model across communities matters.
 
-[Explore the demo →]({{ '/demos/depression-language-race/' | relative_url }}) · [Read the paper](https://doi.org/10.1073/pnas.2319837121)
+[Explore the study →]({{ '/demos/depression-language-race/' | relative_url }}) · [Read the paper](https://doi.org/10.1073/pnas.2319837121)
 
 ---
 

@@ -7,13 +7,13 @@ nav: true
 nav_order: 7
 ---
 
-## Interactive research demos
+## Interactive research papers
 
 - [Dear Pandemic]({{ '/demos/dear-pandemic/' | relative_url }}) — explore how an audience's public-health questions changed over time.
-- [Pediatric vaccine narratives]({{ '/demos/vaccine-narratives/' | relative_url }}) — compare themes, trust concerns, and communication patterns in historical public comments.
+- [Pediatric vaccine narratives]({{ '/demos/vaccine-narratives/' | relative_url }}) — explore what commenters argued, why, and how they made their case.
 - [Depression, language, and race]({{ '/demos/depression-language-race/' | relative_url }}) — explore language markers and the importance of evaluating mental-health AI across communities.
 
-[About these research companions →]({{ '/demos/' | relative_url }})
+[Browse the interactive papers →]({{ '/demos/' | relative_url }})
 
 ## Datasets
 

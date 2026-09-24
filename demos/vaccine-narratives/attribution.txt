@@ -3,16 +3,14 @@ SOURCE ATTRIBUTION AND PUBLIC ARTIFACT SCOPE
 Golos, Aleksandra M.; Guntuku, Sharath-Chandra; Buttenheim, Alison M. (2024). “Do not inject our babies”: a social listening analysis of public opinion about authorizing pediatric COVID-19 vaccines. Health Affairs Scholar, 2(7), qxae082.
 https://doi.org/10.1093/haschl/qxae082
 
-The article states Creative Commons Attribution-NonCommercial 4.0:
+The article is licensed under Creative Commons Attribution-NonCommercial 4.0:
 https://creativecommons.org/licenses/by-nc/4.0/
 
-Original data and methods: OSF project r7ewf, created September 15, 2023.
-https://osf.io/r7ewf/
+This interactive version adapts the framework in Figure 1, displays numerical topic counts from Tables 1–3, and summarizes the Results and Discussion in plain language. It changes the presentation, not the numerical findings. It does not reproduce the paper’s comment examples or word lists.
 
-Three original OSF version-1 files informed the analysis: a Regulations.gov comments CSV, preprocessing HTML, and topic/theme/domain mapping workbook. The original bytes were verified by SHA256 and exact length. On September 8, 2026, the OSF node API returned no license or node-license value and no license relationship. Public accessibility is not treated as blanket permission to redistribute third-party comments or workbook contents.
+Original data and methods: https://osf.io/r7ewf/
+The theme counts were checked against the authors’ released topic–theme workbook. On September 8, 2026, the OSF node API returned no license or node-license value and no license relationship. Public accessibility is not treated as blanket permission to redistribute third-party comments or workbook contents.
 
-This website publishes independently computed factual aggregate counts and topic–theme relationships, with short taxonomy labels and numerical targets attributed to the article and original author workbook. It changes presentation and adds overlap/date views. The original model, annotation meanings and source discrepancies are not revised.
-
-Original source files, individual comments, selected examples, personal or record metadata, commenter identifiers, source scripts and text-bearing workbooks are excluded. The interactive page makes no new data collection or model/API inference calls. The historical preprocessing HTML was inspected but not executed.
+Original source files, individual comments, selected examples, personal or record metadata, commenter identifiers, source scripts and text-bearing workbooks are excluded. The interactive page makes no new data collection or model/API inference calls.
 
 No additional software license is granted by this publication. Source attribution and the article’s terms do not automatically apply a license to independently written companion code, nor does the companion claim rights over third-party material beyond the terms above.
