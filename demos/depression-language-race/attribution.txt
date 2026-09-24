@@ -1,13 +1,13 @@
-# Source attribution and licensing
+SOURCE ATTRIBUTION AND LICENSING
 
-**Research and public data:** Sunny Rai, Elizabeth C. Stade, Salvatore Giorgi, Ashley Francisco, Lyle H. Ungar, Brenda Curtis and Sharath C. Guntuku. *Key language markers of depression on social media depend on race*. PNAS 121(14), e2319837121 (2024). [Article DOI](https://doi.org/10.1073/pnas.2319837121), [original OSF project](https://osf.io/hkep7/).
+Research and public data: Sunny Rai, Elizabeth C. Stade, Salvatore Giorgi, Ashley Francisco, Lyle H. Ungar, Brenda Curtis and Sharath C. Guntuku. Key language markers of depression on social media depend on race. PNAS 121(14), e2319837121 (2024).
+Article: https://doi.org/10.1073/pnas.2319837121
+Original public data: https://osf.io/hkep7/
 
-The public OSF project metadata, verified 2026-09-10, assigns [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). Its three aggregate CSVs and histogram provide the numerical inputs used here. Source versions, SHA256 hashes, byte sizes and exact original download URLs are recorded in source-manifest.json. The companion reorganizes the public means, redraws histogram counts, calculates descriptive summaries and BH adjustments, and transcribes reported numeric tables; these are new transformations. No endorsement by the source authors or OSF is implied.
+The OSF project assigns Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). The interactive marker explorer displays selected group means and topic labels/keywords from its three public aggregate CSVs. Values are unchanged; selection, presentation, and interactive visualizations are new. The model view presents numerical facts from the paper's Table 1. No endorsement by OSF is implied.
 
-The final PNAS article and published supplement state [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). They are linked for source inspection and are not included in the public export. The separate OSF author manuscript is also excluded. Numerical facts and short table labels are retained with version attribution; original figure artwork, article text, PDF images and watermarks are not bundled.
+The PNAS article and supplement state CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/). They are linked for reading, not bundled. Original article text, figure artwork, PDF images and watermarks are not included. The webpage's explanatory wording and visualizations are newly written.
 
-LIWC-2022 and the original pretrained topic models have their own terms. This package contains neither LIWC dictionaries nor trained topic models. The original published topic keyword lists are part of the public OSF CSV release; no participant messages or generated examples are included.
+LIWC-2022 and the original pretrained topic models have their own terms. This webpage contains neither LIWC dictionaries nor trained topic models. No participant posts or generated examples are included.
 
-Optional analytical dependencies: [PyMuPDF](https://pymupdf.readthedocs.io/) is provided under its upstream AGPL/commercial terms; [SciPy](https://scipy.org/) uses the BSD-3-Clause license. Neither library is bundled or needed to view the static demo. Browser-test tooling and Chromium are likewise external development dependencies.
-
-The new companion code and visual design were prepared for the author. No additional software license is granted by this publication; the author retains the choice of whether to license the newly written code. The source data licenses do not automatically license new code, and the companion does not claim rights over third-party material beyond the terms above.
+No additional software license is granted by this publication; the author retains the choice of whether to license the newly written code. Source-data licenses do not automatically license new code.

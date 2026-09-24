@@ -1,47 +1,20 @@
-DEPRESSION, LANGUAGE AND RACE: PUBLIC-DATA COMPANION
+READING GUIDE — DEPRESSION, LANGUAGE & RACE
 
-Rai, Sunny; Stade, Elizabeth C.; Giorgi, Salvatore; Francisco, Ashley; Ungar, Lyle H.; Curtis, Brenda; Guntuku, Sharath C. (2024). Key language markers of depression on social media depend on race. PNAS 121(14), e2319837121.
-Paper: https://doi.org/10.1073/pnas.2319837121
-Public source release: https://osf.io/hkep7/
+Paper: Rai et al. (2024), Key language markers of depression on social media depend on race. PNAS 121(14), e2319837121.
+https://doi.org/10.1073/pnas.2319837121
+Original public study data: https://osf.io/hkep7/
 
-PURPOSE AND SCOPE
+1. MODEL RESULTS (TABLE 1)
+Change the training group and language representation to compare the reported correlations with depression severity in White and Black test groups. All eight correlations and associated p values are transcribed from Table 1. The chart uses a common zero-to-one scale. Pearson r is a correlation, not diagnostic accuracy. The paper prints some p values as .000; these are rounded values. The p values concern each correlation, not a direct comparison between groups.
 
-This is a partial reproduction of public outputs. It exposes all 1,404 released language-marker means, recovers 20 counts from an original public histogram, and supplies explicitly aggregate descriptive calculations. The original participant-level regressions, matching, depression-prediction models and cross-validation are not reproduced. This page gives no predictions, scores, diagnoses or recommendations for individual people.
+2. LANGUAGE MARKERS (FIGURES 1 AND 2)
+The explorer shows original public group means for I-usage and the five topics highlighted in Figure 2: outsider/belongingness, self-criticism, worthlessness/self-deprecation, anxious outsider, and despair. These come from the LIWC_languageMarkers.csv and Fb_LanguageMarkers.csv releases, with topic labels/keywords from Fb_TopicMapping.csv. Each point is a group average for a PHQ-9 score and racial group, in the original data units. This view lets readers inspect those averages; the paper's figures show fitted relationships. No trend lines or model results have been estimated from the averages. The slider highlights a questionnaire score. A dash indicates no group average at that score.
 
-The page contains 54 PHQ-score/race cells: 27 per group, each with three LIWC and 23 LDA means. White PHQ 25 and Black PHQ 26 are missing from the release and remain absent. All 23 source topic mappings are represented; repeated themes retain distinct topic IDs. No synthetic participants or language samples are introduced.
+3. STUDY CONTEXT
+The study included 868 English-speaking US adults, with 434 Black and 434 White participants matched on age and gender; 76% were women. Participants completed PHQ-9 and consented to share Facebook status updates. Findings concern this sample, platform, and measured features. They do not establish the cause of the differences and do not imply the absence of linguistic expressions of depression in any group. The webpage offers no individual assessment.
 
-INTERPRETING THE EXPLORER
+DATA DOWNLOAD
+The chart-data JSON contains the six displayed markers' original group means and the eight Table 1 model results. Numerical source values are unchanged. Full precision is retained in the expandable point table and JSON. The original research package remains linked at OSF.
 
-Each scatter point is the mean for one PHQ-score/race group. Cell sample sizes, within-cell variances and age/gender covariates are unavailable. Optional lines give all 27 observed cells equal weight; they cannot estimate participant-weighted or covariate-adjusted coefficients, uncertainty or individual-level effects. The chart preserves original CSV units. Raw LDA means are not the normalized topic scores shown in the paper’s Figure 2.
-
-The paper’s observations concern its studied sample and measured language features. The explorer does not establish that associations generalize to every person, community or context.
-
-HISTOGRAM AND NORMALITY DIAGNOSTIC
-
-Ten histogram bins per group are recovered from the original vector graphic. Counts sum to 434 Black and 432 White participants, versus the paper’s 434 per group. The cause of the two-count White shortfall is unknown. Printed x-axis labels are preserved; exact bin edges and individual values are not inferred. The redraw recovers the numerical output of a released graphic, rather than recomputing a histogram from participant records.
-
-A Shapiro–Wilk test on the 27 released Black I-usage means gives W=0.9810224231 and p=0.8846822803. These round to .98/.88, the pair in the final supplement, but cannot identify what the authors tested or verify a normality test over 434 individuals. A nonsignificant normality-test p value does not establish equality of distributions or variances.
-
-REPORTED TABLES AND SOURCE VERSIONS
-
-The eight Pearson correlations and eight printed p values in Table 1 are transcribed source results. All 16 displays agree between the final paper and OSF manuscript. They are not newly obtained predictions.
-
-The final PNAS article and published supplement each have three pages. A separate nine-page OSF author manuscript additionally contains Tables S1/S2 and extra figures. Its 260 table cells are retained as source transcriptions with version attribution. The detailed tables are not in the final published supplement.
-
-In source Table S2, the Anger row repeats Worry keywords and a Despair row repeats Emptiness-longing keywords. Those two rows retain null topic IDs because their correspondence is unresolved. Other correspondences use theme names and distinctive overlapping keywords; the source table prints no topic IDs. This does not alter the complete 23-topic CSV explorer.
-
-Applying Benjamini–Hochberg separately to each table’s printed interaction p values gives 1/3 and 5/23 rejections at .05. This is arithmetic on rounded source summaries. The original full-precision p values and correction-family code are unavailable; the calculation is not a regression refit.
-
-VALIDATION AND SUPPORT FILES
-
-Five public OSF version-1 source files, totaling 2,646,682 bytes, were verified against pinned SHA256 hashes and exact byte lengths. Sources were verified on September 10, 2026. No upstream code was executed. Source identities and public URLs are in source-manifest.json. Original source PDFs and CSVs are not included on this site.
-
-All 1,404 means were independently checked against the original aggregate CSVs. Ten unit tests passed, covering BH boundaries and ordering, missing/duplicate cells, constant outcomes, corruption, source units and preservation of source disagreements. Existing browser QA checked all means and chart coordinates, missing cells, table values, histogram counts and all marker views at 320, 390 and 768 pixels; it reported no external requests or page/console errors.
-
-Download data.json for the audited aggregate payload. The same analysis is available as release-audit.json, including source comparisons and methodological labels. Read target-inventory.txt for each source target and what remains unavailable. Read attribution.txt for source terms.
-
-PUBLICATION BOUNDARY
-
-Participant records, original matching, feature standardization, regression commands, original 2,000-topic screening outputs, model matrices, folds, predictions and checkpoints are unavailable and excluded. No individual data is sought or required by this aggregate companion.
-
-The site publishes only static frontends, public aggregate outputs and source documentation. It requires no server inference, API key, remote fonts, model calls or runtime source downloads. Publication changes preserve all numerical data, calculations and caveats; they adapt navigation and documentation for the website. No additional software license is granted by this publication.
+SOURCE ATTRIBUTION
+Study authors: Sunny Rai, Elizabeth C. Stade, Salvatore Giorgi, Ashley Francisco, Lyle H. Ungar, Brenda Curtis and Sharath C. Guntuku. See attribution.txt for licensing details.
