@@ -261,6 +261,50 @@ def write_bib(path: Path, entries: list[dict]) -> None:
     path.write_text("\n\n\n".join(_entry_str(e) for e in entries) + "\n", "utf-8")
 
 
+# --- Author repair (arXiv + Scholar-format fallback) ------------------------
+
+ARXIV_API   = "https://export.arxiv.org/api/query"
+ARXIV_ID_RE = re.compile(r"arXiv:(\d{4}\.\d{4,5})", re.I)
+
+
+def scholar_style_authors(author: str) -> bool:
+    """Scholar's "A Bcd, E Fgh, ..." lists, which BibTeX parses as one name
+    (so the site renders no author line at all)."""
+    return bool(author) and " and " not in author and "," in author
+
+
+def fetch_arxiv_authors(ids: list[str]) -> dict[str, list[str]]:
+    """Map arXiv id -> complete author names, in one batched API call."""
+    import xml.etree.ElementTree as ET
+    if not ids:
+        return {}
+    url = f"{ARXIV_API}?id_list={','.join(ids)}&max_results={len(ids)}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            root = ET.fromstring(r.read())
+    except Exception as e:
+        print(f"    [warn] arXiv API: {e}", file=sys.stderr)
+        return {}
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    out: dict[str, list[str]] = {}
+    for item in root.findall("a:entry", ns):
+        m = re.search(r"abs/(\d{4}\.\d{4,5})", item.findtext("a:id", "", ns))
+        names = [a.findtext("a:name", "", ns).strip() for a in item.findall("a:author", ns)]
+        if m and names:
+            out[m.group(1)] = names
+    return out
+
+
+def scholar_authors_to_bibtex(author: str) -> str:
+    """"A Bcd, E Fgh, ..." -> "A Bcd and E Fgh and others" (BibTeX's own
+    First-Last parser then splits each name; "others" marks truncation)."""
+    names = [n.strip() for n in author.split(",") if n.strip()]
+    truncated = bool(names) and names[-1] in ("...", "\u2026")
+    names = [n for n in names if n not in ("...", "\u2026")]
+    return " and ".join(names + (["others"] if truncated else []))
+
+
 # --- Merge helper ------------------------------------------------------------
 
 def _merge(existing: dict, new: dict) -> tuple[dict, bool]:
@@ -384,7 +428,27 @@ def main() -> int:
         else:
             print("           ~ already complete")
 
-    print(f"\nSummary: {added} added  {enriched} enriched")
+    # -- Step 3: Repair Scholar-format author lists -----------------------------
+    bad = [e for e in entries if e.get("_key")
+           and scholar_style_authors(e["_fields"].get("author", ""))]
+    arxiv_ids = {}
+    for e in bad:
+        m = ARXIV_ID_RE.search(e["_fields"].get("journal", ""))
+        if m:
+            arxiv_ids[e["_key"]] = m.group(1)
+    arxiv = fetch_arxiv_authors(sorted(set(arxiv_ids.values())))
+    print(f"\nRepairing {len(bad)} Scholar-format author lists "
+          f"({len(arxiv)} resolved via arXiv)...")
+    repaired = 0
+    for e in bad:
+        names = arxiv.get(arxiv_ids.get(e["_key"], ""))
+        new = " and ".join(names) if names else scholar_authors_to_bibtex(e["_fields"]["author"])
+        if not args.dry_run:
+            e["_fields"]["author"] = new
+        repaired += 1
+        print(f"  {'arXiv' if names else 'split'}: {e['_fields'].get('title', '')[:60]}")
+
+    print(f"\nSummary: {added} added  {enriched} enriched  {repaired} author lists repaired")
 
     if args.dry_run:
         print("Dry run -- not writing.")

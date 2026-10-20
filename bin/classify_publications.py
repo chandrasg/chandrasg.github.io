@@ -40,7 +40,8 @@ THEMES = {
         "overdose", "chronic disease", "obesity", "diabetes",
         "hiv", "ehr", "electronic health record",
         "health disparity", "population health", "semaglutide",
-        "tirzepatide", "glp-1", "colorectal cancer",
+        "tirzepatide", "glp-1", "retatrutide",
+        "adverse effect", "pharmacovigilance", "colorectal cancer",
         "cancer screening", "obstetric", "super-utilizer",
         "hospital visit", "health care facilit", "healthcare super",
         "sub-saharan", "health review", "medical condition",
@@ -67,6 +68,7 @@ THEMES = {
         "stereotype", "discriminat",
         "underrepresent", "minorit", "low-resource",
         "norms in cinema", "gender norms", "cultural variation",
+        "country-specific", "local language",
         "urban-rural", "rural urban", "geography", "geographical",
         "geograph",
     ],
@@ -86,6 +88,7 @@ THEMES = {
         "chatbot for health", "voicebot", "voice-based chatbot",
         "conversational ai for health",
         "hpv", "covid-19 vaccine", "vaccine hesitanc",
+        "community health worker",
     ],
     "personality-and-social-media": [
         "personality trait", "big five", "big-five", "openness",
@@ -119,6 +122,7 @@ THEMES = {
         "support vector", "classification", "prediction model",
         "peer influence", "llm agent", "style feature",
         "construct validity", "demographic prompting",
+        "ai-authored", "ai-assisted", "ai goal-setting",
     ],
     "multimedia-and-images": [
         "image quality", "video quality", "multimedia quality",

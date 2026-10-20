@@ -32,6 +32,14 @@ jobs:
       - name: Reconcile authors and venues against CV ground truth
         run: python bin/reconcile_cv.py
 
+      # Bot pushes don't trigger classify-publications.yaml, so classify here.
+      # poppler-utils keeps results identical to that workflow and local runs.
+      - name: Install pdftotext (poppler-utils)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Classify publications into research themes
+        run: python bin/classify_publications.py
+
       - name: Commit and push if changed
         id: commit
         run: |
