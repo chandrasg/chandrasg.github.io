@@ -17,7 +17,7 @@ keywords: nlp, machine-learning, public-health, mental-health, computational-soc
 lang: en
 icon: 🧠
 
-url: https://chandrasg.github.io
+url: https://sharathg.cis.upenn.edu
 baseurl:
 last_updated: false
 back_to_top: true
@@ -216,6 +216,7 @@ scholar:
   join_strings: true
 
   details_dir: bibliography
+  details_layout: bib_detail.html
   details_link: Details
 
   query: "@*"

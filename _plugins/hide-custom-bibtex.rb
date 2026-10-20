@@ -1,6 +1,7 @@
 module Jekyll
   module HideCustomBibtex
     def hideCustomBibtex(input)
+      return '' if input.nil?
 	    keywords = @context.registers[:site].config['filtered_bibtex_keywords']
 
 	    keywords.each do |keyword|
