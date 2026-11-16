@@ -9,15 +9,11 @@
 - name: Neil Sehgal
   role: PhD Student
   image: https://csl-lab-upenn.github.io/images/NeilSehgal.jpeg
-- name: Young Min (Jeffrey) Cho
-  role: PhD Student
-  image: https://csl-lab-upenn.github.io/images/YoungMinCho.jpg
 - name: Allison Mi
   role: Master's Student
   image: https://csl-lab-upenn.github.io/images/AllisonMi.jpg
 - name: Ishwari Mulay
   role: Master's Student
   image: https://csl-lab-upenn.github.io/images/IshwariMulay.jpg
-- name: Reyhan Jamalova
-  role: Undergraduate Student
-  image: https://csl-lab-upenn.github.io/images/ReyhanJamalova.jpg
+- name: May Ren
+  role: Master's Student
