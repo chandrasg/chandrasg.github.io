@@ -7,27 +7,55 @@ cv:
         end_date: "present"
         highlights:
           - Department of Computer and Information Science
-          - Annenberg School of Communication (secondary appointment)
+      - position: Secondary Faculty
+        name: University of Pennsylvania
+        start_date: "2026"
+        end_date: "2029"
+        highlights:
+          - Annenberg School for Communication
       - position: Assistant Professor (Research)
         name: University of Pennsylvania
         start_date: "2020"
         end_date: "2025"
         highlights:
           - Department of Computer and Information Science
-      - position: Senior Fellow
-        name: Leonard Davis Institute of Health Economics
-        start_date: "2020"
-        end_date: "present"
       - position: Research Scientist
-        name: Penn Medicine Center for Digital Health
+        name: Penn Medicine
         start_date: "2018"
         end_date: "present"
+        highlights:
+          - Center for Health Care Transformation and Innovation
       - position: Postdoctoral Researcher
-        name: University of Pennsylvania
+        name: Penn Medicine
         start_date: "2017"
         end_date: "2018"
         highlights:
-          - World Well-Being Project & Center for Digital Health
+          - Center for Digital Health
+      - position: Visiting Scholar
+        name: University of Pennsylvania
+        start_date: "2016"
+        end_date: "2017"
+        highlights:
+          - World Well-Being Project, Positive Psychology Center
+      - position: Graduate Researcher
+        name: Nanyang Technological University, Singapore
+        start_date: "2013"
+        end_date: "2016"
+        highlights:
+          - Center for Multimedia and Network Research
+      - position: Undergraduate Researcher
+        name: BITS-Pilani, India
+        start_date: "2012"
+        end_date: "2013"
+        highlights:
+          - Network Security and Machine Learning
+
+    Visiting & Other Positions:
+      - bullet: "**Incoming Associate Professor (Green Fellow)**, School of Computer Science and Engineering, University of New South Wales (UNSW Sydney), from September 2027"
+      - bullet: "**Visiting Associate Professor** (forthcoming), Department of Information Systems and AI, Institute for Digital Technology Management, Bern University of Applied Sciences, June–August 2027"
+      - bullet: "**Visiting Associate Professor**, Department of Information and Communication Engineering, Graduate School of Information Science and Technology, University of Tokyo, May 2026 – April 2027"
+      - bullet: "**AI Consultant / Consulting Expert**, Development Impact Team, World Bank Group, 2024 – present"
+      - bullet: "**Research Intern**, Panasonic Research, Singapore, January–June 2016"
 
     Education:
       - studyType: Ph.D. in Computer Science
@@ -36,40 +64,67 @@ cv:
         highlights:
           - "Thesis: Modeling User Factors in Multimedia Preferences"
       - studyType: B.E. (Hons) in Computer Science
-        institution: BITS-Pilani, India
+        institution: Birla Institute of Technology and Science (BITS), Pilani
         end_date: "2013"
 
-    Grants & Funding:
-      - bullet: "Total external funding as PI: **$5.1M+**"
-      - bullet: "**World Bank Group** — Mapping Gender Norms in Global Entertainment Media, PI ($494,960, 2025–2027)"
-      - bullet: "**NSF** — BioFoundry: AI-Driven RNA BioFoundry, co-I ($24M total, 2024–2030)"
-      - bullet: "**CDC** — Mobilizing Social Media for Violence Prevention, co-I (2024–2026)"
-      - bullet: "**Penn Global** — Conversational Voicebots to Enhance English Learning for Indian Students, co-PI ($110,000, 2024–2026)"
-      - bullet: "**Global Engagement Fund** — Clinical Multimodal Integration for Glioblastoma, co-PI ($128,000, 2024–2026)"
-      - bullet: "**NIH NIMHD** — COVID-19 Misinformation in Black and Rural Communities, PI ($3.9M, 2022–2025)"
-      - bullet: "**NIH NHLBI** — Mentoring and Patient-Oriented Research in Cardiovascular Health, co-I (2021–2025)"
-      - bullet: "**World Bank Group** — Computational Social Listening for Crisis Informatics, PI ($49,309, 2021–2024)"
-      - bullet: "**Global Engagement Fund – India** — Vaccine Attitudes in India, PI ($94,534, 2022–2025)"
-      - bullet: "**Penn University Research Fund** — Computational Social Listening for Vaccine Hesitancy, PI ($50,000, 2022–2023)"
+    Research Grants (Current):
+      - bullet: "Total funding as PI: **$5.68M**; as co-I: **>$800K** for my group"
+      - bullet: "**Penn Global Research and Engagement Grant Program**: Culturally Responsive AI Messaging to Improve Global HPV Vaccination, PI ($50,000, 2026–2028)"
+      - bullet: "**AI-4-AI Lab, Penn Medicine (Observer Pilot Award)**: Mapping the Dynamics of Patient-Doctor Trust Using Multimodal Behavioral Analysis, with L. H. Ungar ($20,000, 2026)"
+      - bullet: "**Wellcome Trust**: STELLAR, Steering-Vector Enhanced LLM Agents for Realistic Digital Twins in Mental Health, co-PI (PI: Sedoc, NYU) ($4.04M total award, ~$500K for my group, 2026–2028)"
+      - bullet: "**Schmidt Sciences**: AI, Task Reallocation, and the Reshaping of Nursing Work: Evidence from a Staggered Health-System Rollout, co-PI (PI: Sehgal) ($199,281)"
+      - bullet: "**World Bank Group**: Mapping Gender Norms in Global Entertainment Media, PI ($494,960, 2025–2027)"
+      - bullet: "**Penn Center for AIDS Research**: (LAI)²: Leveraging Artificial Intelligence for Long-Acting Injectable HIV Prevention Across Cultures, PI ($50,000, 2026–2027)"
+      - bullet: "**CDC**: Mobilizing Social Media for Violence Prevention, co-I (PIs: Kaufman, Patton) ($425,000, 2024–2026), part of the CDC Comprehensive Injury Science Center grant to the Penn Injury Science Center"
+      - bullet: "M2SurveyBot: A MultiModal Chatbot to Understand Performance Gap in Language-based Depression Risk Assessment for Black Populations, co-PI (with Rai) ($19,500, 2025–2026)"
+      - bullet: "**Penn Global**: Conversational Voicebots to Enhance English Learning for Indian Students, co-PI (with Ungar) ($110,000, 2024–2026)"
+      - bullet: "**NSF**: BioFoundry: Artificial Intelligence-Driven RNA BioFoundry, co-I ($18M, 2024–2030)"
+
+    Research Grants (Completed):
+      - bullet: "**Global Engagement Fund**: Clinical Multimodal Integration for Stratification of Glioblastoma Patients, co-PI (with Bakas, Indiana University) ($128,000, 2024–2026)"
+      - bullet: "**NIH NIMHD**: Heterogeneity in COVID-19 Misinformation Exposure on Social Media among Black and Rural Communities to Inform Precision Public Health Messaging, PI ($3.89M, 2022–2025; terminated early due to the U.S. Government's change in priorities)"
+      - bullet: "**NIH NCI**: An Inoculation Theory-Based Messaging Intervention Addressing Misinformation About HPV Vaccine on Social Media (Inoculate for HPV Vaccine RCT), co-I (PI: Kornides) ($3.15M, 2022–2026; terminated early due to the U.S. Government's change in priorities)"
+      - bullet: "**Penn Medical Communication Pilot Grant**: Testing the Effect of Content Popularity on Trust in Health Information within a Clinical Setting, co-PI (with Agarwal) ($50,000, 2024–2025)"
+      - bullet: "**Communication Strategies to Increase Vaccination Grant**: A Culturally Aligned HPV Vaccination Awareness LLM-powered Conversational Agent to Promote Self-Referral, co-PI (with Rai, Kornides, Agarwal) ($50,000, 2024–2025)"
+      - bullet: "**Global Engagement Fund – India**: Computational Social Listening of Vaccine Attitudes in India to Increase Provider Efficacy, PI ($94,534, 2022–2025)"
+      - bullet: "**Penn Community Collaboratory for Co-Creation**: Digital Healing: Co-Creating Youth Digital Creative Arts Space for Community Wellbeing, co-PI (with Mathiyazhagan, Choi) ($59,863, 2024–2025)"
+      - bullet: "**NIH NHLBI**: Mentoring and Patient-Oriented Research in Cardiovascular Health and Digital Data Science, co-I (PI: Merchant) ($614,930, 2021–2025)"
+      - bullet: "**World Bank Group**: Computational Social Listening for Crisis Informatics, PI ($49,309, 2021–2024)"
+      - bullet: "**NIH NICHD**: PED Screen: Pediatric Sepsis EHR Registry, Clinical Outcomes, and Predictive Model, co-I ($73,862, 2021–2023)"
+      - bullet: "**Penn Medical Communication Pilot Grant**: Communicating with Parents about the COVID-19 Vaccine: An NLP Analysis of Public Opinion to Inform Clinical Guidance, co-PI (with Buttenheim) ($50,000, 2022–2023)"
+      - bullet: "**Penn SEAS/SOM Trustworthy AI for Medicine**: Multimodal Explainable AI for Prognostic Stratification of Glioblastoma Patients, co-PI (with Bakas) ($100,000, 2022–2023)"
+      - bullet: "**Penn University Research Fund**: Computational Social Listening for Vaccine Hesitancy, PI ($50,000, 2022–2023)"
+      - bullet: "**NIH NIMH**: Statistical Methods in mHealth to Signal Interventional Needs for Mental Health Patients, co-I (PI: Barnett) (2019–2022)"
 
     Honors & Awards:
-      - bullet: Appointed Member, NACMHD Working Group (NIH National Advisory Council on Minority Health and Health Disparities)
-      - bullet: Alien of Extraordinary Ability (EB-1A), USCIS — granted for sustained national/international acclaim in health informatics and AI
-      - bullet: Best Reviewer Award, AAAI ICWSM 2022
-      - bullet: Intel Invent50 Finalist (top 5 of 150 teams), 2015
-      - bullet: Nanyang Engineering Doctoral Research Award, 2013
+      - bullet: "Gates Foundation Goalkeepers: nominated for translational impact in AI x Equity and invited as an event participant, 2026"
+      - bullet: "Appointed Member, National Advisory Council on Minority Health and Health Disparities (NACMHD) Working Group to Review the Division of Community Health and Population Science (DCHPS)"
+      - bullet: "Mentees with best paper awards: Jamalova (Rachleff Scholars Program, Rose Award), Shelat (Yale Undergraduate Research Symposium), Rai & Havaldar (WASSA @ ACL), Rai & Shelat (C3NLP @ NAACL)"
+      - bullet: "Alien of Extraordinary Ability (EB-1A), USCIS: granted for sustained national/international acclaim in health informatics and AI research"
+      - bullet: "Best Reviewer Award, AAAI ICWSM 2022"
+      - bullet: "Intel Invent50 Finalist (5 of 150 teams), 2015"
+      - bullet: "Nominated for the Microsoft Research Asia Fellowship (one PhD student from the department), 2015"
+      - bullet: "Nanyang Engineering Doctoral Research Award (6 of 106 incoming PhD students university-wide), 2013"
+
+    Teaching:
+      - bullet: "**DATS 5990-002: Industry Capstone**, University of Pennsylvania (Fall 2026)"
+      - bullet: "**DATS 5970: Data Science Capstone**, MCIT / MS DS Online Program, Penn Engineering Online (Fall 2024, Fall 2025)"
+      - bullet: "**DATS 5990/5970: Data Science Practicum / Thesis**, University of Pennsylvania (Fall 2022 – present)"
+      - bullet: "**CIS 5450: Big Data Analytics**, MCIT Online Program, Penn Engineering Online (Summer 2022)"
+      - bullet: "**Director of Data Science Projects**, MSE in Data Science, University of Pennsylvania (2020 – present): oversee capstone projects connecting students with industry and healthcare partners; develop curriculum integrating AI/ML methods with multi-domain applications"
 
     Service:
-      - bullet: "**Area Chair:** EMNLP 2024 (Health & Medicine, Industry Track), AAAI ICWSM 2022–2025, ACM WebSci 2022–2024"
-      - bullet: "**Associate Editor:** Nature Scientific Reports · ACM Transactions on Computing for Healthcare · Frontiers in Psychology · Frontiers in Digital Health"
-      - bullet: "**Program Committee:** ACL, EMNLP, NAACL, AAAI, WWW, ACM CSCW, ACM CHI"
-      - bullet: "**Reviewer:** PNAS, JAMA Network Open, Nature Communications, IEEE Trans. Affective Computing, Journal of Medical Internet Research"
-      - bullet: "**Grant Panels:** NIH, NSF"
+      - bullet: "**Advisory Board Member:** SNSF-funded project on AI-supported coaching and goal adjustment (Rietsche and Göldi), 2026"
+      - bullet: "**Area Chair:** EMNLP 2024 (Health and Medicine, Industry Track)"
+      - bullet: "**Associate Editor:** Nature Scientific Reports · ACM Transactions on Computing for Healthcare (HEALTH) · Frontiers in Psychology · Frontiers in Digital Health"
+      - bullet: "**Guest Editor:** ACM Transactions on Computing for Healthcare special issue on Large Language Models, Conversational Systems, and Generative AI in Health · Nature Scientific Reports collection on Social Determinants of Health"
+      - bullet: "**Reviewer:** NSF (2020, 2024) · Nature Communications · PNAS · PNAS Nexus · JAMA Network Open · Scientific Reports · PLoS One · BMC Psychiatry · American Journal of Preventive Medicine · IEEE Transactions on Affective Computing, Image Processing, Multimedia, and Medical Imaging · EPJ Data Science · ACM CSCW · AAAI ICWSM · AMIA · ICASSP · ICIP · SPSP"
+      - bullet: "**Invited panelist:** Town Hall for International Postdocs, Penn Postdoctoral Association, 2023"
 
     Affiliations:
-      - bullet: "[Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/)"
-      - bullet: "[Penn Medicine Center for Digital Health](https://centerfordigitalhealth.upenn.edu/)"
-      - bullet: "[World Well-Being Project / Positive Psychology Center](https://www.wwbp.org/)"
-      - bullet: "[Penn Research in Machine Learning (PRiML)](https://priml.upenn.edu/)"
-      - bullet: "[Penn NLP](https://nlp.cis.upenn.edu/)"
-      - bullet: "[Computational Social Listening Lab](https://csl-lab-upenn.github.io/)"
+      - bullet: "Senior Fellow, [Leonard Davis Institute of Health Economics](https://ldi.upenn.edu/) (2020 – present)"
+      - bullet: "Co-Principal Investigator, [World Well-Being Project](https://www.wwbp.org/), Positive Psychology Center (2022 – present)"
+      - bullet: "Faculty Affiliate, Penn Development Research Institute (2022 – present)"
+      - bullet: "Faculty Affiliate, [Penn MindCORE](https://mindcore.sas.upenn.edu/) (2023 – present)"
+      - bullet: "[Penn Research in Machine Learning (PRiML)](https://priml.upenn.edu/) · [Penn NLP](https://nlp.cis.upenn.edu/)"
+      - bullet: "Director, [Computational Social Listening Lab](https://csl-lab-upenn.github.io/)"

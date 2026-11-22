@@ -1,8 +1,40 @@
+# CV ground truth for bin/reconcile_cv.py — regenerated from the Academic CV (November 2026).
+# Entries whose CV author list is elided ("...") omit authors_cv so full bib author lists are kept.
 publications:
-  # JOURNALS (1-73)
+  # JOURNALS
+  - title: "Introduction to the Special Issue on Large Language Models, Conversational Systems, and Generative AI in Health—Part 2"
+    authors_cv: "Zhou, J., Gaur, M., Rahmani, A.M., Guntuku, S.C., Jiang, X., Naumann, T."
+    venue: "ACM Transactions on Computing for Healthcare"
+    year: 2026
+    type: article
+
+  - title: "Navigating online recruitment for health research: A case study"
+    authors_cv: "Thorbecke, L., Guntuku, S.C., Agarwal, A.K."
+    venue: "Digital Health"
+    year: 2026
+    type: article
+
   - title: "Self-Reported Side Effects of Semaglutide and Tirzepatide in Online Communities, 2019-2025"
-    authors_cv: "Sehgal, N.K., Tronieri, J., Ungar, L.H., Guntuku, S.C."
+    authors_cv: "Sehgal, N.K.R., Tronieri, J.S., Ungar, L., Guntuku, S.C."
     venue: "Nature Health"
+    year: 2026
+    type: article
+
+  - title: "Self-Reported Adverse Effects Among Social Media Users Taking Nonapproved Retatrutide"
+    authors_cv: "Sehgal, N.K.R., Tronieri, J.S., Rader, B., Ungar, L., Guntuku, S.C."
+    venue: "JAMA Network Open"
+    year: 2026
+    type: article
+
+  - title: "Large Language Model Chatbot Conversations vs Public Health Materials and Parental HPV Vaccination Intentions: A Randomized Clinical Trial"
+    authors_cv: "Sehgal, N.K.R., Rai, S., Tonneau, M., Agarwal, A.K., Cappella, J., Kornides, M.L., Ungar, L., Buttenheim, A., Guntuku, S.C."
+    venue: "JAMA Network Open"
+    year: 2026
+    type: article
+
+  - title: "Comparing ICD Codes and Traditional Natural Language Processing to Identify Acute Pediatric Firearm Injury"
+    authors_cv: "Donnelly, K.A., Joshi, S., Fornari, M., Attridge, M.M., Guntuku, S.C., Cook, L., Goyal, M.K., Alpern, E.R."
+    venue: "Pediatric Emergency Care"
     year: 2026
     type: article
 
@@ -15,6 +47,12 @@ publications:
   - title: "Pragmatic lessons for harnessing social media for health research through digital data donation post-API access"
     authors_cv: "Thorbecke, L., Agarwal, A.K., Guntuku, S.C."
     venue: "npj Digital Public Health"
+    year: 2026
+    type: article
+
+  - title: "Partisan and geographic variation in emotional responses to COVID-19 vaccination on social media"
+    authors_cv: "Jaidka, K., Wu, Y., Rani, A., Kuru, O., Jamalova, R., Sherman, G., Guntuku, S.C."
+    venue: "JAMA Network Open"
     year: 2026
     type: article
 
@@ -37,8 +75,8 @@ publications:
     type: article
 
   - title: "Understanding gender and age differences in language use: cross-cultural insights from Weibo and Facebook"
-    authors_cv: "Pang, D., Guntuku, S.C., Sherman, G., Liu, T., Rai, S., Cho, Y.M., Ungar, L.H."
-    venue: "Nature Humanities and Social Sciences Communications"
+    authors_cv: "Pang, D., Guntuku, S.C., Sherman, G., Liu, T., Rai, S., Cho, Y.M., You, R., Bakker, A.B., Ungar, L.H."
+    venue: "Humanities and Social Sciences Communications"
     year: 2025
     type: article
 
@@ -62,7 +100,7 @@ publications:
 
   - title: "Historical patterns of rice farming explain modern-day language use in China and Japan more than modernization and urbanization"
     authors_cv: "Guntuku, S.C., Talhelm, T., Sherman, G., Fan, A., Giorgi, S., Wei, L., Ungar, L.H."
-    venue: "Nature Humanities and Social Sciences Communications"
+    venue: "Humanities and Social Sciences Communications"
     year: 2024
     type: article
 
@@ -75,12 +113,6 @@ publications:
   - title: "Key language markers of depression on social media depend on race"
     authors_cv: "Rai, S., Stade, E.C., Giorgi, S., Francisco, A., Ungar, L.H., Curtis, B., Guntuku, S.C."
     venue: "Proceedings of the National Academy of Sciences"
-    year: 2024
-    type: article
-
-  - title: "Exploring a Language-Based Interest Assessment: Predicting Vocational Interests on Social Media Using Natural Language Processing"
-    authors_cv: "Du, Y.Y.L., Jain, D., Cho, Y.M., Hou, D.X., Guntuku, S.C., Ungar, L., Tay, L."
-    venue: "Journal of Career Assessment"
     year: 2024
     type: article
 
@@ -97,7 +129,7 @@ publications:
     type: article
 
   - title: "Integrating Patient-Generated Digital Data Into Mental Health Therapy: Mixed Methods Analysis of User Experience"
-    authors_cv: "Southwick, L., Sharma, M., Rai, S., Beidas, R.S., Mandell, D.S., Asch, D.A., Guntuku, S.C., Merchant, R.M."
+    authors_cv: "Southwick, L., Sharma, M., Rai, S., Beidas, R.S., Mandell, D.S., Asch, D.A., Curtis, B., Guntuku, S.C., Merchant, R.M."
     venue: "JMIR Mental Health"
     year: 2024
     type: article
@@ -361,7 +393,7 @@ publications:
     type: article
 
   - title: "Cross-platform and cross-interaction study of user personality based on images on Twitter and Flickr"
-    authors_cv: "Samani, Z.R., Guntuku, S.C., Moghaddam, M.E., Preotiuc-Pietro, D., Ungar, L.H."
+    authors_cv: "Samani, Z.R., Guntuku, S.C., Moghaddam, M.E., Preoţiuc-Pietro, D., Ungar, L.H."
     venue: "PloS One"
     year: 2018
     type: article
@@ -438,16 +470,70 @@ publications:
     year: 2014
     type: article
 
-  # CONFERENCE PROCEEDINGS (74-112)
-  - title: "Voice-Based Chatbots for English Speaking Practice in Multilingual Low-Resource Indian Schools: A Multi-Stakeholder Study"
-    authors_cv: "Shashidhara, S., Chi, V.B., Singh, A., Ungar, L., Guntuku, S.C."
-    venue: "Proceedings of the ACM CHI Conference on Human Factors in Computing Systems"
+  # CONFERENCE & WORKSHOP PROCEEDINGS
+  - title: "Revealing Side Effects of Using Style Features on Conversational Agents"
+    authors_cv: "Cho, Y.M., Yuan, Y., Guntuku, S.C., Ungar, L."
+    venue: "Findings of the Association for Computational Linguistics: EACL 2027"
+    year: 2027
+    type: inproceedings
+
+  - title: "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models"
+    authors_cv: "Rai, S., Kuang, J., Jamalova, R., Lou, A., Bicchieri, C., Malhotra, N., Orozco-Olvera, V.H., Munoz-Boudet, A.M., Ungar, L.H., Guntuku, S.C."
+    venue: "Advances in Neural Information Processing Systems (NeurIPS 2026), Evaluations and Datasets Track"
     year: 2026
     type: inproceedings
 
+  - title: "Different Demographic Cues Yield Inconsistent Conclusions About LLM Personalization and Bias"
+    authors_cv: "Tonneau, M., Sehgal, N., Malhotra, N., Kazemi, S., Orozco-Olvera, V., Munoz Boudet, A.M., Subramanian, L., Fraiberger, S., Guntuku, S.C., Hofmann, V."
+    venue: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing"
+    year: 2026
+    type: inproceedings
+
+  - title: "Real-Time Deadlines Reveal Fragile Temporal Adaptation in LLM Strategic Dialogues"
+    authors_cv: "Sehgal, N., Guntuku, S.C., Ungar, L."
+    venue: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing"
+    year: 2026
+    type: inproceedings
+
+  - title: "Text or Speech, the Gap Persists: AI-based Depression Screening Is Better Calibrated for Lower Socioeconomic Status Users"
+    authors_cv: "Rai, S., Sehgal, N.K.R., Nguyen, K., Guntuku, S.C."
+    venue: "Proceedings of the 2026 Companion of the Computer-Supported Cooperative Work and Social Computing"
+    year: 2026
+    type: inproceedings
+
+  - title: "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs"
+    authors_cv: "Shu, R., Zhang, Y., Cho, Y.M., Yang, J.M., Yuan, Y., Zheng, W., Guntuku, S.C., Ungar, L., Yu, Z., Zhang, R."
+    venue: "Conference on Language Modeling (COLM 2026)"
+    year: 2026
+    type: inproceedings
+
+  - title: "The Ownership Cost of AI Goal-Setting: Empirical Evidence for a Quality-Motivation Dissociation and Differential Harm to Vulnerable Users (Extended Abstract)"
+    authors_cv: "Chi, V.B., Rietsche, R., Göldi, A., Ungar, L., Guntuku, S.C."
+    venue: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
+    year: 2026
+    type: inproceedings
+
+  - title: "Depression Symptoms and Relational Patterns in 187k ChatGPT Histories"
+    authors_cv: "Sehgal, N.K.R., Folk, D., Ungar, L., Guntuku, S.C."
+    venue: "Proceedings of the 2026 Companion of the Computer-Supported Cooperative Work and Social Computing"
+    year: 2026
+    type: inproceedings
+
+  - title: "Voice-Based Chatbots for English Speaking Practice in Multilingual Low-Resource Indian Schools: A Multi-Stakeholder Study"
+    authors_cv: "Shashidhara, S., Chi, V.B., Singh, A.P., Ungar, L., Guntuku, S.C."
+    venue: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
+    year: 2026
+    type: inproceedings
+
+  - title: "Analyzing #BlackLivesMatter Related Social Media Posts Published from Racially Diverse Geographic Regions in the United States"
+    authors_cv: "Reid, D., Hutcherson, E., Tonge, N., Rezaei, P., Giorgi, S., Guntuku, S.C., Andy, A."
+    venue: "2025 IEEE International Conference on Big Data (BigData)"
+    year: 2025
+    type: inproceedings
+
   - title: "PAL: Designing Conversational Agents as Scalable, Cooperative Patient Simulators for Palliative-Care Training"
-    authors_cv: "Sehgal, N.K., Kambhamettu, H., Chang, A., Zhu, A., Ungar, L., Guntuku, S.C."
-    venue: "Proceedings of the ACM on Human-Computer Interaction"
+    authors_cv: "Sehgal, N.K.R., Kambhamettu, H., Chang, A., Zhu, A., Ungar, L., Guntuku, S.C."
+    venue: "Companion Publication of the 2025 Conference on Computer-Supported Cooperative Work and Social Computing"
     year: 2025
     type: inproceedings
 
@@ -465,7 +551,7 @@ publications:
 
   - title: "Language-based Valence and Arousal Expressions between the United States and China: a Cross-Cultural Examination"
     authors_cv: "Cho, Y.M., Pang, D., Thapa, S., Sherman, G., Ungar, L., Tay, L., Guntuku, S.C."
-    venue: "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL)"
+    venue: "Findings of the Association for Computational Linguistics: NAACL 2025"
     year: 2025
     type: inproceedings
 
@@ -476,8 +562,8 @@ publications:
     type: inproceedings
 
   - title: "Uncertainty-aware crime prediction with spatial temporal multivariate graph neural networks"
-    authors_cv: "Wang, Z., Ma, X., Yang, H., Lvu, W., Sun, P., Guntuku, S.C."
-    venue: "ICASSP 2025 - IEEE International Conference on Acoustics, Speech and Signal Processing"
+    authors_cv: "Wang, Z., Ma, X., Yang, H., Lyu, W., Liu, Y., Sun, P., Guntuku, S.C."
+    venue: "ICASSP 2025 – 2025 IEEE International Conference on Acoustics, Speech and Signal Processing"
     year: 2025
     type: inproceedings
 
@@ -489,7 +575,7 @@ publications:
 
   - title: "Building Knowledge-Guided Lexica to Model Cultural Variation"
     authors_cv: "Havaldar, S., Giorgi, S., Rai, S., Talhelm, T., Guntuku, S.C., Ungar, L."
-    venue: "Proceedings of the 2024 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
+    venue: "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
     year: 2024
     type: inproceedings
 
@@ -614,13 +700,13 @@ publications:
     type: inproceedings
 
   - title: "Controlling human perception of basic user traits"
-    authors_cv: "Preotiuc-Pietro, D., Guntuku, S.C., Ungar, L."
+    authors_cv: "Preoţiuc-Pietro, D., Guntuku, S.C., Ungar, L."
     venue: "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing"
     year: 2017
     type: inproceedings
 
   - title: "Studying personality through the content of posted and liked images on Twitter"
-    authors_cv: "Guntuku, S.C., Lin, W., Carpenter, J., Ng, W.K., Ungar, L.H., Preotiuc-Pietro, D."
+    authors_cv: "Guntuku, S.C., Lin, W., Carpenter, J., Ng, W.K., Ungar, L.H., Preoţiuc-Pietro, D."
     venue: "Proceedings of the 2017 ACM Web Science Conference"
     year: 2017
     type: inproceedings
@@ -673,10 +759,21 @@ publications:
     year: 2015
     type: inproceedings
 
-  # WORKSHOP PROCEEDINGS (113-129)
+  - title: "GENDIS: Gender-Related Discourse and Stance in Multilingual YouTube Comments from India, Kenya, and Nigeria"
+    authors_cv: "Koch, L., Tonneau, M., Malhotra, N., Rai, S., Munoz Boudet, A.M., Orozco-Olvera, V., Fraiberger, S., Guntuku, S.C."
+    venue: "Proceedings of the 10th Workshop on Online Abuse and Harms (WOAH)"
+    year: 2026
+    type: inproceedings
+
+  - title: "Culture by Design: A Sociotechnical Framework for Culturally Grounded AI for Mental Health"
+    authors_cv: "Rai, S., Stade, E., Zhou, G., Sehgal, N., Schriger, S., Gerke, S., Ungar, L., Guntuku, S.C."
+    venue: "Proceedings of the 11th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2026)"
+    year: 2026
+    type: inproceedings
+
   - title: "Cross-Cultural Differences in Mental Health Expressions on Social Media"
-    authors_cv: "Shelat, K., Rai, S., Jain, D.R., Cho, Y.M., Redkar, M., Sawant, S., Guntuku, S.C."
-    venue: "Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP Co-located with NAACL 2025"
+    authors_cv: "Rai, S., Shelat, K., Jain, D., Kishen, A., Cho, Y.M., Redkar, M., Hardikar-Sawant, S., Ungar, L., Guntuku, S.C."
+    venue: "Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP (C3NLP 2025)"
     year: 2025
     type: workshop
 
@@ -776,7 +873,7 @@ publications:
     year: 2013
     type: workshop
 
-  # BOOKS (130-131)
+  # BOOKS
   - title: "Myanmar Economic Monitor, January 2022: Contending with Constraints"
     authors_cv: "World Bank"
     venue: "World Bank"
@@ -789,10 +886,46 @@ publications:
     year: 2020
     type: book
 
-  # PREPRINTS (132-140)
-  - title: "A Concise Agent is Less Expert: Revealing Side Effects of Using Style Features on Conversational Agents"
-    authors_cv: "Cho, Y.M., Yuan, Y., Guntuku, S.C., Ungar, L."
-    venue: "arXiv preprint arXiv:2601.10809"
+  # PREPRINTS
+  - title: "AI-Assisted Submissions in Online Research Are Rare and Highly Concentrated but Routinely Approved"
+    authors_cv: "Sehgal, N.K.R., Tonneau, M., Folk, D., Ungar, L., Guntuku, S.C."
+    venue: "arXiv:2610.09279"
+    year: 2026
+    type: preprint
+
+  - title: "“We Are Tired of Explaining”: Communication Practice and AI Roleplay Training for Community Health Workers in Rural India"
+    authors_cv: "Sehgal, N.K.R., Rai, S., Matam, S.P., Gupta, K., Abdullah, H., Jain, M., Guntuku, S.C."
+    venue: "arXiv:2609.17710"
+    year: 2026
+    type: preprint
+
+  - title: "LLMs Mirror Country-Specific Gender Patterns If Asked, but Skew Male When Generating Media in Local Languages"
+    authors_cv: "Kazemi, S., Popli, T., Sehgal, N.K.R., Rai, S., Malhotra, N., Orozco-Olvera, V., Muñoz Boudet, A.M., Fraiberger, S.P., Guntuku, S.C., Tonneau, M."
+    venue: "arXiv:2609.06545"
+    year: 2026
+    type: preprint
+
+  - title: "Predictors of Loneliness in Older Adults Using Multimodal Analysis of Speech and Language"
+    authors_cv: "Khandode, V., Kosuri, S.K., Sehgal, N.K.R., Greene, A., Alpoge, E., Duffy, E., Smith, M.L., Cudjoe, T.K.M., Guntuku, S.C."
+    venue: "arXiv:2609.02606"
+    year: 2026
+    type: preprint
+
+  - title: "Narrative Sharpens Gender Gaps: Surveying Film Characters with LLM Agents"
+    authors_cv: "Chi, V.B., Jamalova, R., Ungar, L., Guntuku, S.C."
+    venue: "arXiv:2605.22091"
+    year: 2026
+    type: preprint
+
+  - title: "What Users Cannot See: Evaluating LLM Emotional Support Beyond User Preference"
+    authors_cv: "Chi, V.B., Ganesan, A.V., Boyd, R.L., Ungar, L., Guntuku, S.C."
+    venue: "arXiv:2605.21569"
+    year: 2026
+    type: preprint
+
+  - title: "Conceptors for Semantic Steering"
+    authors_cv: "Triantafyllopoulos, I., Cho, Y.M., Tao, R., Miao, M.M., Rai, S., Ungar, L., Guntuku, S.C., Ryant, N., Sedoc, J."
+    venue: "arXiv:2605.04980"
     year: 2026
     type: preprint
 
@@ -805,12 +938,6 @@ publications:
   - title: "Effect of Static vs. Conversational AI-Generated Messages on Colorectal Cancer Screening Intent: a Randomized Controlled Trial"
     authors_cv: "Sehgal, N.K., Tonneau, M., Tan, A., Mehta, S.J., Buttenheim, A., Ungar, L., Guntuku, S.C."
     venue: "arXiv preprint arXiv:2507.08211"
-    year: 2025
-    type: preprint
-
-  - title: "Conversations with AI Chatbots Increase Short-Term Vaccine Intentions But Do Not Outperform Standard Public Health Messaging"
-    authors_cv: "Sehgal, N.K., Rai, S., Tonneau, M., Agarwal, A.K., Cappella, J., Kornides, M., Guntuku, S.C."
-    venue: "arXiv preprint arXiv:2504.20519"
     year: 2025
     type: preprint
 
@@ -842,4 +969,10 @@ publications:
     authors_cv: "Guntuku, S.C., Narang, P., Hota, C."
     venue: "arXiv:1307.7464"
     year: 2013
+    type: preprint
+
+  - title: "Conversations with AI Chatbots Increase Short-Term Vaccine Intentions But Do Not Outperform Standard Public Health Messaging"
+    authors_cv: "Sehgal, N.K., Rai, S., Tonneau, M., Agarwal, A.K., Cappella, J., Kornides, M., Guntuku, S.C."
+    venue: "arXiv preprint arXiv:2504.20519"
+    year: 2025
     type: preprint

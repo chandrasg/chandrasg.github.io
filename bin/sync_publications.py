@@ -36,6 +36,7 @@ from pathlib import Path
 
 SCHOLAR_ID = "76_hrfUAAAAJ"
 BIB_FILE   = Path("_bibliography/papers.bib")
+HIDDEN_FILE = Path("_bibliography/hidden_scholar_keys.txt")  # Scholar keys kept off the site
 API_PAUSE  = 0.5   # seconds between CrossRef requests
 
 CR_WORKS   = "https://api.crossref.org/works"
@@ -349,6 +350,12 @@ def main() -> int:
         for e in entries if e.get("_key") and e["_fields"].get("title")
     }
     print(f"Loaded {len(entries)} entries from {BIB_FILE}.")
+    hidden: set[str] = set()
+    if HIDDEN_FILE.exists():
+        for line in HIDDEN_FILE.read_text("utf-8").splitlines():
+            k = line.split("#", 1)[0].strip()
+            if k:
+                hidden.add(k)
 
     # -- Step 1: Add new publications from Google Scholar via SerpAPI ----------
     added = 0
@@ -362,8 +369,8 @@ def main() -> int:
             title = pub["title"]
             if not key or not title:
                 continue
-            # Skip if already present by key, DOI, or title
-            if key in by_key:
+            # Skip if hidden, or already present by key, DOI, or title
+            if key in hidden or key in by_key:
                 continue
             enriched_doi = pub.get("doi", "").strip().lower()
             if enriched_doi and enriched_doi in by_doi:

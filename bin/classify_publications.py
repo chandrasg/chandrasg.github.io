@@ -52,7 +52,7 @@ THEMES = {
         "health care review", "drug treatment facilit",
         "contact tracing", "emergency medicine", "sepsis",
         "glioblastoma", "tumor segmentation", "skin lesion",
-        "brain tumor", "pathology", "histolog",
+        "brain tumor", "pathology", "histolog", "health research",
     ],
     "cross-cultural": [
         "cross-cultur", "cross-cultural", "multilingual", "multilingua",
@@ -101,7 +101,7 @@ THEMES = {
         "self-disclos", "online identity", "user likes",
         "image likes", "deep representation", "user model",
         "cold-start", "latent factor", "work-personal conflict",
-        "quarter-life crisis",
+        "quarter-life crisis", "predicting user",
     ],
     "nlp-and-machine-learning": [
         "natural language processing", "nlp", "language model",
@@ -123,6 +123,8 @@ THEMES = {
         "peer influence", "llm agent", "style feature",
         "construct validity", "demographic prompting",
         "ai-authored", "ai-assisted", "ai goal-setting",
+        "semantic steering", "steering vector", "p2p", "packet anonymization",
+        "data visualization",
     ],
     "multimedia-and-images": [
         "image quality", "video quality", "multimedia quality",

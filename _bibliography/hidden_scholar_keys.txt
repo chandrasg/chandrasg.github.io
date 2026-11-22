@@ -1,0 +1,16 @@
+# Google Scholar entries kept OFF the website. bin/sync_publications.py skips these keys,
+# so the weekly sync won't re-add them. Mostly earlier versions of papers the CV lists in
+# their published form. Delete a line to bring an entry back on the next sync.
+76_hrfUAAAAJ_i2xiXl-TujoC   # arXiv preprint of "LLM Chatbot Conversations vs Public Health Materials..." (JAMA Netw Open 2026)
+76_hrfUAAAAJ_2VqYfGB8ITEC   # medRxiv preprint of "Self-Reported Adverse Effects ... Nonapproved Retatrutide" (JAMA Netw Open 2026)
+76_hrfUAAAAJ_IUKN3-7HHlwC   # PsyArXiv preprint of "Text or Speech, the Gap Persists" (CSCW Companion 2026)
+76_hrfUAAAAJ_PVjk1bu6vJQC   # JMIR preprint of "Social Media Perspectives on a Future HIV Vaccine" (JMIR Infodemiology 2026)
+76_hrfUAAAAJ_Ri6SYOTghG4C   # OSF preprint of "Culture by Design" (CLPsych 2026)
+76_hrfUAAAAJ_FAceZFleit8C   # arXiv earlier version of "Different Demographic Cues Yield Inconsistent Conclusions" (EMNLP 2026)
+76_hrfUAAAAJ_HtEfBTGE9r8C   # earlier title of "Narrative Sharpens Gender Gaps" (arXiv 2605.22091)
+76_hrfUAAAAJ_4hFrxpcac9AC   # arXiv full version of "The Ownership Cost of AI Goal-Setting" (AIES 2026)
+76_hrfUAAAAJ_LO7wyVUgiFcC   # arXiv version of "Detecting Histologic & Clinical Glioblastoma Patterns" (Neuro-Oncology 2023)
+76_hrfUAAAAJ_9Nmd_mFXekcC   # exact duplicate of 76_hrfUAAAAJ_t7zJ5fGR-2UC (ICWSM 2023)
+76_hrfUAAAAJ_cWzG1nlazyYC   # WASSA 2023 proceedings volume, not a paper
+76_hrfUAAAAJ_KbBQZpvPDL4C   # duplicate Scholar entry of "Real-Time Deadlines Reveal Fragile Temporal Adaptation" (kept as 76_hrfUAAAAJ_9pM33mqn1YgC)
+76_hrfUAAAAJ_yMeIxYmEMEAC   # junk Scholar entry ("YOUR THESIS TITLE IN ALL CAPS")
