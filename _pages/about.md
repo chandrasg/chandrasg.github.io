@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-Sharath Chandra Guntuku directs the [Computational Social Listening Lab](https://csl-lab-upenn.github.io/) at Penn and is Secondary Faculty at the [Annenberg School for Communication](https://www.asc.upenn.edu/). He is currently a Visiting Associate Professor at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/) (2026–27), and will join [UNSW Sydney](https://www.unsw.edu.au/engineering/our-schools/computer-science-and-engineering) as an Associate Professor (Green Fellow) in September 2027.
+Sharath Chandra Guntuku directs the [Computational Social Listening Lab](https://csl-lab-upenn.github.io/) at Penn and is Secondary Faculty at the [Annenberg School for Communication](https://www.asc.upenn.edu/).
 
 His research examines how people **express psychological states, make health decisions, and respond to interventions**, using computational methods to study these questions at scale. He develops **AI (ML/NLP) approaches** to measure constructs such as mental health, loneliness, and cultural norms from digital trace data, including social media, electronic health records, and online reviews.
 
